@@ -1,3 +1,4 @@
+![Lin_X_NFDI4BIOIMAGE](/imgs/lin_x_nfdi4bioimage.png)
 # FAIR Statistics Aggregator for DOIs
 
 ## Table of Contents
@@ -41,7 +42,7 @@ This tool also serves as a justification for metadata providers (e.g., Springer,
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up the F-UJI FAIR checker using Docker:
+3. Set up the F-UJI FAIR checker (https://github.com/FAIR-IMPACT/fuji) using Docker:
    ```bash
    docker pull fairimpact/fuji
    docker run -d -p 1071:1071 fairimpact/fuji
@@ -53,7 +54,8 @@ This tool also serves as a justification for metadata providers (e.g., Springer,
    ```bash
    python fair_stats_agg.py --doi-file path/to/doi_list.txt
    ```
-3. The tool will output the aggregated FAIR statistics and a summary of metadata errors.
+   There's an "example_DOI_list.txt" including the publications of the Leibniz Institute for Neurobiology Magdeburg.
+3. The tool will output the aggregated FAIR statistics and a summary of metadata errors. 
 
 ## Output
 - **Aggregated FAIR-statistic per Publication Year Diagram**: A visual representation of FAIR statistics aggregated by publication year.
