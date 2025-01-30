@@ -1,0 +1,10 @@
+name: fair_agg
+channels:
+  - defaults
+dependencies:
+  - python=3.9  # Python 3.9 have been tested, but should work with even higher onces
+  - requests
+  - pandas
+  - matplotlib
+  - tqdm
+  - pip
