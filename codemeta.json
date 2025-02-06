@@ -1,0 +1,39 @@
+{
+    "@context": "https://w3id.org/codemeta/3.0",
+    "type": "SoftwareSourceCode",
+    "codeRepository": "https://github.com/SaibotMagd/fair_stats_aggregator",
+    "dateCreated": "2025-02-01",
+    "datePublished": "2025-02-01",
+    "description": "This repository hosts a prototype tool designed to analyze and aggregate FAIR (Findable, Accessible, Interoperable, and Reusable) statistics for a list of Digital Object Identifiers (DOIs). The tool currently utilizes the F-UJI FAIR checker to evaluate the FAIRness of the metadata associated with each DOI. Future versions aim to incorporate additional FAIR checkers to provide a more comprehensive analysis.",
+    "funder": {
+        "type": "Organization",
+        "name": "nfdi4bioimage"
+    },
+    "keywords": [
+        "nfdi4bioimage",
+        "nfdi",
+        "fair",
+        "fair_principles",
+        "metadata",
+        "statistic"
+    ],
+    "license": "https://spdx.org/licenses/CC-BY-NC-1.0",
+    "name": "fair_stats_aggregator",
+    "operatingSystem": [
+        "Linux",
+        "Windows"
+    ],
+    "programmingLanguage": "Python",
+    "relatedLink": "https://nfdi4bioimage.de",
+    "runtimePlatform": [
+        "pip",
+        "anaconda"
+    ],
+    "softwareRequirements": [
+        "requests",
+        "pandas",
+        "matplotlib",
+        "tqdm"
+    ],
+    "issueTracker": "https://github.com/SaibotMagd/fair_stats_aggregator/issues"
+}
