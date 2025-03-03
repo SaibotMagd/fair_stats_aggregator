@@ -50,7 +50,8 @@ This tool also serves as a justification for metadata providers (e.g., Springer,
 
 ## Usage
 1. Prepare a list of DOIs in a text file (one DOI per line) or use an API to fetch DOIs.
-1.1 you can use the openAlex API to get a DOI-list file for your institute by running: 
+
+- you can use the openAlex API to get a DOI-list file for your institute by running: 
     ```bash
     python get_dois_from_openalex_id.py {openalex-institutions-id} {outputfile.txt}
     ```
