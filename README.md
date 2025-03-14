@@ -69,6 +69,7 @@ This tool also serves as a justification for metadata providers (e.g., Springer,
    ```bash
    python create_full_summary.py ./data/ example_summary.md
    ```
+   Checkout the [example_summary](example_summary.md)
 
 ## Output
 - **Aggregated FAIR-statistic per Publication Year Diagram**: A visual representation of FAIR statistics aggregated by publication year.
