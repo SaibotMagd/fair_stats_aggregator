@@ -1,0 +1,17 @@
+get_all_papers_from_openalex.py
+get_paper_content.ipynb
+.ipynb_checkpoints/
+TODO/*
+src/__pycache__/
+data/fair_stats_alu-fr/
+data/fair_stats_dkfz/
+data/fair_stats_embl/
+data/fair_stats_gerbi/
+data/fair_stats_hhu/
+data/fair_stats_leibniz-hki/
+data/fair_stats_lin/
+data/fair_stats_tud/
+data/fair_stats_u-konstanz/
+data/fair_stats_u-muenster/
+data/fair_stats_u-osnabrueck/
+data/fair_stats_full.zip
