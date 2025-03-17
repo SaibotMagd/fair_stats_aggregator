@@ -247,7 +247,7 @@ def create_fair_statistics(object_identifiers, fair_stats_folder, renew=0):
             if response:
                 tqdm.write(f"Response: {response.text}")
 
-def create_summary_plot(og_df, summary_folder='./data/fair-summary', aggregator='Median', show=0, savefig=1):
+def create_summary_plot(og_df, summary_folder='./data/fair_summary', aggregator='Median', show=0, savefig=1):
     """
     Creates a summary plot of FAIR scores over time.
 
@@ -259,7 +259,7 @@ def create_summary_plot(og_df, summary_folder='./data/fair-summary', aggregator=
         aggregator (str): The aggregator to use ('Median' or 'Mean'). Default is 'Median'.
         show (int): Whether to display the plot (1 for yes, 0 for no). Default is 0.
         savefig (int): Whether to save the plot to a file (1 for yes, 0 for no). Default is 1.
-        summary_folder (str): The folder path to save the plot. Default is './data/fair-summary'.
+        summary_folder (str): The folder path to save the plot. Default is './data/fair_summary'.
 
     Returns:
         None
@@ -304,7 +304,7 @@ def create_summary_plot(og_df, summary_folder='./data/fair-summary', aggregator=
         plt.annotate(f'{count}', (year, grouped.loc[year, 'FAIR']), textcoords="offset points", xytext=(0,5), ha='center', fontsize=8)
 
     # Adding titles and labels
-    plt.title(f'{aggregator} Values of FAIR-stats Over Time')
+    plt.title(f'{aggregator} Values of fair_stats Over Time')
     plt.xlabel('Year')
     plt.ylabel(f'{aggregator} Value')
     legend = plt.legend(loc="upper left", edgecolor='black')
@@ -337,9 +337,9 @@ def create_fair_summary_markdown(paper_authors, mean_df, md_df):
     """
     # Save DataFrames to CSV
     paper_authors.index = range(len(paper_authors))
-    paper_authors.to_csv("./data/fair-summary/LIN_fair_persons_cpl.csv")
-    mean_df.to_csv("./data/fair-summary/LIN_fair_persons_mean.csv")
-    md_df.to_csv("./data/fair-summary/LIN_fair_persons_md.csv")
+    paper_authors.to_csv("./data/fair_summary/LIN_fair_persons_cpl.csv")
+    mean_df.to_csv("./data/fair_summary/LIN_fair_persons_mean.csv")
+    md_df.to_csv("./data/fair_summary/LIN_fair_persons_md.csv")
 
     curr_date = datetime.today().strftime('%m-%d-%Y')
 
@@ -363,11 +363,11 @@ def create_fair_summary_markdown(paper_authors, mean_df, md_df):
     )
 
     # Write the markdown content to the summary file
-    with open("./data/fair-summary/LIN-fair_summary.md", "w") as file:
+    with open("./data/fair_summary/LIN-fair_summary.md", "w") as file:
         file.write(markdown_content)
 
     # Write the complete list of publications to a separate file
-    with open("./data/fair-summary/LIN-fair_summary_cpl.md", "w") as file:
+    with open("./data/fair_summary/LIN-fair_summary_cpl.md", "w") as file:
         file.write(f"# Complete List of Publications\n\n{markdown_table_cpl}\n")
 
 def get_doi_to_fair_dict(json_folder):

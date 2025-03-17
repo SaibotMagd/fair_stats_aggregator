@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Thu Jan 30 08:47:50 2025
+
+@author: saibotMagd
+"""
 import os
 import pandas as pd
 import argparse
@@ -13,11 +20,12 @@ def generate_readme(input_folder, output_file):
             folder_path = os.path.join(input_folder, folder_name)
 
             # Check if it's a directory and matches the naming schema
-            if os.path.isdir(folder_path) and folder_name.startswith("fair-summary_"):
+            if os.path.isdir(folder_path) and folder_name.startswith("fair_summary_"):
                 institute_name = folder_name.split("_", 1)[1]
                 toc_entries.append(f"- [{institute_name}](#{institute_name.replace(' ', '-').lower()})\n")
 
         # Write Table of Contents entries
+        print(toc_entries)
         readme_file.writelines(toc_entries)
         readme_file.write("\n")
 
@@ -26,7 +34,7 @@ def generate_readme(input_folder, output_file):
             folder_path = os.path.join(input_folder, folder_name)
 
             # Check if it's a directory and matches the naming schema
-            if os.path.isdir(folder_path) and folder_name.startswith("fair-summary_"):
+            if os.path.isdir(folder_path) and folder_name.startswith("fair_summary_"):
                 institute_name = folder_name.split("_", 1)[1]
                 readme_file.write(f"# Research Institute Summaries\n\n")
                 readme_file.write(f"## {institute_name}\n\n")

@@ -41,8 +41,8 @@ def main():
     doi_filename = os.path.splitext(os.path.basename(args.doi_filelist))[0]
 
     # Define the target folder names
-    fair_stats_folder = f'./data/fair-stats_{doi_filename}'
-    fair_summary_folder = f'./data/fair-summary_{doi_filename}'
+    fair_stats_folder = f'./data/fair_stats_{doi_filename}'
+    fair_summary_folder = f'./data/fair_summary_{doi_filename}'
 
     # Create necessary folders if they do not exist
     os.makedirs(fair_stats_folder, exist_ok=True)

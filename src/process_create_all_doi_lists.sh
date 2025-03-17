@@ -1,7 +1,8 @@
 #!/bin/bash
-#    "i96578850 ../data/lin.txt"
+
 # Array of arguments
 declare -a arguments=(
+    "i96578850 ../data/lin.txt"
     "i4387155373 ../data/gerbi.txt"
     "i170658231 ../data/u-osnabrueck.txt"
     "i189712700 ../data/u-konstanz.txt"

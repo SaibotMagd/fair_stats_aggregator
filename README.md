@@ -69,7 +69,17 @@ This tool also serves as a justification for metadata providers (e.g., Springer,
    ```bash
    python create_full_summary.py ./data/ example_summary.md
    ```
-   Checkout the [example_summary](example_summary.md)
+   Checkout the [full summary (will not load via github in the browser because of the file size)](fair_full_summary.md), so check out the summaries per institute (top 10000 most frequent publications):
+   - [embl](/data/fair_full_summary/summary_embl.md)
+- [alu-fr](/data/fair_full_summary/summary_alu-fr.md)
+- [dkfz](/data/fair_full_summary/summary_dkfz.md)
+- [leibniz-hki](/data/fair_full_summary/summary_leibniz-hki.md)
+- [u-konstanz](/data/fair_full_summary/summary_u-konstanz.md)
+- [gerbi](/data/fair_full_summary/summary_gerbi.md)
+- [lin](/data/fair_full_summary/summary_lin.md)
+- [hhu](/data/fair_full_summary/summary_hhu.md)
+- [tud](/data/fair_full_summary/summary_tud.md)
+
 
 ## Output
 - **Aggregated FAIR-statistic per Publication Year Diagram**: A visual representation of FAIR statistics aggregated by publication year.

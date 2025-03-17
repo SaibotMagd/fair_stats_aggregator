@@ -1,0 +1,2800 @@
+# Research Institute Summaries
+
+## summary_alu-fr
+
+![mean_values_over_time_high_res.png](./data/fair_summary_alu-fr/mean_values_over_time_high_res.png)
+
+[Back to top](#table-of-contents)
+
+![median_values_over_time_high_res.png](./data/fair_summary_alu-fr/median_values_over_time_high_res.png)
+
+[Back to top](#table-of-contents)
+
+### failure_explanations.csv
+
+| metric       | explanation                                                                                                                                                                       |   count |
+|:-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------:|
+| FsF-F3-01M   | WARNING: Valid data  identifier missing.                                                                                                                                          |    9882 |
+| FsF-F4-01M   | INFO: Will exclusively consider community specific metadata standards for FsF-F4-01M-1 which are specified in metrics -:                                                          |    5090 |
+| FsF-F4-01M   | INFO: Will exclusively consider community specific metadata offering methods for FsF-F4-01M-1 which are specified in metrics -:                                                   |    5090 |
+| FsF-F4-01M   | WARNING: Metadata is NOT found through -:                                                                                                                                         |    5090 |
+| FsF-F4-01M   | INFO: Querying DataCite API for -:                                                                                                                                                |    5079 |
+| FsF-F4-01M   | INFO: Identifier not listed in DataCite catalogue -:                                                                                                                              |    5079 |
+| FsF-F4-01M   | WARNING: Google Search Cache DB does not exist, see F-UJI installation instructions                                                                                               |    5090 |
+| FsF-F4-01M   | INFO: Identifier not listed in Google Dataset Search cache -:['                                                                                                                   |    2022 |
+| FsF-F4-01M   | INFO: Querying Mendeley Data API for -:                                                                                                                                           |    8026 |
+| FsF-F4-01M   | INFO: Identifier not listed in Mendeley Data catalogue -:                                                                                                                         |    4958 |
+| FsF-F4-01M   | WARNING: Metadata is NOT found through registries considered by the assessment service  -:                                                                                        |    5090 |
+| FsF-A1-01M   | WARNING: NO access information is available in metadata                                                                                                                           |    7356 |
+| FsF-A1-01M   | INFO: Skipping standard terms test since NO access information is available in metadata                                                                                           |   14712 |
+| FsF-A1-01M   | INFO: Skipping machine readablility test since NO access information is available in metadata                                                                                     |    7356 |
+| FsF-A1-01M   | WARNING: Unable to determine the access level                                                                                                                                     |    7356 |
+| FsF-A1-03D   | WARNING: Skipping protocol test for data since NO content  identifier is given in metadata                                                                                        |    9882 |
+| FsF-R1-01MD  | WARNING: No resource type given                                                                                                                                                   |    2427 |
+| FsF-R1-01MD  | ERROR: The evaluated resource does not identify itself as a “dataset” so F-UJI may not be the right tool for this type of resource                                                |    2427 |
+| FsF-R1-01MD  | WARNING: NO data object content available/accessible to perform file descriptors  tests                                                                                           |    4963 |
+| FsF-R1.1-01M | WARNING: License information unavailable in metadata                                                                                                                              |    9448 |
+| FsF-R1.1-01M | INFO: Will consider all SPDX licenses as community specific licenses for FsF-R1.1-01M                                                                                             |    9448 |
+| FsF-R1.1-01M | WARNING: Skipping SPDX and community license verification since license information unavailable in metadata                                                                       |    9448 |
+| FsF-R1.3-02D | WARNING: Could not perform file format checks as data content identifier unavailable/inaccesible                                                                                  |    9883 |
+| FsF-F4-01M   | INFO: Identifier not listed in Google Dataset Search cache -:[' '                                                                                                                 |    3068 |
+| FsF-I3-01M   | WARNING: Could not identify qualified related resources in metadata                                                                                                               |    3275 |
+| FsF-R1-01MD  | INFO: Invalid resource type  specified -:                                                                                                                                         |    2538 |
+| FsF-R1-01MD  | ERROR: The evaluated resource does not identify itself as a “dataset” but as , so F-UJI may not be the right tool for this type of resource                                       |    2538 |
+| FsF-R1.2-01M | INFO: Check if provenance information is available in descriptive metadata                                                                                                        |    2388 |
+| FsF-R1.2-01M | INFO: Check if provenance information is available in metadata about related resources                                                                                            |    2388 |
+| FsF-R1.2-01M | WARNING: No provenance information found in metadata about related resources                                                                                                      |    2388 |
+| FsF-R1.2-01M | INFO: Check if provenance specific namespaces are listed in metadata                                                                                                              |    2388 |
+| FsF-R1.2-01M | WARNING: Formal provenance metadata is unavailable                                                                                                                                |    2388 |
+| FsF-I3-01M   | INFO: No related resource found in Dublin Core metadata                                                                                                                           |     691 |
+| FsF-A1-01M   | INFO: Found CreativeCommons license -:                                                                                                                                            |      57 |
+| FsF-A1-01M   | WARNING: Access condition looks like license, therefore the following is ignored -:                                                                                               |      57 |
+| FsF-R1.1-01M | INFO: License expressed as access condition , therefore moved from FsF-A1-01M -:                                                                                                  |      55 |
+| FsF-F4-01M   | ERROR: Mendeley Data API not available or returns errors: HTTPSConnectionPool: Read timed out.                                                                                    |     132 |
+| FsF-I1-01M   | INFO: Check of structured data  embedded in the data page                                                                                                                         |     110 |
+| FsF-I1-01M   | INFO: RDFa like  serialization found in the data page - RDFa                                                                                                                      |      66 |
+| FsF-I1-01M   | SUCCESS: Found structured data  in the data page                                                                                                                                  |      66 |
+| FsF-I1-01M   | INFO: Check if RDF-based typed link included                                                                                                                                      |     110 |
+| FsF-I1-01M   | INFO: NO RDF-based typed link found                                                                                                                                               |     110 |
+| FsF-I1-01M   | INFO: Check if RDF metadata available through content negotiation                                                                                                                 |     110 |
+| FsF-I1-01M   | INFO: NO RDF metadata available through content negotiation                                                                                                                       |     110 |
+| FsF-I1-01M   | INFO: NO SPARQL endpoint found through re3data based on the object URI provided                                                                                                   |     110 |
+| FsF-I2-01M   | INFO: Removing default namespaces from 2 vocabulary namespaces found in structured metadata                                                                                       |      61 |
+| FsF-I2-01M   | INFO: Default vocabulary namespace excluded -: [' '                                                                                                                               |      61 |
+| FsF-I2-01M   | WARNING: NO namespaces of semantic vocabularies found in the metadata                                                                                                             |     102 |
+| FsF-I2-01M   | INFO: Skipping namespace lookup in LOD registry list since no namespaces available                                                                                                |     102 |
+| FsF-I2-01M   | WARNING: NO known vocabulary namespace URI is found which is listed in  the LOD registry                                                                                          |     102 |
+| FsF-F4-01M   | ERROR: DataCite API not available or returns errors -:HTTPSConnectionPool: Read timed out.                                                                                        |      11 |
+| FsF-I1-01M   | INFO: NO structured data  embedded in the data page                                                                                                                               |      44 |
+| FsF-R1.3-01M | INFO: re3data/datacite client id -: None                                                                                                                                          |      39 |
+| FsF-R1.3-01M | WARNING: Skipped external ressources  checks since landing page could not be resolved                                                                                             |      37 |
+| FsF-R1.3-01M | WARNING: Unable to determine community standard                                                                                                                                   |      39 |
+| FsF-I3-01M   | INFO: No related resource found in Datacite metadata                                                                                                                              |       5 |
+| FsF-I2-01M   | INFO: Removing default namespaces from 1 vocabulary namespaces found in structured metadata                                                                                       |       2 |
+| FsF-I2-01M   | INFO: Default vocabulary namespace excluded -: ['                                                                                                                                 |       2 |
+| FsF-I1-01M   | INFO: JSON-LD  serialization found in the data page - JSON-LD                                                                                                                     |       1 |
+| FsF-R1.3-01M | INFO: Retrieving API and Standards                                                                                                                                                |       2 |
+| FsF-R1.3-01M | INFO: No Datacite client id found, therefore skipping re3data metadata retrieval                                                                                                  |       2 |
+| FsF-R1-01MD  | INFO: Successfully parsed data object file using TIKA                                                                                                                             |       2 |
+| FsF-R1-01MD  | INFO: File request status code -: 200                                                                                                                                             |       2 |
+| FsF-R1-01MD  | INFO: Succesfully parsed data file -:                                                                                                                                             |       2 |
+| FsF-R1-01MD  | INFO: NO info about file size available in given metadata for -:                                                                                                                  |       2 |
+| FsF-R1-01MD  | INFO: NO info about data service endpoint available in given metadata for -:                                                                                                      |       2 |
+| FsF-R1-01MD  | INFO: Sucessfully verified content type from downloaded file -:                                                                                                                   |       2 |
+| FsF-R1-01MD  | WARNING: NO measured variables found in metadata, skip 'measured_variable' test.                                                                                                  |       2 |
+| FsF-A1-03D   | INFO: No debug messages received                                                                                                                                                  |       1 |
+| FsF-R1.3-02D | WARNING: Content identifier inaccessible -:  HTTPError code 404                                                                                                                   |       2 |
+| FsF-R1.3-02D | INFO: Data content identifier provided -:                                                                                                                                         |       1 |
+| FsF-R1.3-02D | INFO: No mime type given in metadata or generic octet-stream type given, therefore guessing  the type of a file based on its filename or URL -: Nba42f85573784a3db796f1f3619d9902 |       1 |
+| FsF-R1.3-02D | INFO: No mime type given in metadata or generic octet-stream type given, therefore guessing  the type of a file based on its filename or URL -: Nc791f5743f7846be8b31522c28c1bd4f |       1 |
+
+[Back to top](#table-of-contents)
+
+### publisher_failures.csv
+
+| publisher                                                                                                                  | metric       |   count |
+|:---------------------------------------------------------------------------------------------------------------------------|:-------------|--------:|
+| Wiley                                                                                                                      | FsF-F3-01M   |    1010 |
+| Wiley                                                                                                                      | FsF-F4-01M   |     316 |
+| Wiley                                                                                                                      | FsF-A1-01M   |    1010 |
+| Wiley                                                                                                                      | FsF-A1-03D   |    1010 |
+| Wiley                                                                                                                      | FsF-R1-01MD  |     316 |
+| Wiley                                                                                                                      | FsF-R1.1-01M |    1010 |
+| Wiley                                                                                                                      | FsF-R1.3-02D |    1010 |
+| BMJ Publishing Group Ltd                                                                                                   | FsF-F3-01M   |      48 |
+| BMJ Publishing Group Ltd                                                                                                   | FsF-A1-03D   |      48 |
+| BMJ Publishing Group Ltd                                                                                                   | FsF-R1.1-01M |      48 |
+| BMJ Publishing Group Ltd                                                                                                   | FsF-R1.3-02D |      48 |
+| BMJ Publishing Group Ltd                                                                                                   | FsF-I3-01M   |       6 |
+| Journal of Neurology, Neurosurgery & Psychiatry                                                                            | FsF-F3-01M   |      11 |
+| Journal of Neurology, Neurosurgery & Psychiatry                                                                            | FsF-A1-03D   |      11 |
+| Journal of Neurology, Neurosurgery & Psychiatry                                                                            | FsF-R1.1-01M |      11 |
+| Journal of Neurology, Neurosurgery & Psychiatry                                                                            | FsF-R1.3-02D |      11 |
+| Journal of Neurology, Neurosurgery & Psychiatry                                                                            | FsF-I3-01M   |       3 |
+| AIP Publishing                                                                                                             | FsF-F3-01M   |     208 |
+| AIP Publishing                                                                                                             | FsF-A1-01M   |     208 |
+| AIP Publishing                                                                                                             | FsF-A1-03D   |     208 |
+| AIP Publishing                                                                                                             | FsF-R1.1-01M |     208 |
+| AIP Publishing                                                                                                             | FsF-R1.3-02D |     208 |
+| AIP Publishing                                                                                                             | FsF-F4-01M   |       2 |
+| AIP Publishing                                                                                                             | FsF-R1-01MD  |       2 |
+| American Physical Society (APS)                                                                                            | FsF-F3-01M   |     173 |
+| American Physical Society (APS)                                                                                            | FsF-F4-01M   |      91 |
+| American Physical Society (APS)                                                                                            | FsF-A1-01M   |     173 |
+| American Physical Society (APS)                                                                                            | FsF-A1-03D   |     173 |
+| American Physical Society (APS)                                                                                            | FsF-R1-01MD  |      91 |
+| American Physical Society (APS)                                                                                            | FsF-R1.1-01M |     173 |
+| American Physical Society (APS)                                                                                            | FsF-R1.3-02D |     173 |
+| Elsevier BV                                                                                                                | FsF-F3-01M   |    2558 |
+| Elsevier BV                                                                                                                | FsF-F4-01M   |    2556 |
+| Elsevier BV                                                                                                                | FsF-A1-01M   |    2558 |
+| Elsevier BV                                                                                                                | FsF-A1-03D   |    2558 |
+| Elsevier BV                                                                                                                | FsF-R1-01MD  |    2558 |
+| Elsevier BV                                                                                                                | FsF-R1.1-01M |    2558 |
+| Elsevier BV                                                                                                                | FsF-R1.3-02D |    2558 |
+| Nature Publishing Group UK                                                                                                 | FsF-F3-01M   |     478 |
+| Nature Publishing Group UK                                                                                                 | FsF-A1-03D   |     478 |
+| Nature Publishing Group UK                                                                                                 | FsF-R1.1-01M |     325 |
+| Nature Publishing Group UK                                                                                                 | FsF-R1.3-02D |     478 |
+| Nature Publishing Group                                                                                                    | FsF-F3-01M   |    1314 |
+| Nature Publishing Group                                                                                                    | FsF-A1-03D   |    1314 |
+| Nature Publishing Group                                                                                                    | FsF-R1.1-01M |     990 |
+| Nature Publishing Group                                                                                                    | FsF-R1.3-02D |    1314 |
+| Springer Nature                                                                                                            | FsF-F3-01M   |     656 |
+| Springer Nature                                                                                                            | FsF-A1-03D   |     656 |
+| Springer Nature                                                                                                            | FsF-R1.1-01M |     494 |
+| Springer Nature                                                                                                            | FsF-R1.3-02D |     656 |
+| Nature                                                                                                                     | FsF-F3-01M   |     657 |
+| Nature                                                                                                                     | FsF-A1-03D   |     657 |
+| Nature                                                                                                                     | FsF-R1.1-01M |     495 |
+| Nature                                                                                                                     | FsF-R1.3-02D |     657 |
+| Springer Science and Business Media LLC                                                                                    | FsF-F3-01M   |    1564 |
+| Springer Science and Business Media LLC                                                                                    | FsF-A1-03D   |    1564 |
+| Springer Science and Business Media LLC                                                                                    | FsF-R1.1-01M |    1140 |
+| Springer Science and Business Media LLC                                                                                    | FsF-R1.3-02D |    1564 |
+| Springer Science and Business Media LLC                                                                                    | FsF-F4-01M   |      18 |
+| Springer Science and Business Media LLC                                                                                    | FsF-A1-01M   |      18 |
+| Springer Science and Business Media LLC                                                                                    | FsF-R1-01MD  |      18 |
+| ACMPUB27New York, NY, USA                                                                                                  | FsF-F3-01M   |       9 |
+| ACMPUB27New York, NY, USA                                                                                                  | FsF-A1-01M   |       9 |
+| ACMPUB27New York, NY, USA                                                                                                  | FsF-A1-03D   |       9 |
+| ACMPUB27New York, NY, USA                                                                                                  | FsF-R1.1-01M |       9 |
+| ACMPUB27New York, NY, USA                                                                                                  | FsF-R1.3-02D |       9 |
+| ACM Transactions on Algorithms                                                                                             | FsF-F3-01M   |       1 |
+| ACM Transactions on Algorithms                                                                                             | FsF-A1-01M   |       1 |
+| ACM Transactions on Algorithms                                                                                             | FsF-A1-03D   |       1 |
+| ACM Transactions on Algorithms                                                                                             | FsF-R1.1-01M |       1 |
+| ACM Transactions on Algorithms                                                                                             | FsF-R1.3-02D |       1 |
+| Association for Computing Machinery (ACM)                                                                                  | FsF-F3-01M   |      15 |
+| Association for Computing Machinery (ACM)                                                                                  | FsF-A1-01M   |      15 |
+| Association for Computing Machinery (ACM)                                                                                  | FsF-A1-03D   |      15 |
+| Association for Computing Machinery (ACM)                                                                                  | FsF-R1.1-01M |      15 |
+| Association for Computing Machinery (ACM)                                                                                  | FsF-R1.3-02D |      15 |
+| Association for Computing Machinery (ACM)                                                                                  | FsF-F4-01M   |       3 |
+| Association for Computing Machinery (ACM)                                                                                  | FsF-R1-01MD  |       3 |
+| John Wiley & Sons, Ltd                                                                                                     | FsF-F3-01M   |     764 |
+| John Wiley & Sons, Ltd                                                                                                     | FsF-A1-01M   |     764 |
+| John Wiley & Sons, Ltd                                                                                                     | FsF-A1-03D   |     764 |
+| John Wiley & Sons, Ltd                                                                                                     | FsF-R1.1-01M |     764 |
+| John Wiley & Sons, Ltd                                                                                                     | FsF-R1.3-02D |     764 |
+| John Wiley & Sons, Ltd                                                                                                     | FsF-I3-01M   |     408 |
+| John Wiley & Sons, Ltd                                                                                                     | FsF-I1-01M   |      61 |
+| John Wiley & Sons, Ltd                                                                                                     | FsF-I2-01M   |      61 |
+| Wiley Online Library                                                                                                       | FsF-F3-01M   |     484 |
+| Wiley Online Library                                                                                                       | FsF-A1-01M   |     484 |
+| Wiley Online Library                                                                                                       | FsF-A1-03D   |     484 |
+| Wiley Online Library                                                                                                       | FsF-R1.1-01M |     484 |
+| Wiley Online Library                                                                                                       | FsF-R1.3-02D |     484 |
+| Wiley Online Library                                                                                                       | FsF-I3-01M   |     258 |
+| Wiley Online Library                                                                                                       | FsF-I1-01M   |      50 |
+| Wiley Online Library                                                                                                       | FsF-I2-01M   |      50 |
+| American Thoracic Society                                                                                                  | FsF-F3-01M   |      22 |
+| American Thoracic Society                                                                                                  | FsF-A1-03D   |      22 |
+| American Thoracic Society                                                                                                  | FsF-R1-01MD  |      22 |
+| American Thoracic Society                                                                                                  | FsF-R1.1-01M |      22 |
+| American Thoracic Society                                                                                                  | FsF-R1.3-02D |      22 |
+| American Thoracic Society                                                                                                  | FsF-F4-01M   |       5 |
+| American Thoracic Society                                                                                                  | FsF-A1-01M   |       5 |
+| Frontiers                                                                                                                  | FsF-F3-01M   |     114 |
+| Frontiers                                                                                                                  | FsF-A1-01M   |     114 |
+| Frontiers                                                                                                                  | FsF-A1-03D   |     114 |
+| Frontiers                                                                                                                  | FsF-I3-01M   |      54 |
+| Frontiers                                                                                                                  | FsF-R1.1-01M |     114 |
+| Frontiers                                                                                                                  | FsF-R1.3-02D |     114 |
+| Springer International Publishing                                                                                          | FsF-F3-01M   |     116 |
+| Springer International Publishing                                                                                          | FsF-A1-03D   |     116 |
+| Springer International Publishing                                                                                          | FsF-R1.1-01M |     101 |
+| Springer International Publishing                                                                                          | FsF-R1.3-02D |     116 |
+| Springer International Publishing                                                                                          | FsF-A1-01M   |      32 |
+| Springer International Publishing                                                                                          | FsF-I3-01M   |       1 |
+| Lippincott Williams & Wilkins                                                                                              | FsF-F3-01M   |      38 |
+| Lippincott Williams & Wilkins                                                                                              | FsF-A1-03D   |      38 |
+| Lippincott Williams & Wilkins                                                                                              | FsF-R1.1-01M |      38 |
+| Lippincott Williams & Wilkins                                                                                              | FsF-R1.3-02D |      38 |
+| Lippincott Williams & Wilkins                                                                                              | FsF-A1-01M   |      27 |
+| Circulation                                                                                                                | FsF-F3-01M   |      25 |
+| Circulation                                                                                                                | FsF-A1-03D   |      25 |
+| Circulation                                                                                                                | FsF-R1.1-01M |      24 |
+| Circulation                                                                                                                | FsF-R1.3-02D |      25 |
+| Circulation                                                                                                                | FsF-A1-01M   |       8 |
+| Ovid Technologies (Wolters Kluwer Health)                                                                                  | FsF-F3-01M   |     220 |
+| Ovid Technologies (Wolters Kluwer Health)                                                                                  | FsF-A1-03D   |     220 |
+| Ovid Technologies (Wolters Kluwer Health)                                                                                  | FsF-R1.1-01M |     220 |
+| Ovid Technologies (Wolters Kluwer Health)                                                                                  | FsF-R1.3-02D |     220 |
+| Ovid Technologies (Wolters Kluwer Health)                                                                                  | FsF-F4-01M   |     184 |
+| Ovid Technologies (Wolters Kluwer Health)                                                                                  | FsF-A1-01M   |     200 |
+| Ovid Technologies (Wolters Kluwer Health)                                                                                  | FsF-R1-01MD  |      16 |
+| American Society for Microbiology                                                                                          | FsF-F3-01M   |     179 |
+| American Society for Microbiology                                                                                          | FsF-F4-01M   |      34 |
+| American Society for Microbiology                                                                                          | FsF-A1-01M   |      46 |
+| American Society for Microbiology                                                                                          | FsF-A1-03D   |     179 |
+| American Society for Microbiology                                                                                          | FsF-R1-01MD  |      34 |
+| American Society for Microbiology                                                                                          | FsF-R1.1-01M |     179 |
+| American Society for Microbiology                                                                                          | FsF-R1.3-02D |     179 |
+| American Association for the Advancement of Science                                                                        | FsF-F3-01M   |      67 |
+| American Association for the Advancement of Science                                                                        | FsF-A1-03D   |      67 |
+| American Association for the Advancement of Science                                                                        | FsF-R1.1-01M |      67 |
+| American Association for the Advancement of Science                                                                        | FsF-R1.3-02D |      67 |
+| American Association for the Advancement of Science                                                                        | FsF-A1-01M   |      11 |
+| Science                                                                                                                    | FsF-F3-01M   |      52 |
+| Science                                                                                                                    | FsF-A1-03D   |      52 |
+| Science                                                                                                                    | FsF-R1.1-01M |      52 |
+| Science                                                                                                                    | FsF-R1.3-02D |      52 |
+| Science                                                                                                                    | FsF-A1-01M   |      11 |
+| American Association for the Advancement of Science (AAAS)                                                                 | FsF-F3-01M   |      95 |
+| American Association for the Advancement of Science (AAAS)                                                                 | FsF-A1-03D   |      95 |
+| American Association for the Advancement of Science (AAAS)                                                                 | FsF-R1.1-01M |      95 |
+| American Association for the Advancement of Science (AAAS)                                                                 | FsF-R1.3-02D |      95 |
+| American Association for the Advancement of Science (AAAS)                                                                 | FsF-F4-01M   |      33 |
+| American Association for the Advancement of Science (AAAS)                                                                 | FsF-A1-01M   |      37 |
+| American Association for the Advancement of Science (AAAS)                                                                 | FsF-R1-01MD  |      33 |
+| Nature Publishing Group US                                                                                                 | FsF-F3-01M   |     167 |
+| Nature Publishing Group US                                                                                                 | FsF-A1-03D   |     167 |
+| Nature Publishing Group US                                                                                                 | FsF-R1.1-01M |     159 |
+| Nature Publishing Group US                                                                                                 | FsF-R1.3-02D |     167 |
+| American Association for Cancer Research                                                                                   | FsF-F3-01M   |      62 |
+| American Association for Cancer Research                                                                                   | FsF-A1-01M   |      62 |
+| American Association for Cancer Research                                                                                   | FsF-A1-03D   |      62 |
+| American Association for Cancer Research                                                                                   | FsF-R1.1-01M |      62 |
+| American Association for Cancer Research                                                                                   | FsF-R1.3-02D |      62 |
+| Springer-Verlag                                                                                                            | FsF-F3-01M   |    1029 |
+| Springer-Verlag                                                                                                            | FsF-A1-03D   |    1029 |
+| Springer-Verlag                                                                                                            | FsF-R1.1-01M |     959 |
+| Springer-Verlag                                                                                                            | FsF-R1.3-02D |    1029 |
+| Springer-Verlag                                                                                                            | FsF-A1-01M   |       6 |
+| Springer                                                                                                                   | FsF-F3-01M   |     916 |
+| Springer                                                                                                                   | FsF-A1-03D   |     916 |
+| Springer                                                                                                                   | FsF-R1.1-01M |     762 |
+| Springer                                                                                                                   | FsF-R1.3-02D |     916 |
+| SpringerLink                                                                                                               | FsF-F3-01M   |    1137 |
+| SpringerLink                                                                                                               | FsF-A1-03D   |    1137 |
+| SpringerLink                                                                                                               | FsF-R1.1-01M |     983 |
+| SpringerLink                                                                                                               | FsF-R1.3-02D |    1137 |
+| SpringerLink                                                                                                               | FsF-A1-01M   |     197 |
+| SpringerLink                                                                                                               | FsF-I3-01M   |      23 |
+| The Royal Society of Chemistry                                                                                             | FsF-F3-01M   |     210 |
+| The Royal Society of Chemistry                                                                                             | FsF-A1-03D   |     210 |
+| The Royal Society of Chemistry                                                                                             | FsF-R1.1-01M |     210 |
+| The Royal Society of Chemistry                                                                                             | FsF-R1.3-02D |     210 |
+| Chemistry Europe                                                                                                           | FsF-F3-01M   |      28 |
+| Chemistry Europe                                                                                                           | FsF-A1-01M   |      28 |
+| Chemistry Europe                                                                                                           | FsF-A1-03D   |      28 |
+| Chemistry Europe                                                                                                           | FsF-I3-01M   |      16 |
+| Chemistry Europe                                                                                                           | FsF-R1.1-01M |      28 |
+| Chemistry Europe                                                                                                           | FsF-R1.3-02D |      28 |
+| Chemistry Europe                                                                                                           | FsF-I1-01M   |       3 |
+| Chemistry Europe                                                                                                           | FsF-I2-01M   |       3 |
+| JAMA Network                                                                                                               | FsF-F3-01M   |      14 |
+| JAMA Network                                                                                                               | FsF-A1-01M   |      14 |
+| JAMA Network                                                                                                               | FsF-A1-03D   |      14 |
+| JAMA Network                                                                                                               | FsF-R1.1-01M |      14 |
+| JAMA Network                                                                                                               | FsF-R1.3-02D |      14 |
+| American Medical Association                                                                                               | FsF-F3-01M   |      14 |
+| American Medical Association                                                                                               | FsF-A1-01M   |      14 |
+| American Medical Association                                                                                               | FsF-A1-03D   |      14 |
+| American Medical Association                                                                                               | FsF-R1.1-01M |      14 |
+| American Medical Association                                                                                               | FsF-R1.3-02D |      14 |
+| IEEE                                                                                                                       | FsF-F3-01M   |     259 |
+| IEEE                                                                                                                       | FsF-F4-01M   |     259 |
+| IEEE                                                                                                                       | FsF-A1-01M   |     259 |
+| IEEE                                                                                                                       | FsF-A1-03D   |     259 |
+| IEEE                                                                                                                       | FsF-I3-01M   |     257 |
+| IEEE                                                                                                                       | FsF-R1-01MD  |     259 |
+| IEEE                                                                                                                       | FsF-R1.1-01M |     259 |
+| IEEE                                                                                                                       | FsF-R1.3-02D |     259 |
+| American Society of Hematology                                                                                             | FsF-F3-01M   |     175 |
+| American Society of Hematology                                                                                             | FsF-F4-01M   |      62 |
+| American Society of Hematology                                                                                             | FsF-A1-01M   |     175 |
+| American Society of Hematology                                                                                             | FsF-A1-03D   |     175 |
+| American Society of Hematology                                                                                             | FsF-R1-01MD  |      62 |
+| American Society of Hematology                                                                                             | FsF-R1.1-01M |     175 |
+| American Society of Hematology                                                                                             | FsF-R1.3-02D |     175 |
+| British Medical Journal Publishing Group                                                                                   | FsF-F3-01M   |      24 |
+| British Medical Journal Publishing Group                                                                                   | FsF-A1-03D   |      24 |
+| British Medical Journal Publishing Group                                                                                   | FsF-R1.1-01M |      24 |
+| British Medical Journal Publishing Group                                                                                   | FsF-R1.3-02D |      24 |
+| The BMJ                                                                                                                    | FsF-F3-01M   |      10 |
+| The BMJ                                                                                                                    | FsF-A1-03D   |      10 |
+| The BMJ                                                                                                                    | FsF-R1.1-01M |      10 |
+| The BMJ                                                                                                                    | FsF-R1.3-02D |      10 |
+| Springer Berlin Heidelberg                                                                                                 | FsF-F3-01M   |     579 |
+| Springer Berlin Heidelberg                                                                                                 | FsF-A1-01M   |     220 |
+| Springer Berlin Heidelberg                                                                                                 | FsF-A1-03D   |     579 |
+| Springer Berlin Heidelberg                                                                                                 | FsF-R1.1-01M |     378 |
+| Springer Berlin Heidelberg                                                                                                 | FsF-R1.3-02D |     579 |
+| Springer Berlin Heidelberg                                                                                                 | FsF-I3-01M   |      18 |
+| Springer, Berlin, Heidelberg                                                                                               | FsF-F3-01M   |      64 |
+| Springer, Berlin, Heidelberg                                                                                               | FsF-A1-01M   |      54 |
+| Springer, Berlin, Heidelberg                                                                                               | FsF-A1-03D   |      64 |
+| Springer, Berlin, Heidelberg                                                                                               | FsF-R1.1-01M |      64 |
+| Springer, Berlin, Heidelberg                                                                                               | FsF-R1.3-02D |      64 |
+| FEBS Press                                                                                                                 | FsF-F3-01M   |      75 |
+| FEBS Press                                                                                                                 | FsF-A1-01M   |      75 |
+| FEBS Press                                                                                                                 | FsF-A1-03D   |      75 |
+| FEBS Press                                                                                                                 | FsF-R1.1-01M |      75 |
+| FEBS Press                                                                                                                 | FsF-R1.3-02D |      75 |
+| FEBS Press                                                                                                                 | FsF-I3-01M   |      46 |
+| Massachusetts Medical Society                                                                                              | FsF-F3-01M   |      60 |
+| Massachusetts Medical Society                                                                                              | FsF-A1-03D   |      60 |
+| Massachusetts Medical Society                                                                                              | FsF-R1.1-01M |      60 |
+| Massachusetts Medical Society                                                                                              | FsF-R1.3-02D |      60 |
+| Massachusetts Medical Society                                                                                              | FsF-F4-01M   |       4 |
+| Massachusetts Medical Society                                                                                              | FsF-A1-01M   |       4 |
+| Massachusetts Medical Society                                                                                              | FsF-R1-01MD  |       4 |
+| The New England Journal of Medicine                                                                                        | FsF-F3-01M   |      26 |
+| The New England Journal of Medicine                                                                                        | FsF-A1-03D   |      26 |
+| The New England Journal of Medicine                                                                                        | FsF-R1.1-01M |      26 |
+| The New England Journal of Medicine                                                                                        | FsF-R1.3-02D |      26 |
+| Copernicus GmbH                                                                                                            | FsF-F3-01M   |      86 |
+| Copernicus GmbH                                                                                                            | FsF-F4-01M   |      86 |
+| Copernicus GmbH                                                                                                            | FsF-A1-01M   |      86 |
+| Copernicus GmbH                                                                                                            | FsF-A1-03D   |      86 |
+| Copernicus GmbH                                                                                                            | FsF-R1-01MD  |      85 |
+| Copernicus GmbH                                                                                                            | FsF-R1.1-01M |      86 |
+| Copernicus GmbH                                                                                                            | FsF-R1.3-02D |      86 |
+| Copernicus GmbH                                                                                                            | FsF-I3-01M   |       1 |
+| Multidisciplinary Digital Publishing Institute                                                                             | FsF-F3-01M   |     132 |
+| Multidisciplinary Digital Publishing Institute                                                                             | FsF-A1-01M   |     132 |
+| Multidisciplinary Digital Publishing Institute                                                                             | FsF-A1-03D   |     132 |
+| Multidisciplinary Digital Publishing Institute                                                                             | FsF-R1.1-01M |     132 |
+| Multidisciplinary Digital Publishing Institute                                                                             | FsF-R1.3-02D |     132 |
+| MDPI                                                                                                                       | FsF-F3-01M   |      51 |
+| MDPI                                                                                                                       | FsF-A1-01M   |      51 |
+| MDPI                                                                                                                       | FsF-A1-03D   |      51 |
+| MDPI                                                                                                                       | FsF-R1.1-01M |      51 |
+| MDPI                                                                                                                       | FsF-R1.3-02D |      51 |
+| MDPI AG                                                                                                                    | FsF-F3-01M   |      50 |
+| MDPI AG                                                                                                                    | FsF-A1-01M   |      50 |
+| MDPI AG                                                                                                                    | FsF-A1-03D   |      50 |
+| MDPI AG                                                                                                                    | FsF-R1.1-01M |      50 |
+| MDPI AG                                                                                                                    | FsF-R1.3-02D |      50 |
+| The Company of Biologists                                                                                                  | FsF-F3-01M   |     163 |
+| The Company of Biologists                                                                                                  | FsF-A1-01M   |     163 |
+| The Company of Biologists                                                                                                  | FsF-A1-03D   |     163 |
+| The Company of Biologists                                                                                                  | FsF-R1.1-01M |     163 |
+| The Company of Biologists                                                                                                  | FsF-R1.3-02D |     163 |
+| Allen Press                                                                                                                | FsF-F3-01M   |       5 |
+| Allen Press                                                                                                                | FsF-A1-01M   |       5 |
+| Allen Press                                                                                                                | FsF-A1-03D   |       5 |
+| Allen Press                                                                                                                | FsF-R1.1-01M |       5 |
+| Allen Press                                                                                                                | FsF-R1.3-02D |       5 |
+| Operative Dentistry                                                                                                        | FsF-F3-01M   |       2 |
+| Operative Dentistry                                                                                                        | FsF-A1-01M   |       2 |
+| Operative Dentistry                                                                                                        | FsF-A1-03D   |       2 |
+| Operative Dentistry                                                                                                        | FsF-R1.1-01M |       2 |
+| Operative Dentistry                                                                                                        | FsF-R1.3-02D |       2 |
+| LWW                                                                                                                        | FsF-F3-01M   |     142 |
+| LWW                                                                                                                        | FsF-F4-01M   |     142 |
+| LWW                                                                                                                        | FsF-A1-01M   |     142 |
+| LWW                                                                                                                        | FsF-A1-03D   |     142 |
+| LWW                                                                                                                        | FsF-R1.1-01M |     142 |
+| LWW                                                                                                                        | FsF-R1.3-02D |     142 |
+| LWW                                                                                                                        | FsF-I3-01M   |      58 |
+| Proceedings of the National Academy of Sciences                                                                            | FsF-F3-01M   |     151 |
+| Proceedings of the National Academy of Sciences                                                                            | FsF-A1-01M   |      96 |
+| Proceedings of the National Academy of Sciences                                                                            | FsF-A1-03D   |     151 |
+| Proceedings of the National Academy of Sciences                                                                            | FsF-R1.1-01M |     151 |
+| Proceedings of the National Academy of Sciences                                                                            | FsF-R1.3-02D |     151 |
+| Proceedings of the National Academy of Sciences                                                                            | FsF-F4-01M   |      25 |
+| Proceedings of the National Academy of Sciences                                                                            | FsF-R1-01MD  |      25 |
+| PNAS                                                                                                                       | FsF-F3-01M   |      86 |
+| PNAS                                                                                                                       | FsF-A1-01M   |      53 |
+| PNAS                                                                                                                       | FsF-A1-03D   |      86 |
+| PNAS                                                                                                                       | FsF-R1.1-01M |      86 |
+| PNAS                                                                                                                       | FsF-R1.3-02D |      86 |
+| Palgrave Macmillan UK                                                                                                      | FsF-F3-01M   |       2 |
+| Palgrave Macmillan UK                                                                                                      | FsF-A1-03D   |       2 |
+| Palgrave Macmillan UK                                                                                                      | FsF-R1.1-01M |       2 |
+| Palgrave Macmillan UK                                                                                                      | FsF-R1.3-02D |       2 |
+| Palgrave                                                                                                                   | FsF-F3-01M   |       1 |
+| Palgrave                                                                                                                   | FsF-A1-03D   |       1 |
+| Palgrave                                                                                                                   | FsF-R1.1-01M |       1 |
+| Palgrave                                                                                                                   | FsF-R1.3-02D |       1 |
+| Steinkopff-Verlag                                                                                                          | FsF-F3-01M   |      32 |
+| Steinkopff-Verlag                                                                                                          | FsF-A1-03D   |      32 |
+| Steinkopff-Verlag                                                                                                          | FsF-R1.1-01M |      32 |
+| Steinkopff-Verlag                                                                                                          | FsF-R1.3-02D |      32 |
+| S. Karger AG                                                                                                               | FsF-F3-01M   |      79 |
+| S. Karger AG                                                                                                               | FsF-A1-01M   |      79 |
+| S. Karger AG                                                                                                               | FsF-A1-03D   |      79 |
+| S. Karger AG                                                                                                               | FsF-R1.1-01M |      79 |
+| S. Karger AG                                                                                                               | FsF-R1.3-02D |      79 |
+| S. Karger AG                                                                                                               | FsF-F4-01M   |       1 |
+| S. Karger AG                                                                                                               | FsF-R1-01MD  |       1 |
+| Karger Publishers                                                                                                          | FsF-F3-01M   |      42 |
+| Karger Publishers                                                                                                          | FsF-A1-01M   |      42 |
+| Karger Publishers                                                                                                          | FsF-A1-03D   |      42 |
+| Karger Publishers                                                                                                          | FsF-R1.1-01M |      42 |
+| Karger Publishers                                                                                                          | FsF-R1.3-02D |      42 |
+| Springer, Cham                                                                                                             | FsF-F3-01M   |      24 |
+| Springer, Cham                                                                                                             | FsF-A1-01M   |      11 |
+| Springer, Cham                                                                                                             | FsF-A1-03D   |      24 |
+| Springer, Cham                                                                                                             | FsF-R1.1-01M |      24 |
+| Springer, Cham                                                                                                             | FsF-R1.3-02D |      24 |
+| American Physiological Society                                                                                             | FsF-F3-01M   |      25 |
+| American Physiological Society                                                                                             | FsF-F4-01M   |       8 |
+| American Physiological Society                                                                                             | FsF-A1-01M   |       8 |
+| American Physiological Society                                                                                             | FsF-A1-03D   |      25 |
+| American Physiological Society                                                                                             | FsF-R1-01MD  |       8 |
+| American Physiological Society                                                                                             | FsF-R1.1-01M |      25 |
+| American Physiological Society                                                                                             | FsF-R1.3-02D |      25 |
+| Oxford University Press (OUP)                                                                                              | FsF-F3-01M   |     355 |
+| Oxford University Press (OUP)                                                                                              | FsF-F4-01M   |     150 |
+| Oxford University Press (OUP)                                                                                              | FsF-A1-01M   |     355 |
+| Oxford University Press (OUP)                                                                                              | FsF-A1-03D   |     355 |
+| Oxford University Press (OUP)                                                                                              | FsF-R1-01MD  |     150 |
+| Oxford University Press (OUP)                                                                                              | FsF-R1.1-01M |     355 |
+| Oxford University Press (OUP)                                                                                              | FsF-R1.3-02D |     355 |
+| Birkhäuser-Verlag                                                                                                          | FsF-F3-01M   |      14 |
+| Birkhäuser-Verlag                                                                                                          | FsF-A1-03D   |      14 |
+| Birkhäuser-Verlag                                                                                                          | FsF-R1.1-01M |      14 |
+| Birkhäuser-Verlag                                                                                                          | FsF-R1.3-02D |      14 |
+| Springer Netherlands                                                                                                       | FsF-F3-01M   |     120 |
+| Springer Netherlands                                                                                                       | FsF-A1-03D   |     120 |
+| Springer Netherlands                                                                                                       | FsF-R1.3-02D |     120 |
+| Springer Netherlands                                                                                                       | FsF-R1.1-01M |     110 |
+| Springer Netherlands                                                                                                       | FsF-A1-01M   |      47 |
+| Springer Netherlands                                                                                                       | FsF-I3-01M   |       2 |
+| SAGE Publications                                                                                                          | FsF-F3-01M   |      70 |
+| SAGE Publications                                                                                                          | FsF-F4-01M   |      11 |
+| SAGE Publications                                                                                                          | FsF-A1-01M   |      24 |
+| SAGE Publications                                                                                                          | FsF-A1-03D   |      70 |
+| SAGE Publications                                                                                                          | FsF-R1-01MD  |      11 |
+| SAGE Publications                                                                                                          | FsF-R1.1-01M |      58 |
+| SAGE Publications                                                                                                          | FsF-R1.3-02D |      70 |
+| Springer-Verlag Berlin Heidelberg                                                                                          | FsF-F3-01M   |       2 |
+| Springer-Verlag Berlin Heidelberg                                                                                          | FsF-A1-03D   |       2 |
+| Springer-Verlag Berlin Heidelberg                                                                                          | FsF-R1.1-01M |       2 |
+| Springer-Verlag Berlin Heidelberg                                                                                          | FsF-R1.3-02D |       2 |
+| SAGE PublicationsSage CA: Los Angeles, CA                                                                                  | FsF-F3-01M   |      14 |
+| SAGE PublicationsSage CA: Los Angeles, CA                                                                                  | FsF-A1-01M   |       2 |
+| SAGE PublicationsSage CA: Los Angeles, CA                                                                                  | FsF-A1-03D   |      14 |
+| SAGE PublicationsSage CA: Los Angeles, CA                                                                                  | FsF-R1.1-01M |      12 |
+| SAGE PublicationsSage CA: Los Angeles, CA                                                                                  | FsF-R1.3-02D |      14 |
+| Sage Journals                                                                                                              | FsF-F3-01M   |      43 |
+| Sage Journals                                                                                                              | FsF-A1-01M   |      11 |
+| Sage Journals                                                                                                              | FsF-A1-03D   |      43 |
+| Sage Journals                                                                                                              | FsF-R1.1-01M |      37 |
+| Sage Journals                                                                                                              | FsF-R1.3-02D |      43 |
+| American Educational Research Association (AERA)                                                                           | FsF-F3-01M   |       3 |
+| American Educational Research Association (AERA)                                                                           | FsF-A1-01M   |       3 |
+| American Educational Research Association (AERA)                                                                           | FsF-A1-03D   |       3 |
+| American Educational Research Association (AERA)                                                                           | FsF-R1.1-01M |       3 |
+| American Educational Research Association (AERA)                                                                           | FsF-R1.3-02D |       3 |
+| American Educational Research Association (AERA)                                                                           | FsF-F4-01M   |       1 |
+| American Educational Research Association (AERA)                                                                           | FsF-R1-01MD  |       1 |
+| American Association for Cancer Research (AACR)                                                                            | FsF-F3-01M   |      12 |
+| American Association for Cancer Research (AACR)                                                                            | FsF-A1-01M   |      12 |
+| American Association for Cancer Research (AACR)                                                                            | FsF-A1-03D   |      12 |
+| American Association for Cancer Research (AACR)                                                                            | FsF-R1.1-01M |      12 |
+| American Association for Cancer Research (AACR)                                                                            | FsF-R1.3-02D |      12 |
+| American Academy of Periodontology                                                                                         | FsF-F3-01M   |       3 |
+| American Academy of Periodontology                                                                                         | FsF-A1-01M   |       3 |
+| American Academy of Periodontology                                                                                         | FsF-A1-03D   |       3 |
+| American Academy of Periodontology                                                                                         | FsF-R1.1-01M |       3 |
+| American Academy of Periodontology                                                                                         | FsF-R1.3-02D |       3 |
+| American Cancer Society Journals                                                                                           | FsF-F3-01M   |       5 |
+| American Cancer Society Journals                                                                                           | FsF-A1-01M   |       5 |
+| American Cancer Society Journals                                                                                           | FsF-A1-03D   |       5 |
+| American Cancer Society Journals                                                                                           | FsF-I1-01M   |       4 |
+| American Cancer Society Journals                                                                                           | FsF-I2-01M   |       4 |
+| American Cancer Society Journals                                                                                           | FsF-I3-01M   |       5 |
+| American Cancer Society Journals                                                                                           | FsF-R1.1-01M |       5 |
+| American Cancer Society Journals                                                                                           | FsF-R1.3-02D |       5 |
+| De Gruyter                                                                                                                 | FsF-F3-01M   |     120 |
+| De Gruyter                                                                                                                 | FsF-A1-03D   |     120 |
+| De Gruyter                                                                                                                 | FsF-I3-01M   |      76 |
+| De Gruyter                                                                                                                 | FsF-R1.1-01M |     120 |
+| De Gruyter                                                                                                                 | FsF-R1.3-02D |     120 |
+| Informa UK Limited                                                                                                         | FsF-F3-01M   |      62 |
+| Informa UK Limited                                                                                                         | FsF-F4-01M   |      56 |
+| Informa UK Limited                                                                                                         | FsF-A1-01M   |      60 |
+| Informa UK Limited                                                                                                         | FsF-A1-03D   |      62 |
+| Informa UK Limited                                                                                                         | FsF-R1-01MD  |      56 |
+| Informa UK Limited                                                                                                         | FsF-R1.1-01M |      62 |
+| Informa UK Limited                                                                                                         | FsF-R1.3-02D |      62 |
+| Kluwer Academic Publishers                                                                                                 | FsF-F3-01M   |      84 |
+| Kluwer Academic Publishers                                                                                                 | FsF-A1-03D   |      84 |
+| Kluwer Academic Publishers                                                                                                 | FsF-R1.1-01M |      84 |
+| Kluwer Academic Publishers                                                                                                 | FsF-R1.3-02D |      84 |
+| Kluwer Academic Publishers                                                                                                 | FsF-A1-01M   |       2 |
+| Springer US                                                                                                                | FsF-F3-01M   |     175 |
+| Springer US                                                                                                                | FsF-A1-03D   |     175 |
+| Springer US                                                                                                                | FsF-R1.1-01M |     165 |
+| Springer US                                                                                                                | FsF-R1.3-02D |     175 |
+| Springer US                                                                                                                | FsF-A1-01M   |      65 |
+| Springer US                                                                                                                | FsF-I3-01M   |       2 |
+| Oxford University Press                                                                                                    | FsF-F3-01M   |     115 |
+| Oxford University Press                                                                                                    | FsF-A1-01M   |     115 |
+| Oxford University Press                                                                                                    | FsF-A1-03D   |     115 |
+| Oxford University Press                                                                                                    | FsF-R1.1-01M |     115 |
+| Oxford University Press                                                                                                    | FsF-R1.3-02D |     115 |
+| Oxford University Press                                                                                                    | FsF-F4-01M   |       1 |
+| Oxford University Press                                                                                                    | FsF-R1-01MD  |       1 |
+| Oxford Academic                                                                                                            | FsF-F3-01M   |     114 |
+| Oxford Academic                                                                                                            | FsF-A1-01M   |     114 |
+| Oxford Academic                                                                                                            | FsF-A1-03D   |     114 |
+| Oxford Academic                                                                                                            | FsF-R1.1-01M |     114 |
+| Oxford Academic                                                                                                            | FsF-R1.3-02D |     114 |
+| OUP Academic                                                                                                               | FsF-F3-01M   |     114 |
+| OUP Academic                                                                                                               | FsF-A1-01M   |     114 |
+| OUP Academic                                                                                                               | FsF-A1-03D   |     114 |
+| OUP Academic                                                                                                               | FsF-R1.1-01M |     114 |
+| OUP Academic                                                                                                               | FsF-R1.3-02D |     114 |
+| American Physical Society                                                                                                  | FsF-F3-01M   |      90 |
+| American Physical Society                                                                                                  | FsF-A1-01M   |      90 |
+| American Physical Society                                                                                                  | FsF-A1-03D   |      90 |
+| American Physical Society                                                                                                  | FsF-I3-01M   |      49 |
+| American Physical Society                                                                                                  | FsF-R1.1-01M |      90 |
+| American Physical Society                                                                                                  | FsF-R1.3-02D |      90 |
+| Physical Review Letters                                                                                                    | FsF-F3-01M   |      52 |
+| Physical Review Letters                                                                                                    | FsF-A1-01M   |      52 |
+| Physical Review Letters                                                                                                    | FsF-A1-03D   |      52 |
+| Physical Review Letters                                                                                                    | FsF-I3-01M   |      27 |
+| Physical Review Letters                                                                                                    | FsF-R1.1-01M |      52 |
+| Physical Review Letters                                                                                                    | FsF-R1.3-02D |      52 |
+| BioMed Central                                                                                                             | FsF-F3-01M   |     402 |
+| BioMed Central                                                                                                             | FsF-A1-03D   |     402 |
+| BioMed Central                                                                                                             | FsF-R1.3-02D |     402 |
+| BioMed Central                                                                                                             | FsF-R1.1-01M |      31 |
+| BioMed Central                                                                                                             | FsF-A1-01M   |       1 |
+| BioMed Central                                                                                                             | FsF-I3-01M   |       1 |
+| ACM Conferences                                                                                                            | FsF-F3-01M   |       5 |
+| ACM Conferences                                                                                                            | FsF-A1-01M   |       5 |
+| ACM Conferences                                                                                                            | FsF-A1-03D   |       5 |
+| ACM Conferences                                                                                                            | FsF-R1.1-01M |       5 |
+| ACM Conferences                                                                                                            | FsF-R1.3-02D |       5 |
+| ACM                                                                                                                        | FsF-F3-01M   |      21 |
+| ACM                                                                                                                        | FsF-A1-01M   |      21 |
+| ACM                                                                                                                        | FsF-A1-03D   |      21 |
+| ACM                                                                                                                        | FsF-R1.1-01M |      21 |
+| ACM                                                                                                                        | FsF-R1.3-02D |      21 |
+| ACM                                                                                                                        | FsF-F4-01M   |      11 |
+| ACM                                                                                                                        | FsF-R1-01MD  |      11 |
+| ACM                                                                                                                        | FsF-I3-01M   |      10 |
+| eLife Sciences Publications, Ltd                                                                                           | FsF-F3-01M   |      57 |
+| eLife Sciences Publications, Ltd                                                                                           | FsF-A1-03D   |      57 |
+| eLife Sciences Publications, Ltd                                                                                           | FsF-R1.1-01M |      57 |
+| eLife Sciences Publications, Ltd                                                                                           | FsF-R1.3-02D |      57 |
+| eLife Sciences Publications Limited                                                                                        | FsF-F3-01M   |      19 |
+| eLife Sciences Publications Limited                                                                                        | FsF-A1-03D   |      19 |
+| eLife Sciences Publications Limited                                                                                        | FsF-R1.1-01M |      19 |
+| eLife Sciences Publications Limited                                                                                        | FsF-R1.3-02D |      19 |
+| eLife                                                                                                                      | FsF-F3-01M   |      19 |
+| eLife                                                                                                                      | FsF-A1-03D   |      19 |
+| eLife                                                                                                                      | FsF-R1.1-01M |      19 |
+| eLife                                                                                                                      | FsF-R1.3-02D |      19 |
+| American Society for Clinical Investigation                                                                                | FsF-F3-01M   |     152 |
+| American Society for Clinical Investigation                                                                                | FsF-A1-01M   |     152 |
+| American Society for Clinical Investigation                                                                                | FsF-A1-03D   |     152 |
+| American Society for Clinical Investigation                                                                                | FsF-I3-01M   |      12 |
+| American Society for Clinical Investigation                                                                                | FsF-R1.1-01M |     152 |
+| American Society for Clinical Investigation                                                                                | FsF-R1.3-02D |     152 |
+| American Chemical Society (ACS)                                                                                            | FsF-F3-01M   |     196 |
+| American Chemical Society (ACS)                                                                                            | FsF-F4-01M   |      54 |
+| American Chemical Society (ACS)                                                                                            | FsF-A1-01M   |      64 |
+| American Chemical Society (ACS)                                                                                            | FsF-A1-03D   |     196 |
+| American Chemical Society (ACS)                                                                                            | FsF-R1-01MD  |      54 |
+| American Chemical Society (ACS)                                                                                            | FsF-R1.1-01M |     196 |
+| American Chemical Society (ACS)                                                                                            | FsF-R1.3-02D |     196 |
+| Brill                                                                                                                      | FsF-F3-01M   |       4 |
+| Brill                                                                                                                      | FsF-A1-01M   |       4 |
+| Brill                                                                                                                      | FsF-A1-03D   |       4 |
+| Brill                                                                                                                      | FsF-R1.1-01M |       4 |
+| Brill                                                                                                                      | FsF-R1.3-02D |       4 |
+| Brill                                                                                                                      | FsF-I3-01M   |       2 |
+| Walter de Gruyter GmbH                                                                                                     | FsF-F3-01M   |      24 |
+| Walter de Gruyter GmbH                                                                                                     | FsF-A1-01M   |       4 |
+| Walter de Gruyter GmbH                                                                                                     | FsF-A1-03D   |      24 |
+| Walter de Gruyter GmbH                                                                                                     | FsF-R1.1-01M |      24 |
+| Walter de Gruyter GmbH                                                                                                     | FsF-R1.3-02D |      24 |
+| Public Library of Science                                                                                                  | FsF-F3-01M   |     111 |
+| Public Library of Science                                                                                                  | FsF-A1-01M   |     111 |
+| Public Library of Science                                                                                                  | FsF-A1-03D   |     111 |
+| Public Library of Science                                                                                                  | FsF-R1.1-01M |     111 |
+| Public Library of Science                                                                                                  | FsF-R1.3-02D |     111 |
+| Public Library of Science (PLoS)                                                                                           | FsF-F3-01M   |     188 |
+| Public Library of Science (PLoS)                                                                                           | FsF-A1-01M   |     188 |
+| Public Library of Science (PLoS)                                                                                           | FsF-A1-03D   |     188 |
+| Public Library of Science (PLoS)                                                                                           | FsF-R1.1-01M |     188 |
+| Public Library of Science (PLoS)                                                                                           | FsF-R1.3-02D |     188 |
+| Royal Society of Chemistry (RSC)                                                                                           | FsF-F3-01M   |     109 |
+| Royal Society of Chemistry (RSC)                                                                                           | FsF-A1-03D   |     109 |
+| Royal Society of Chemistry (RSC)                                                                                           | FsF-R1.1-01M |     109 |
+| Royal Society of Chemistry (RSC)                                                                                           | FsF-R1.3-02D |     109 |
+| Bone & Joint                                                                                                               | FsF-F3-01M   |       2 |
+| Bone & Joint                                                                                                               | FsF-A1-01M   |       2 |
+| Bone & Joint                                                                                                               | FsF-A1-03D   |       2 |
+| Bone & Joint                                                                                                               | FsF-I3-01M   |       1 |
+| Bone & Joint                                                                                                               | FsF-R1.1-01M |       2 |
+| Bone & Joint                                                                                                               | FsF-R1.3-02D |       2 |
+| The Rockefeller University Press                                                                                           | FsF-F3-01M   |      68 |
+| The Rockefeller University Press                                                                                           | FsF-A1-01M   |      68 |
+| The Rockefeller University Press                                                                                           | FsF-A1-03D   |      68 |
+| The Rockefeller University Press                                                                                           | FsF-R1.1-01M |      68 |
+| The Rockefeller University Press                                                                                           | FsF-R1.3-02D |      68 |
+| Rockefeller University Press                                                                                               | FsF-F3-01M   |      91 |
+| Rockefeller University Press                                                                                               | FsF-A1-01M   |      91 |
+| Rockefeller University Press                                                                                               | FsF-A1-03D   |      91 |
+| Rockefeller University Press                                                                                               | FsF-R1.1-01M |      91 |
+| Rockefeller University Press                                                                                               | FsF-R1.3-02D |      91 |
+| Rockefeller University Press                                                                                               | FsF-F4-01M   |       3 |
+| Rockefeller University Press                                                                                               | FsF-R1-01MD  |       3 |
+| © 1998 F. Enke Verlag Stuttgart                                                                                            | FsF-F3-01M   |       1 |
+| © 1998 F. Enke Verlag Stuttgart                                                                                            | FsF-A1-01M   |       1 |
+| © 1998 F. Enke Verlag Stuttgart                                                                                            | FsF-A1-03D   |       1 |
+| © 1998 F. Enke Verlag Stuttgart                                                                                            | FsF-R1.1-01M |       1 |
+| © 1998 F. Enke Verlag Stuttgart                                                                                            | FsF-R1.3-02D |       1 |
+| Georg Thieme Verlag KG                                                                                                     | FsF-F3-01M   |      24 |
+| Georg Thieme Verlag KG                                                                                                     | FsF-A1-01M   |      24 |
+| Georg Thieme Verlag KG                                                                                                     | FsF-A1-03D   |      24 |
+| Georg Thieme Verlag KG                                                                                                     | FsF-R1.1-01M |      24 |
+| Georg Thieme Verlag KG                                                                                                     | FsF-R1.3-02D |      24 |
+| Urban & Vogel                                                                                                              | FsF-F3-01M   |       8 |
+| Urban & Vogel                                                                                                              | FsF-A1-03D   |       8 |
+| Urban & Vogel                                                                                                              | FsF-R1.1-01M |       8 |
+| Urban & Vogel                                                                                                              | FsF-R1.3-02D |       8 |
+| The National Academy of Sciences                                                                                           | FsF-F3-01M   |      11 |
+| The National Academy of Sciences                                                                                           | FsF-A1-03D   |      11 |
+| The National Academy of Sciences                                                                                           | FsF-R1.1-01M |      11 |
+| The National Academy of Sciences                                                                                           | FsF-R1.3-02D |      11 |
+| Edinburgh University Press                                                                                                 | FsF-F3-01M   |       1 |
+| Edinburgh University Press                                                                                                 | FsF-F4-01M   |       1 |
+| Edinburgh University Press                                                                                                 | FsF-A1-01M   |       1 |
+| Edinburgh University Press                                                                                                 | FsF-A1-03D   |       1 |
+| Edinburgh University Press                                                                                                 | FsF-R1-01MD  |       1 |
+| Edinburgh University Press                                                                                                 | FsF-R1.1-01M |       1 |
+| Edinburgh University Press                                                                                                 | FsF-R1.3-02D |       1 |
+| American Chemical Society                                                                                                  | FsF-F3-01M   |     121 |
+| American Chemical Society                                                                                                  | FsF-A1-03D   |     121 |
+| American Chemical Society                                                                                                  | FsF-R1.1-01M |     121 |
+| American Chemical Society                                                                                                  | FsF-R1.3-02D |     121 |
+| American Chemical Society                                                                                                  | FsF-I3-01M   |      51 |
+| American Chemical Society                                                                                                  | FsF-A1-01M   |       9 |
+| ACS Publications                                                                                                           | FsF-F3-01M   |     246 |
+| ACS Publications                                                                                                           | FsF-A1-03D   |     246 |
+| ACS Publications                                                                                                           | FsF-R1.1-01M |     246 |
+| ACS Publications                                                                                                           | FsF-R1.3-02D |     246 |
+| ACS Publications                                                                                                           | FsF-I3-01M   |     104 |
+| ACS Publications                                                                                                           | FsF-A1-01M   |      18 |
+| Society for Neuroscience                                                                                                   | FsF-F3-01M   |     241 |
+| Society for Neuroscience                                                                                                   | FsF-A1-03D   |     241 |
+| Society for Neuroscience                                                                                                   | FsF-R1.1-01M |     241 |
+| Society for Neuroscience                                                                                                   | FsF-R1.3-02D |     241 |
+| Society for Neuroscience                                                                                                   | FsF-F4-01M   |       1 |
+| Society for Neuroscience                                                                                                   | FsF-A1-01M   |       1 |
+| Society for Neuroscience                                                                                                   | FsF-R1-01MD  |       1 |
+| Journal of Neuroscience                                                                                                    | FsF-F3-01M   |      71 |
+| Journal of Neuroscience                                                                                                    | FsF-A1-03D   |      71 |
+| Journal of Neuroscience                                                                                                    | FsF-R1.1-01M |      71 |
+| Journal of Neuroscience                                                                                                    | FsF-R1.3-02D |      71 |
+| IOP Publishing                                                                                                             | FsF-F3-01M   |     120 |
+| IOP Publishing                                                                                                             | FsF-F4-01M   |     120 |
+| IOP Publishing                                                                                                             | FsF-A1-01M   |     120 |
+| IOP Publishing                                                                                                             | FsF-A1-03D   |     120 |
+| IOP Publishing                                                                                                             | FsF-R1-01MD  |     120 |
+| IOP Publishing                                                                                                             | FsF-R1.1-01M |     120 |
+| IOP Publishing                                                                                                             | FsF-R1.3-02D |     120 |
+| The Advanced Portfolio                                                                                                     | FsF-F3-01M   |      32 |
+| The Advanced Portfolio                                                                                                     | FsF-A1-01M   |      32 |
+| The Advanced Portfolio                                                                                                     | FsF-A1-03D   |      32 |
+| The Advanced Portfolio                                                                                                     | FsF-I3-01M   |      20 |
+| The Advanced Portfolio                                                                                                     | FsF-R1.1-01M |      32 |
+| The Advanced Portfolio                                                                                                     | FsF-R1.3-02D |      32 |
+| The Advanced Portfolio                                                                                                     | FsF-I1-01M   |       1 |
+| The Advanced Portfolio                                                                                                     | FsF-I2-01M   |       1 |
+| Mary Ann Liebert, Inc.                                                                                                     | FsF-F3-01M   |       4 |
+| Mary Ann Liebert, Inc.                                                                                                     | FsF-A1-01M   |       4 |
+| Mary Ann Liebert, Inc.                                                                                                     | FsF-A1-03D   |       4 |
+| Mary Ann Liebert, Inc.                                                                                                     | FsF-R1.1-01M |       4 |
+| Mary Ann Liebert, Inc.                                                                                                     | FsF-R1.3-02D |       4 |
+| The Journal of Alternative and Complementary Medicine                                                                      | FsF-F3-01M   |       1 |
+| The Journal of Alternative and Complementary Medicine                                                                      | FsF-A1-01M   |       1 |
+| The Journal of Alternative and Complementary Medicine                                                                      | FsF-A1-03D   |       1 |
+| The Journal of Alternative and Complementary Medicine                                                                      | FsF-R1.1-01M |       1 |
+| The Journal of Alternative and Complementary Medicine                                                                      | FsF-R1.3-02D |       1 |
+| Mary Ann Liebert Inc                                                                                                       | FsF-F3-01M   |      17 |
+| Mary Ann Liebert Inc                                                                                                       | FsF-A1-01M   |      15 |
+| Mary Ann Liebert Inc                                                                                                       | FsF-A1-03D   |      17 |
+| Mary Ann Liebert Inc                                                                                                       | FsF-R1.1-01M |      17 |
+| Mary Ann Liebert Inc                                                                                                       | FsF-R1.3-02D |      17 |
+| Mary Ann Liebert Inc                                                                                                       | FsF-F4-01M   |       3 |
+| Mary Ann Liebert Inc                                                                                                       | FsF-R1-01MD  |       3 |
+| International Press of Boston                                                                                              | FsF-F3-01M   |       5 |
+| International Press of Boston                                                                                              | FsF-F4-01M   |       2 |
+| International Press of Boston                                                                                              | FsF-A1-01M   |       5 |
+| International Press of Boston                                                                                              | FsF-A1-03D   |       5 |
+| International Press of Boston                                                                                              | FsF-R1-01MD  |       2 |
+| International Press of Boston                                                                                              | FsF-R1.1-01M |       5 |
+| International Press of Boston                                                                                              | FsF-R1.3-02D |       5 |
+| Sage PublicationsSage CA: Thousand Oaks, CA                                                                                | FsF-F3-01M   |       3 |
+| Sage PublicationsSage CA: Thousand Oaks, CA                                                                                | FsF-A1-01M   |       3 |
+| Sage PublicationsSage CA: Thousand Oaks, CA                                                                                | FsF-A1-03D   |       3 |
+| Sage PublicationsSage CA: Thousand Oaks, CA                                                                                | FsF-R1.1-01M |       3 |
+| Sage PublicationsSage CA: Thousand Oaks, CA                                                                                | FsF-R1.3-02D |       3 |
+| American Association of Immunologists                                                                                      | FsF-F3-01M   |      85 |
+| American Association of Immunologists                                                                                      | FsF-A1-01M   |      85 |
+| American Association of Immunologists                                                                                      | FsF-A1-03D   |      85 |
+| American Association of Immunologists                                                                                      | FsF-R1.1-01M |      85 |
+| American Association of Immunologists                                                                                      | FsF-R1.3-02D |      85 |
+| Springer Singapore                                                                                                         | FsF-F3-01M   |       2 |
+| Springer Singapore                                                                                                         | FsF-A1-03D   |       2 |
+| Springer Singapore                                                                                                         | FsF-R1.3-02D |       2 |
+| SpringerOpen                                                                                                               | FsF-F3-01M   |      24 |
+| SpringerOpen                                                                                                               | FsF-A1-03D   |      24 |
+| SpringerOpen                                                                                                               | FsF-R1.3-02D |      24 |
+| Cambridge University Press                                                                                                 | FsF-F3-01M   |     102 |
+| Cambridge University Press                                                                                                 | FsF-A1-01M   |     102 |
+| Cambridge University Press                                                                                                 | FsF-A1-03D   |     102 |
+| Cambridge University Press                                                                                                 | FsF-R1.1-01M |     102 |
+| Cambridge University Press                                                                                                 | FsF-R1.3-02D |     102 |
+| Cambridge University Press                                                                                                 | FsF-I3-01M   |       8 |
+| Cambridge Core                                                                                                             | FsF-F3-01M   |      60 |
+| Cambridge Core                                                                                                             | FsF-A1-01M   |      60 |
+| Cambridge Core                                                                                                             | FsF-A1-03D   |      60 |
+| Cambridge Core                                                                                                             | FsF-R1.1-01M |      60 |
+| Cambridge Core                                                                                                             | FsF-R1.3-02D |      60 |
+| Cambridge Core                                                                                                             | FsF-I3-01M   |       4 |
+| Journal of Medical Genetics                                                                                                | FsF-F3-01M   |       7 |
+| Journal of Medical Genetics                                                                                                | FsF-A1-03D   |       7 |
+| Journal of Medical Genetics                                                                                                | FsF-R1.1-01M |       7 |
+| Journal of Medical Genetics                                                                                                | FsF-R1.3-02D |       7 |
+| Frontiers Media SA                                                                                                         | FsF-F3-01M   |      65 |
+| Frontiers Media SA                                                                                                         | FsF-A1-01M   |      65 |
+| Frontiers Media SA                                                                                                         | FsF-A1-03D   |      65 |
+| Frontiers Media SA                                                                                                         | FsF-R1.1-01M |      65 |
+| Frontiers Media SA                                                                                                         | FsF-R1.3-02D |      65 |
+| Frontiers Media SA                                                                                                         | FsF-F4-01M   |       3 |
+| Frontiers Media SA                                                                                                         | FsF-R1-01MD  |       3 |
+| International Union of Crystallography                                                                                     | FsF-F3-01M   |       8 |
+| International Union of Crystallography                                                                                     | FsF-A1-01M   |       6 |
+| International Union of Crystallography                                                                                     | FsF-A1-03D   |       8 |
+| International Union of Crystallography                                                                                     | FsF-R1-01MD  |       6 |
+| International Union of Crystallography                                                                                     | FsF-R1.1-01M |       8 |
+| International Union of Crystallography                                                                                     | FsF-R1.3-02D |       8 |
+| John Wiley & Sons, LtdChichester, UK                                                                                       | FsF-F3-01M   |      39 |
+| John Wiley & Sons, LtdChichester, UK                                                                                       | FsF-A1-03D   |      39 |
+| John Wiley & Sons, LtdChichester, UK                                                                                       | FsF-R1.1-01M |      39 |
+| John Wiley & Sons, LtdChichester, UK                                                                                       | FsF-R1.3-02D |      39 |
+| The EMBO Journal                                                                                                           | FsF-F3-01M   |      33 |
+| The EMBO Journal                                                                                                           | FsF-A1-03D   |      33 |
+| The EMBO Journal                                                                                                           | FsF-R1.1-01M |      33 |
+| The EMBO Journal                                                                                                           | FsF-R1.3-02D |      33 |
+| EDP Sciences                                                                                                               | FsF-F3-01M   |      17 |
+| EDP Sciences                                                                                                               | FsF-A1-03D   |      17 |
+| EDP Sciences                                                                                                               | FsF-R1.1-01M |      17 |
+| EDP Sciences                                                                                                               | FsF-R1.3-02D |      17 |
+| EDP Sciences                                                                                                               | FsF-A1-01M   |      13 |
+| EDP Sciences                                                                                                               | FsF-I3-01M   |       1 |
+| American Medical Association (AMA)                                                                                         | FsF-F3-01M   |      32 |
+| American Medical Association (AMA)                                                                                         | FsF-A1-01M   |      32 |
+| American Medical Association (AMA)                                                                                         | FsF-A1-03D   |      32 |
+| American Medical Association (AMA)                                                                                         | FsF-R1.1-01M |      32 |
+| American Medical Association (AMA)                                                                                         | FsF-R1.3-02D |      32 |
+| American Medical Association (AMA)                                                                                         | FsF-F4-01M   |      10 |
+| American Medical Association (AMA)                                                                                         | FsF-R1-01MD  |      10 |
+| © Georg Thieme Verlag KG Stuttgart · New York                                                                              | FsF-F3-01M   |       8 |
+| © Georg Thieme Verlag KG Stuttgart · New York                                                                              | FsF-A1-01M   |       8 |
+| © Georg Thieme Verlag KG Stuttgart · New York                                                                              | FsF-A1-03D   |       8 |
+| © Georg Thieme Verlag KG Stuttgart · New York                                                                              | FsF-R1.1-01M |       8 |
+| © Georg Thieme Verlag KG Stuttgart · New York                                                                              | FsF-R1.3-02D |       8 |
+| © Georg Thieme Verlag KG Stuttgart · New York                                                                              | FsF-I3-01M   |       4 |
+| Springer, Boston, MA                                                                                                       | FsF-F3-01M   |      19 |
+| Springer, Boston, MA                                                                                                       | FsF-A1-01M   |      19 |
+| Springer, Boston, MA                                                                                                       | FsF-A1-03D   |      19 |
+| Springer, Boston, MA                                                                                                       | FsF-R1.1-01M |      19 |
+| Springer, Boston, MA                                                                                                       | FsF-R1.3-02D |      19 |
+| Journal of Virology                                                                                                        | FsF-F3-01M   |      39 |
+| Journal of Virology                                                                                                        | FsF-A1-01M   |       5 |
+| Journal of Virology                                                                                                        | FsF-A1-03D   |      39 |
+| Journal of Virology                                                                                                        | FsF-R1.1-01M |      39 |
+| Journal of Virology                                                                                                        | FsF-R1.3-02D |      39 |
+| Stroke                                                                                                                     | FsF-F3-01M   |       9 |
+| Stroke                                                                                                                     | FsF-A1-01M   |       6 |
+| Stroke                                                                                                                     | FsF-A1-03D   |       9 |
+| Stroke                                                                                                                     | FsF-R1.1-01M |       9 |
+| Stroke                                                                                                                     | FsF-R1.3-02D |       9 |
+| Birkhäuser Boston                                                                                                          | FsF-F3-01M   |       4 |
+| Birkhäuser Boston                                                                                                          | FsF-A1-01M   |       4 |
+| Birkhäuser Boston                                                                                                          | FsF-A1-03D   |       4 |
+| Birkhäuser Boston                                                                                                          | FsF-R1.1-01M |       4 |
+| Birkhäuser Boston                                                                                                          | FsF-R1.3-02D |       4 |
+| EDP Sciences, Springer-Verlag, Società Italiana di Fisica                                                                  | FsF-F3-01M   |       4 |
+| EDP Sciences, Springer-Verlag, Società Italiana di Fisica                                                                  | FsF-A1-03D   |       4 |
+| EDP Sciences, Springer-Verlag, Società Italiana di Fisica                                                                  | FsF-R1.1-01M |       4 |
+| EDP Sciences, Springer-Verlag, Società Italiana di Fisica                                                                  | FsF-R1.3-02D |       4 |
+| Journal of Bacteriology                                                                                                    | FsF-F3-01M   |      12 |
+| Journal of Bacteriology                                                                                                    | FsF-A1-03D   |      12 |
+| Journal of Bacteriology                                                                                                    | FsF-R1.1-01M |      12 |
+| Journal of Bacteriology                                                                                                    | FsF-R1.3-02D |      12 |
+| Journal of Bacteriology                                                                                                    | FsF-A1-01M   |       1 |
+| Springer Fachmedien Wiesbaden                                                                                              | FsF-F3-01M   |      10 |
+| Springer Fachmedien Wiesbaden                                                                                              | FsF-A1-01M   |      10 |
+| Springer Fachmedien Wiesbaden                                                                                              | FsF-A1-03D   |      10 |
+| Springer Fachmedien Wiesbaden                                                                                              | FsF-R1.1-01M |      10 |
+| Springer Fachmedien Wiesbaden                                                                                              | FsF-R1.3-02D |      10 |
+| Springer VS, Wiesbaden                                                                                                     | FsF-F3-01M   |       3 |
+| Springer VS, Wiesbaden                                                                                                     | FsF-A1-01M   |       3 |
+| Springer VS, Wiesbaden                                                                                                     | FsF-A1-03D   |       3 |
+| Springer VS, Wiesbaden                                                                                                     | FsF-R1.1-01M |       3 |
+| Springer VS, Wiesbaden                                                                                                     | FsF-R1.3-02D |       3 |
+| Cold Spring Harbor Laboratory Press                                                                                        | FsF-F3-01M   |      19 |
+| Cold Spring Harbor Laboratory Press                                                                                        | FsF-A1-01M   |      19 |
+| Cold Spring Harbor Laboratory Press                                                                                        | FsF-A1-03D   |      19 |
+| Cold Spring Harbor Laboratory Press                                                                                        | FsF-I3-01M   |       2 |
+| Cold Spring Harbor Laboratory Press                                                                                        | FsF-R1.1-01M |      19 |
+| Cold Spring Harbor Laboratory Press                                                                                        | FsF-R1.3-02D |      19 |
+| Cold Spring Harbor Lab                                                                                                     | FsF-F3-01M   |      18 |
+| Cold Spring Harbor Lab                                                                                                     | FsF-A1-01M   |      18 |
+| Cold Spring Harbor Lab                                                                                                     | FsF-A1-03D   |      18 |
+| Cold Spring Harbor Lab                                                                                                     | FsF-I3-01M   |       2 |
+| Cold Spring Harbor Lab                                                                                                     | FsF-R1.1-01M |      18 |
+| Cold Spring Harbor Lab                                                                                                     | FsF-R1.3-02D |      18 |
+| The Royal Society                                                                                                          | FsF-F3-01M   |      31 |
+| The Royal Society                                                                                                          | FsF-F4-01M   |       7 |
+| The Royal Society                                                                                                          | FsF-A1-01M   |      12 |
+| The Royal Society                                                                                                          | FsF-A1-03D   |      31 |
+| The Royal Society                                                                                                          | FsF-R1-01MD  |       7 |
+| The Royal Society                                                                                                          | FsF-R1.1-01M |      31 |
+| The Royal Society                                                                                                          | FsF-R1.3-02D |      31 |
+| The Royal Society                                                                                                          | FsF-I3-01M   |       3 |
+| Hindawi Limited                                                                                                            | FsF-F3-01M   |      15 |
+| Hindawi Limited                                                                                                            | FsF-F4-01M   |       9 |
+| Hindawi Limited                                                                                                            | FsF-A1-01M   |      15 |
+| Hindawi Limited                                                                                                            | FsF-A1-03D   |      15 |
+| Hindawi Limited                                                                                                            | FsF-R1-01MD  |       9 |
+| Hindawi Limited                                                                                                            | FsF-R1.1-01M |      15 |
+| Hindawi Limited                                                                                                            | FsF-R1.3-02D |      15 |
+| The Ecological Society of America                                                                                          | FsF-F3-01M   |       8 |
+| The Ecological Society of America                                                                                          | FsF-A1-01M   |       8 |
+| The Ecological Society of America                                                                                          | FsF-A1-03D   |       8 |
+| The Ecological Society of America                                                                                          | FsF-I3-01M   |       5 |
+| The Ecological Society of America                                                                                          | FsF-R1.1-01M |       8 |
+| The Ecological Society of America                                                                                          | FsF-R1.3-02D |       8 |
+| Cambridge University Press (CUP)                                                                                           | FsF-F3-01M   |      34 |
+| Cambridge University Press (CUP)                                                                                           | FsF-A1-01M   |      34 |
+| Cambridge University Press (CUP)                                                                                           | FsF-A1-03D   |      34 |
+| Cambridge University Press (CUP)                                                                                           | FsF-R1.1-01M |      34 |
+| Cambridge University Press (CUP)                                                                                           | FsF-R1.3-02D |      34 |
+| Society for Industrial and Applied Mathematics                                                                             | FsF-F3-01M   |       2 |
+| Society for Industrial and Applied Mathematics                                                                             | FsF-A1-03D   |       2 |
+| Society for Industrial and Applied Mathematics                                                                             | FsF-R1.1-01M |       2 |
+| Society for Industrial and Applied Mathematics                                                                             | FsF-R1.3-02D |       2 |
+| SIAM Journal on Imaging Sciences                                                                                           | FsF-F3-01M   |       1 |
+| SIAM Journal on Imaging Sciences                                                                                           | FsF-A1-03D   |       1 |
+| SIAM Journal on Imaging Sciences                                                                                           | FsF-R1.1-01M |       1 |
+| SIAM Journal on Imaging Sciences                                                                                           | FsF-R1.3-02D |       1 |
+| Society for Industrial & Applied Mathematics (SIAM)                                                                        | FsF-F3-01M   |       4 |
+| Society for Industrial & Applied Mathematics (SIAM)                                                                        | FsF-A1-03D   |       4 |
+| Society for Industrial & Applied Mathematics (SIAM)                                                                        | FsF-R1.1-01M |       4 |
+| Society for Industrial & Applied Mathematics (SIAM)                                                                        | FsF-R1.3-02D |       4 |
+| Royal Meteorological Society (RMetS)                                                                                       | FsF-F3-01M   |       4 |
+| Royal Meteorological Society (RMetS)                                                                                       | FsF-A1-01M   |       4 |
+| Royal Meteorological Society (RMetS)                                                                                       | FsF-A1-03D   |       4 |
+| Royal Meteorological Society (RMetS)                                                                                       | FsF-I3-01M   |       3 |
+| Royal Meteorological Society (RMetS)                                                                                       | FsF-R1.1-01M |       4 |
+| Royal Meteorological Society (RMetS)                                                                                       | FsF-R1.3-02D |       4 |
+| besjournals                                                                                                                | FsF-F3-01M   |       9 |
+| besjournals                                                                                                                | FsF-A1-01M   |       9 |
+| besjournals                                                                                                                | FsF-A1-03D   |       9 |
+| besjournals                                                                                                                | FsF-R1.1-01M |       9 |
+| besjournals                                                                                                                | FsF-R1.3-02D |       9 |
+| besjournals                                                                                                                | FsF-I3-01M   |       4 |
+| Microbiology Society                                                                                                       | FsF-F3-01M   |      62 |
+| Microbiology Society                                                                                                       | FsF-A1-01M   |      62 |
+| Microbiology Society                                                                                                       | FsF-A1-03D   |      62 |
+| Microbiology Society                                                                                                       | FsF-I3-01M   |      18 |
+| Microbiology Society                                                                                                       | FsF-R1.1-01M |      62 |
+| Microbiology Society                                                                                                       | FsF-R1.3-02D |      62 |
+| microbiologyresearch.org                                                                                                   | FsF-F3-01M   |      20 |
+| microbiologyresearch.org                                                                                                   | FsF-A1-01M   |      20 |
+| microbiologyresearch.org                                                                                                   | FsF-A1-03D   |      20 |
+| microbiologyresearch.org                                                                                                   | FsF-I3-01M   |       9 |
+| microbiologyresearch.org                                                                                                   | FsF-R1.1-01M |      20 |
+| microbiologyresearch.org                                                                                                   | FsF-R1.3-02D |      20 |
+| Physical Review D                                                                                                          | FsF-F3-01M   |      16 |
+| Physical Review D                                                                                                          | FsF-A1-01M   |      16 |
+| Physical Review D                                                                                                          | FsF-A1-03D   |      16 |
+| Physical Review D                                                                                                          | FsF-R1.1-01M |      16 |
+| Physical Review D                                                                                                          | FsF-R1.3-02D |      16 |
+| Physical Review D                                                                                                          | FsF-I3-01M   |      10 |
+| Annual Reviews                                                                                                             | FsF-F3-01M   |      80 |
+| Annual Reviews                                                                                                             | FsF-A1-01M   |      80 |
+| Annual Reviews                                                                                                             | FsF-A1-03D   |      80 |
+| Annual Reviews                                                                                                             | FsF-R1.1-01M |      80 |
+| Annual Reviews                                                                                                             | FsF-R1.3-02D |      80 |
+| Annual Reviews                                                                                                             | FsF-I3-01M   |      12 |
+| American Psychological Association (APA)                                                                                   | FsF-F3-01M   |      18 |
+| American Psychological Association (APA)                                                                                   | FsF-F4-01M   |      18 |
+| American Psychological Association (APA)                                                                                   | FsF-A1-01M   |      18 |
+| American Psychological Association (APA)                                                                                   | FsF-A1-03D   |      18 |
+| American Psychological Association (APA)                                                                                   | FsF-R1-01MD  |      18 |
+| American Psychological Association (APA)                                                                                   | FsF-R1.1-01M |      18 |
+| American Psychological Association (APA)                                                                                   | FsF-R1.3-02D |      18 |
+| National Academy of Sciences                                                                                               | FsF-F3-01M   |      60 |
+| National Academy of Sciences                                                                                               | FsF-A1-03D   |      60 |
+| National Academy of Sciences                                                                                               | FsF-R1.1-01M |      60 |
+| National Academy of Sciences                                                                                               | FsF-R1.3-02D |      60 |
+| National Academy of Sciences                                                                                               | FsF-A1-01M   |      39 |
+| Hogrefe & Huber Publishers                                                                                                 | FsF-F3-01M   |       1 |
+| Hogrefe & Huber Publishers                                                                                                 | FsF-A1-01M   |       1 |
+| Hogrefe & Huber Publishers                                                                                                 | FsF-A1-03D   |       1 |
+| Hogrefe & Huber Publishers                                                                                                 | FsF-R1.1-01M |       1 |
+| Hogrefe & Huber Publishers                                                                                                 | FsF-R1.3-02D |       1 |
+| European Psychologist                                                                                                      | FsF-F3-01M   |       1 |
+| European Psychologist                                                                                                      | FsF-A1-01M   |       1 |
+| European Psychologist                                                                                                      | FsF-A1-03D   |       1 |
+| European Psychologist                                                                                                      | FsF-R1.1-01M |       1 |
+| European Psychologist                                                                                                      | FsF-R1.3-02D |       1 |
+| Hogrefe Publishing Group                                                                                                   | FsF-F3-01M   |       7 |
+| Hogrefe Publishing Group                                                                                                   | FsF-A1-01M   |       5 |
+| Hogrefe Publishing Group                                                                                                   | FsF-A1-03D   |       7 |
+| Hogrefe Publishing Group                                                                                                   | FsF-R1.1-01M |       7 |
+| Hogrefe Publishing Group                                                                                                   | FsF-R1.3-02D |       7 |
+| Hogrefe Publishing Group                                                                                                   | FsF-F4-01M   |       1 |
+| Hogrefe Publishing Group                                                                                                   | FsF-R1-01MD  |       1 |
+| MCB UP Ltd                                                                                                                 | FsF-F3-01M   |       2 |
+| MCB UP Ltd                                                                                                                 | FsF-A1-01M   |       2 |
+| MCB UP Ltd                                                                                                                 | FsF-A1-03D   |       2 |
+| MCB UP Ltd                                                                                                                 | FsF-R1.1-01M |       2 |
+| MCB UP Ltd                                                                                                                 | FsF-R1.3-02D |       2 |
+| Springer Vienna                                                                                                            | FsF-F3-01M   |      26 |
+| Springer Vienna                                                                                                            | FsF-A1-03D   |      26 |
+| Springer Vienna                                                                                                            | FsF-R1.1-01M |      25 |
+| Springer Vienna                                                                                                            | FsF-R1.3-02D |      26 |
+| Springer Vienna                                                                                                            | FsF-A1-01M   |       1 |
+| Humana Press                                                                                                               | FsF-F3-01M   |       5 |
+| Humana Press                                                                                                               | FsF-A1-01M   |       5 |
+| Humana Press                                                                                                               | FsF-A1-03D   |       5 |
+| Humana Press                                                                                                               | FsF-R1.1-01M |       5 |
+| Humana Press                                                                                                               | FsF-R1.3-02D |       5 |
+| American Society for Microbiology1752 N St., N.W., Washington, DC                                                          | FsF-F3-01M   |       9 |
+| American Society for Microbiology1752 N St., N.W., Washington, DC                                                          | FsF-A1-03D   |       9 |
+| American Society for Microbiology1752 N St., N.W., Washington, DC                                                          | FsF-R1.1-01M |       9 |
+| American Society for Microbiology1752 N St., N.W., Washington, DC                                                          | FsF-R1.3-02D |       9 |
+| mBio                                                                                                                       | FsF-F3-01M   |       2 |
+| mBio                                                                                                                       | FsF-A1-03D   |       2 |
+| mBio                                                                                                                       | FsF-R1.1-01M |       2 |
+| mBio                                                                                                                       | FsF-R1.3-02D |       2 |
+| Optica Publishing Group                                                                                                    | FsF-F3-01M   |      40 |
+| Optica Publishing Group                                                                                                    | FsF-A1-03D   |      40 |
+| Optica Publishing Group                                                                                                    | FsF-R1.1-01M |      40 |
+| Optica Publishing Group                                                                                                    | FsF-R1.3-02D |      40 |
+| Optica Publishing Group                                                                                                    | FsF-F4-01M   |      18 |
+| Optica Publishing Group                                                                                                    | FsF-A1-01M   |      18 |
+| Optica Publishing Group                                                                                                    | FsF-R1-01MD  |      18 |
+| Circulation Research                                                                                                       | FsF-F3-01M   |      15 |
+| Circulation Research                                                                                                       | FsF-A1-01M   |       7 |
+| Circulation Research                                                                                                       | FsF-A1-03D   |      15 |
+| Circulation Research                                                                                                       | FsF-R1.1-01M |      15 |
+| Circulation Research                                                                                                       | FsF-R1.3-02D |      15 |
+| © Georg Thieme Verlag Stuttgart · New York                                                                                 | FsF-F3-01M   |      11 |
+| © Georg Thieme Verlag Stuttgart · New York                                                                                 | FsF-A1-01M   |      11 |
+| © Georg Thieme Verlag Stuttgart · New York                                                                                 | FsF-A1-03D   |      11 |
+| © Georg Thieme Verlag Stuttgart · New York                                                                                 | FsF-I3-01M   |       7 |
+| © Georg Thieme Verlag Stuttgart · New York                                                                                 | FsF-R1.1-01M |      11 |
+| © Georg Thieme Verlag Stuttgart · New York                                                                                 | FsF-R1.3-02D |      11 |
+| American Society of Clinical Oncology                                                                                      | FsF-F3-01M   |      13 |
+| American Society of Clinical Oncology                                                                                      | FsF-A1-03D   |      13 |
+| American Society of Clinical Oncology                                                                                      | FsF-R1.3-02D |      13 |
+| American Society of Clinical Oncology                                                                                      | FsF-R1.1-01M |      11 |
+| JCO Precision Oncology                                                                                                     | FsF-F3-01M   |       1 |
+| JCO Precision Oncology                                                                                                     | FsF-A1-03D   |       1 |
+| JCO Precision Oncology                                                                                                     | FsF-R1.3-02D |       1 |
+| Ivyspring International Publisher                                                                                          | FsF-F3-01M   |      17 |
+| Ivyspring International Publisher                                                                                          | FsF-F4-01M   |      17 |
+| Ivyspring International Publisher                                                                                          | FsF-A1-01M   |      17 |
+| Ivyspring International Publisher                                                                                          | FsF-A1-03D   |      17 |
+| Ivyspring International Publisher                                                                                          | FsF-R1-01MD  |      17 |
+| Ivyspring International Publisher                                                                                          | FsF-R1.1-01M |      17 |
+| Ivyspring International Publisher                                                                                          | FsF-R1.3-02D |      17 |
+| Ivyspring International Publisher                                                                                          | FsF-I3-01M   |       2 |
+| Mineralogical Society of America                                                                                           | FsF-F3-01M   |      10 |
+| Mineralogical Society of America                                                                                           | FsF-A1-03D   |      10 |
+| Mineralogical Society of America                                                                                           | FsF-R1.1-01M |      10 |
+| Mineralogical Society of America                                                                                           | FsF-R1.3-02D |      10 |
+| Mineralogical Society of America                                                                                           | FsF-A1-01M   |       2 |
+| Society of Nuclear Medicine                                                                                                | FsF-F3-01M   |      23 |
+| Society of Nuclear Medicine                                                                                                | FsF-A1-03D   |      23 |
+| Society of Nuclear Medicine                                                                                                | FsF-R1.1-01M |      23 |
+| Society of Nuclear Medicine                                                                                                | FsF-R1.3-02D |      23 |
+| Society of Nuclear Medicine                                                                                                | FsF-F4-01M   |       1 |
+| Society of Nuclear Medicine                                                                                                | FsF-A1-01M   |       1 |
+| Society of Nuclear Medicine                                                                                                | FsF-R1-01MD  |       1 |
+| Journal of Nuclear Medicine                                                                                                | FsF-F3-01M   |       9 |
+| Journal of Nuclear Medicine                                                                                                | FsF-A1-03D   |       9 |
+| Journal of Nuclear Medicine                                                                                                | FsF-R1.1-01M |       9 |
+| Journal of Nuclear Medicine                                                                                                | FsF-R1.3-02D |       9 |
+| MIT Press                                                                                                                  | FsF-F3-01M   |      31 |
+| MIT Press                                                                                                                  | FsF-A1-01M   |      31 |
+| MIT Press                                                                                                                  | FsF-A1-03D   |      31 |
+| MIT Press                                                                                                                  | FsF-R1.1-01M |      31 |
+| MIT Press                                                                                                                  | FsF-R1.3-02D |      31 |
+| American Society of Clinical Oncology (ASCO)                                                                               | FsF-F3-01M   |      23 |
+| American Society of Clinical Oncology (ASCO)                                                                               | FsF-F4-01M   |       5 |
+| American Society of Clinical Oncology (ASCO)                                                                               | FsF-A1-01M   |       5 |
+| American Society of Clinical Oncology (ASCO)                                                                               | FsF-A1-03D   |      23 |
+| American Society of Clinical Oncology (ASCO)                                                                               | FsF-R1-01MD  |       5 |
+| American Society of Clinical Oncology (ASCO)                                                                               | FsF-R1.1-01M |      23 |
+| American Society of Clinical Oncology (ASCO)                                                                               | FsF-R1.3-02D |      23 |
+| European Centre for Disease Prevention and Control                                                                         | FsF-F3-01M   |       4 |
+| European Centre for Disease Prevention and Control                                                                         | FsF-A1-01M   |       4 |
+| European Centre for Disease Prevention and Control                                                                         | FsF-A1-03D   |       4 |
+| European Centre for Disease Prevention and Control                                                                         | FsF-R1.1-01M |       4 |
+| European Centre for Disease Prevention and Control                                                                         | FsF-R1.3-02D |       4 |
+| European Centre for Disease Control and Prevention (ECDC)                                                                  | FsF-F3-01M   |       4 |
+| European Centre for Disease Control and Prevention (ECDC)                                                                  | FsF-A1-01M   |       4 |
+| European Centre for Disease Control and Prevention (ECDC)                                                                  | FsF-A1-03D   |       4 |
+| European Centre for Disease Control and Prevention (ECDC)                                                                  | FsF-R1.1-01M |       4 |
+| European Centre for Disease Control and Prevention (ECDC)                                                                  | FsF-R1.3-02D |       4 |
+| American Physiological Society Bethesda, MD                                                                                | FsF-F3-01M   |       6 |
+| American Physiological Society Bethesda, MD                                                                                | FsF-A1-03D   |       6 |
+| American Physiological Society Bethesda, MD                                                                                | FsF-R1.1-01M |       6 |
+| American Physiological Society Bethesda, MD                                                                                | FsF-R1.3-02D |       6 |
+| American Journal of Physiology-Heart and Circulatory Physiology                                                            | FsF-F3-01M   |       2 |
+| American Journal of Physiology-Heart and Circulatory Physiology                                                            | FsF-A1-03D   |       2 |
+| American Journal of Physiology-Heart and Circulatory Physiology                                                            | FsF-R1.1-01M |       2 |
+| American Journal of Physiology-Heart and Circulatory Physiology                                                            | FsF-R1.3-02D |       2 |
+| Microbiology and Molecular Biology Reviews                                                                                 | FsF-F3-01M   |       2 |
+| Microbiology and Molecular Biology Reviews                                                                                 | FsF-A1-03D   |       2 |
+| Microbiology and Molecular Biology Reviews                                                                                 | FsF-R1.1-01M |       2 |
+| Microbiology and Molecular Biology Reviews                                                                                 | FsF-R1.3-02D |       2 |
+| Dove Press                                                                                                                 | FsF-F3-01M   |       4 |
+| Dove Press                                                                                                                 | FsF-A1-01M   |       4 |
+| Dove Press                                                                                                                 | FsF-A1-03D   |       4 |
+| Dove Press                                                                                                                 | FsF-I3-01M   |       2 |
+| Dove Press                                                                                                                 | FsF-R1.1-01M |       4 |
+| Dove Press                                                                                                                 | FsF-R1.3-02D |       4 |
+| The Electrochemical Society                                                                                                | FsF-F3-01M   |       6 |
+| The Electrochemical Society                                                                                                | FsF-F4-01M   |       6 |
+| The Electrochemical Society                                                                                                | FsF-A1-01M   |       6 |
+| The Electrochemical Society                                                                                                | FsF-A1-03D   |       6 |
+| The Electrochemical Society                                                                                                | FsF-R1-01MD  |       6 |
+| The Electrochemical Society                                                                                                | FsF-R1.1-01M |       6 |
+| The Electrochemical Society                                                                                                | FsF-R1.3-02D |       6 |
+| arXiv.org                                                                                                                  | FsF-F3-01M   |       3 |
+| arXiv.org                                                                                                                  | FsF-A1-03D   |       3 |
+| arXiv.org                                                                                                                  | FsF-I1-01M   |       3 |
+| arXiv.org                                                                                                                  | FsF-I3-01M   |       3 |
+| arXiv.org                                                                                                                  | FsF-R1.3-02D |       3 |
+| arXiv                                                                                                                      | FsF-F3-01M   |       3 |
+| arXiv                                                                                                                      | FsF-A1-03D   |       3 |
+| arXiv                                                                                                                      | FsF-I1-01M   |       3 |
+| arXiv                                                                                                                      | FsF-I3-01M   |       3 |
+| arXiv                                                                                                                      | FsF-R1.3-02D |       3 |
+| Alzheimer’s Association                                                                                                    | FsF-F3-01M   |       1 |
+| Alzheimer’s Association                                                                                                    | FsF-A1-01M   |       1 |
+| Alzheimer’s Association                                                                                                    | FsF-A1-03D   |       1 |
+| Alzheimer’s Association                                                                                                    | FsF-R1.1-01M |       1 |
+| Alzheimer’s Association                                                                                                    | FsF-R1.3-02D |       1 |
+| Institute of Electrical and Electronics Engineers (IEEE)                                                                   | FsF-F3-01M   |      76 |
+| Institute of Electrical and Electronics Engineers (IEEE)                                                                   | FsF-F4-01M   |      76 |
+| Institute of Electrical and Electronics Engineers (IEEE)                                                                   | FsF-A1-01M   |      76 |
+| Institute of Electrical and Electronics Engineers (IEEE)                                                                   | FsF-A1-03D   |      76 |
+| Institute of Electrical and Electronics Engineers (IEEE)                                                                   | FsF-R1-01MD  |      76 |
+| Institute of Electrical and Electronics Engineers (IEEE)                                                                   | FsF-R1.1-01M |      76 |
+| Institute of Electrical and Electronics Engineers (IEEE)                                                                   | FsF-R1.3-02D |      76 |
+| Elsevier                                                                                                                   | FsF-F3-01M   |      29 |
+| Elsevier                                                                                                                   | FsF-F4-01M   |      29 |
+| Elsevier                                                                                                                   | FsF-A1-01M   |      29 |
+| Elsevier                                                                                                                   | FsF-A1-03D   |      29 |
+| Elsevier                                                                                                                   | FsF-R1-01MD  |      29 |
+| Elsevier                                                                                                                   | FsF-R1.1-01M |      29 |
+| Elsevier                                                                                                                   | FsF-R1.3-02D |      29 |
+| Portland Press                                                                                                             | FsF-F3-01M   |      12 |
+| Portland Press                                                                                                             | FsF-A1-01M   |      12 |
+| Portland Press                                                                                                             | FsF-A1-03D   |      12 |
+| Portland Press                                                                                                             | FsF-R1.1-01M |      12 |
+| Portland Press                                                                                                             | FsF-R1.3-02D |      12 |
+| Portland Press Ltd.                                                                                                        | FsF-F3-01M   |       2 |
+| Portland Press Ltd.                                                                                                        | FsF-A1-01M   |       2 |
+| Portland Press Ltd.                                                                                                        | FsF-A1-03D   |       2 |
+| Portland Press Ltd.                                                                                                        | FsF-R1.1-01M |       2 |
+| Portland Press Ltd.                                                                                                        | FsF-R1.3-02D |       2 |
+| Science Signaling                                                                                                          | FsF-F3-01M   |       4 |
+| Science Signaling                                                                                                          | FsF-A1-03D   |       4 |
+| Science Signaling                                                                                                          | FsF-R1.1-01M |       4 |
+| Science Signaling                                                                                                          | FsF-R1.3-02D |       4 |
+| Journal of Neurosurgery Publishing Group                                                                                   | FsF-F3-01M   |       3 |
+| Journal of Neurosurgery Publishing Group                                                                                   | FsF-A1-01M   |       3 |
+| Journal of Neurosurgery Publishing Group                                                                                   | FsF-A1-03D   |       3 |
+| Journal of Neurosurgery Publishing Group                                                                                   | FsF-I3-01M   |       3 |
+| Journal of Neurosurgery Publishing Group                                                                                   | FsF-R1.1-01M |       3 |
+| Journal of Neurosurgery Publishing Group                                                                                   | FsF-R1.3-02D |       3 |
+| jns                                                                                                                        | FsF-F3-01M   |       3 |
+| jns                                                                                                                        | FsF-A1-01M   |       3 |
+| jns                                                                                                                        | FsF-A1-03D   |       3 |
+| jns                                                                                                                        | FsF-I3-01M   |       3 |
+| jns                                                                                                                        | FsF-R1.1-01M |       3 |
+| jns                                                                                                                        | FsF-R1.3-02D |       3 |
+| British Pharmacological Society | Journals                                                                                 | FsF-F3-01M   |       4 |
+| British Pharmacological Society | Journals                                                                                 | FsF-A1-01M   |       4 |
+| British Pharmacological Society | Journals                                                                                 | FsF-A1-03D   |       4 |
+| British Pharmacological Society | Journals                                                                                 | FsF-I3-01M   |       2 |
+| British Pharmacological Society | Journals                                                                                 | FsF-R1.1-01M |       4 |
+| British Pharmacological Society | Journals                                                                                 | FsF-R1.3-02D |       4 |
+| Infection and Immunity                                                                                                     | FsF-F3-01M   |       6 |
+| Infection and Immunity                                                                                                     | FsF-A1-03D   |       6 |
+| Infection and Immunity                                                                                                     | FsF-R1.1-01M |       6 |
+| Infection and Immunity                                                                                                     | FsF-R1.3-02D |       6 |
+| Infection and Immunity                                                                                                     | FsF-A1-01M   |       1 |
+| American Association for Anatomy                                                                                           | FsF-F3-01M   |       7 |
+| American Association for Anatomy                                                                                           | FsF-A1-01M   |       7 |
+| American Association for Anatomy                                                                                           | FsF-A1-03D   |       7 |
+| American Association for Anatomy                                                                                           | FsF-I1-01M   |       2 |
+| American Association for Anatomy                                                                                           | FsF-I2-01M   |       2 |
+| American Association for Anatomy                                                                                           | FsF-I3-01M   |       6 |
+| American Association for Anatomy                                                                                           | FsF-R1.1-01M |       7 |
+| American Association for Anatomy                                                                                           | FsF-R1.3-02D |       7 |
+| International Society of Extracellular Vesicles                                                                            | FsF-F3-01M   |       4 |
+| International Society of Extracellular Vesicles                                                                            | FsF-A1-01M   |       4 |
+| International Society of Extracellular Vesicles                                                                            | FsF-A1-03D   |       4 |
+| International Society of Extracellular Vesicles                                                                            | FsF-I3-01M   |       1 |
+| International Society of Extracellular Vesicles                                                                            | FsF-R1.1-01M |       4 |
+| International Society of Extracellular Vesicles                                                                            | FsF-R1.3-02D |       4 |
+| Arteriosclerosis, Thrombosis, and Vascular Biology                                                                         | FsF-F3-01M   |       6 |
+| Arteriosclerosis, Thrombosis, and Vascular Biology                                                                         | FsF-A1-01M   |       6 |
+| Arteriosclerosis, Thrombosis, and Vascular Biology                                                                         | FsF-A1-03D   |       6 |
+| Arteriosclerosis, Thrombosis, and Vascular Biology                                                                         | FsF-R1.1-01M |       6 |
+| Arteriosclerosis, Thrombosis, and Vascular Biology                                                                         | FsF-R1.3-02D |       6 |
+| Cold Spring Harbor Laboratory                                                                                              | FsF-F3-01M   |      40 |
+| Cold Spring Harbor Laboratory                                                                                              | FsF-A1-03D   |      40 |
+| Cold Spring Harbor Laboratory                                                                                              | FsF-R1.1-01M |      40 |
+| Cold Spring Harbor Laboratory                                                                                              | FsF-R1.3-02D |      40 |
+| Cold Spring Harbor Laboratory                                                                                              | FsF-A1-01M   |      36 |
+| Cold Spring Harbor Laboratory                                                                                              | FsF-F4-01M   |       2 |
+| Cold Spring Harbor Laboratory                                                                                              | FsF-R1-01MD  |       2 |
+| bioRxiv                                                                                                                    | FsF-F3-01M   |       1 |
+| bioRxiv                                                                                                                    | FsF-A1-03D   |       1 |
+| bioRxiv                                                                                                                    | FsF-R1.1-01M |       1 |
+| bioRxiv                                                                                                                    | FsF-R1.3-02D |       1 |
+| The Physiological Society                                                                                                  | FsF-F3-01M   |      11 |
+| The Physiological Society                                                                                                  | FsF-A1-01M   |      11 |
+| The Physiological Society                                                                                                  | FsF-A1-03D   |      11 |
+| The Physiological Society                                                                                                  | FsF-R1.1-01M |      11 |
+| The Physiological Society                                                                                                  | FsF-R1.3-02D |      11 |
+| The Physiological Society                                                                                                  | FsF-I3-01M   |       2 |
+| John Benjamins                                                                                                             | FsF-F3-01M   |      14 |
+| John Benjamins                                                                                                             | FsF-A1-01M   |      14 |
+| John Benjamins                                                                                                             | FsF-A1-03D   |      14 |
+| John Benjamins                                                                                                             | FsF-I3-01M   |      10 |
+| John Benjamins                                                                                                             | FsF-R1.1-01M |      14 |
+| John Benjamins                                                                                                             | FsF-R1.3-02D |      14 |
+| John Benjamins Publishing Company                                                                                          | FsF-F3-01M   |       6 |
+| John Benjamins Publishing Company                                                                                          | FsF-A1-01M   |       6 |
+| John Benjamins Publishing Company                                                                                          | FsF-A1-03D   |       6 |
+| John Benjamins Publishing Company                                                                                          | FsF-R1.1-01M |       6 |
+| John Benjamins Publishing Company                                                                                          | FsF-R1.3-02D |       6 |
+| Birkhäuser Verlag                                                                                                          | FsF-F3-01M   |       4 |
+| Birkhäuser Verlag                                                                                                          | FsF-A1-03D   |       4 |
+| Birkhäuser Verlag                                                                                                          | FsF-R1.1-01M |       4 |
+| Birkhäuser Verlag                                                                                                          | FsF-R1.3-02D |       4 |
+| EnviroMicroJournals                                                                                                        | FsF-F3-01M   |       2 |
+| EnviroMicroJournals                                                                                                        | FsF-A1-01M   |       2 |
+| EnviroMicroJournals                                                                                                        | FsF-A1-03D   |       2 |
+| EnviroMicroJournals                                                                                                        | FsF-I3-01M   |       1 |
+| EnviroMicroJournals                                                                                                        | FsF-R1.1-01M |       2 |
+| EnviroMicroJournals                                                                                                        | FsF-R1.3-02D |       2 |
+| MIT Press - Journals                                                                                                       | FsF-F3-01M   |      12 |
+| MIT Press - Journals                                                                                                       | FsF-A1-01M   |      12 |
+| MIT Press - Journals                                                                                                       | FsF-A1-03D   |      12 |
+| MIT Press - Journals                                                                                                       | FsF-R1.1-01M |      12 |
+| MIT Press - Journals                                                                                                       | FsF-R1.3-02D |      12 |
+| Applied and Environmental Microbiology                                                                                     | FsF-F3-01M   |       4 |
+| Applied and Environmental Microbiology                                                                                     | FsF-A1-03D   |       4 |
+| Applied and Environmental Microbiology                                                                                     | FsF-R1.1-01M |       4 |
+| Applied and Environmental Microbiology                                                                                     | FsF-R1.3-02D |       4 |
+| Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences                                   | FsF-F3-01M   |       1 |
+| Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences                                   | FsF-A1-01M   |       1 |
+| Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences                                   | FsF-A1-03D   |       1 |
+| Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences                                   | FsF-I3-01M   |       1 |
+| Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences                                   | FsF-R1.1-01M |       1 |
+| Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences                                   | FsF-R1.3-02D |       1 |
+| Journal of Applied Crystallography                                                                                         | FsF-F3-01M   |       1 |
+| Journal of Applied Crystallography                                                                                         | FsF-A1-03D   |       1 |
+| Journal of Applied Crystallography                                                                                         | FsF-R1.1-01M |       1 |
+| Journal of Applied Crystallography                                                                                         | FsF-R1.3-02D |       1 |
+| ASLO                                                                                                                       | FsF-F3-01M   |       1 |
+| ASLO                                                                                                                       | FsF-A1-01M   |       1 |
+| ASLO                                                                                                                       | FsF-A1-03D   |       1 |
+| ASLO                                                                                                                       | FsF-I3-01M   |       1 |
+| ASLO                                                                                                                       | FsF-R1.1-01M |       1 |
+| ASLO                                                                                                                       | FsF-R1.3-02D |       1 |
+| Urban & Vogel München                                                                                                      | FsF-F3-01M   |       4 |
+| Urban & Vogel München                                                                                                      | FsF-A1-03D   |       4 |
+| Urban & Vogel München                                                                                                      | FsF-R1.1-01M |       4 |
+| Urban & Vogel München                                                                                                      | FsF-R1.3-02D |       4 |
+| World Scientific Publishing Company                                                                                        | FsF-F3-01M   |       4 |
+| World Scientific Publishing Company                                                                                        | FsF-A1-01M   |       4 |
+| World Scientific Publishing Company                                                                                        | FsF-A1-03D   |       4 |
+| World Scientific Publishing Company                                                                                        | FsF-R1.1-01M |       4 |
+| World Scientific Publishing Company                                                                                        | FsF-R1.3-02D |       4 |
+| World Scientific Publishing                                                                                                | FsF-F3-01M   |       4 |
+| World Scientific Publishing                                                                                                | FsF-A1-01M   |       4 |
+| World Scientific Publishing                                                                                                | FsF-A1-03D   |       4 |
+| World Scientific Publishing                                                                                                | FsF-R1.1-01M |       4 |
+| World Scientific Publishing                                                                                                | FsF-R1.3-02D |       4 |
+| World Scientific Pub Co Pte Lt                                                                                             | FsF-F3-01M   |       5 |
+| World Scientific Pub Co Pte Lt                                                                                             | FsF-A1-01M   |       5 |
+| World Scientific Pub Co Pte Lt                                                                                             | FsF-A1-03D   |       5 |
+| World Scientific Pub Co Pte Lt                                                                                             | FsF-R1.1-01M |       5 |
+| World Scientific Pub Co Pte Lt                                                                                             | FsF-R1.3-02D |       5 |
+| World Scientific Pub Co Pte Lt                                                                                             | FsF-F4-01M   |       1 |
+| World Scientific Pub Co Pte Lt                                                                                             | FsF-R1-01MD  |       1 |
+| The American Society for Cell Biology                                                                                      | FsF-F3-01M   |       8 |
+| The American Society for Cell Biology                                                                                      | FsF-A1-03D   |       8 |
+| The American Society for Cell Biology                                                                                      | FsF-R1.1-01M |       8 |
+| The American Society for Cell Biology                                                                                      | FsF-R1.3-02D |       8 |
+| Molecular Biology of the Cell                                                                                              | FsF-F3-01M   |       9 |
+| Molecular Biology of the Cell                                                                                              | FsF-A1-03D   |       9 |
+| Molecular Biology of the Cell                                                                                              | FsF-R1.1-01M |       9 |
+| Molecular Biology of the Cell                                                                                              | FsF-R1.3-02D |       9 |
+| Current Science Inc.                                                                                                       | FsF-F3-01M   |       6 |
+| Current Science Inc.                                                                                                       | FsF-A1-03D   |       6 |
+| Current Science Inc.                                                                                                       | FsF-R1.1-01M |       6 |
+| Current Science Inc.                                                                                                       | FsF-R1.3-02D |       6 |
+| BMJ                                                                                                                        | FsF-F3-01M   |      39 |
+| BMJ                                                                                                                        | FsF-F4-01M   |       5 |
+| BMJ                                                                                                                        | FsF-A1-01M   |       5 |
+| BMJ                                                                                                                        | FsF-A1-03D   |      39 |
+| BMJ                                                                                                                        | FsF-R1-01MD  |       5 |
+| BMJ                                                                                                                        | FsF-R1.1-01M |      39 |
+| BMJ                                                                                                                        | FsF-R1.3-02D |      39 |
+| Society of Rheology                                                                                                        | FsF-F3-01M   |       2 |
+| Society of Rheology                                                                                                        | FsF-A1-01M   |       2 |
+| Society of Rheology                                                                                                        | FsF-A1-03D   |       2 |
+| Society of Rheology                                                                                                        | FsF-R1.1-01M |       2 |
+| Society of Rheology                                                                                                        | FsF-R1.3-02D |       2 |
+| RSC                                                                                                                        | FsF-F3-01M   |       2 |
+| RSC                                                                                                                        | FsF-A1-03D   |       2 |
+| RSC                                                                                                                        | FsF-R1.1-01M |       2 |
+| RSC                                                                                                                        | FsF-R1.3-02D |       2 |
+| Open Biology                                                                                                               | FsF-F3-01M   |       1 |
+| Open Biology                                                                                                               | FsF-A1-01M   |       1 |
+| Open Biology                                                                                                               | FsF-A1-03D   |       1 |
+| Open Biology                                                                                                               | FsF-I3-01M   |       1 |
+| Open Biology                                                                                                               | FsF-R1.1-01M |       1 |
+| Open Biology                                                                                                               | FsF-R1.3-02D |       1 |
+| GeoScienceWorld                                                                                                            | FsF-F3-01M   |       5 |
+| GeoScienceWorld                                                                                                            | FsF-A1-01M   |       5 |
+| GeoScienceWorld                                                                                                            | FsF-A1-03D   |       5 |
+| GeoScienceWorld                                                                                                            | FsF-I1-01M   |       2 |
+| GeoScienceWorld                                                                                                            | FsF-I2-01M   |       2 |
+| GeoScienceWorld                                                                                                            | FsF-I3-01M   |       2 |
+| GeoScienceWorld                                                                                                            | FsF-R1.1-01M |       5 |
+| GeoScienceWorld                                                                                                            | FsF-R1.3-02D |       5 |
+| Nordic Society Oikos                                                                                                       | FsF-F3-01M   |       5 |
+| Nordic Society Oikos                                                                                                       | FsF-A1-01M   |       5 |
+| Nordic Society Oikos                                                                                                       | FsF-A1-03D   |       5 |
+| Nordic Society Oikos                                                                                                       | FsF-R1.1-01M |       5 |
+| Nordic Society Oikos                                                                                                       | FsF-R1.3-02D |       5 |
+| Nordic Society Oikos                                                                                                       | FsF-I3-01M   |       1 |
+| American Psychiatric Publishing                                                                                            | FsF-F3-01M   |       4 |
+| American Psychiatric Publishing                                                                                            | FsF-A1-01M   |       4 |
+| American Psychiatric Publishing                                                                                            | FsF-A1-03D   |       4 |
+| American Psychiatric Publishing                                                                                            | FsF-R1.1-01M |       4 |
+| American Psychiatric Publishing                                                                                            | FsF-R1.3-02D |       4 |
+| American Journal of Psychiatry                                                                                             | FsF-F3-01M   |       4 |
+| American Journal of Psychiatry                                                                                             | FsF-A1-01M   |       3 |
+| American Journal of Psychiatry                                                                                             | FsF-A1-03D   |       4 |
+| American Journal of Psychiatry                                                                                             | FsF-R1.1-01M |       4 |
+| American Journal of Psychiatry                                                                                             | FsF-R1.3-02D |       4 |
+| American Psychiatric Association Publishing                                                                                | FsF-F3-01M   |       6 |
+| American Psychiatric Association Publishing                                                                                | FsF-A1-01M   |       6 |
+| American Psychiatric Association Publishing                                                                                | FsF-A1-03D   |       6 |
+| American Psychiatric Association Publishing                                                                                | FsF-R1.1-01M |       6 |
+| American Psychiatric Association Publishing                                                                                | FsF-R1.3-02D |       6 |
+| De Gruyter Mouton                                                                                                          | FsF-F3-01M   |       4 |
+| De Gruyter Mouton                                                                                                          | FsF-A1-03D   |       4 |
+| De Gruyter Mouton                                                                                                          | FsF-R1.1-01M |       4 |
+| De Gruyter Mouton                                                                                                          | FsF-R1.3-02D |       4 |
+| De Gruyter Mouton                                                                                                          | FsF-I3-01M   |       2 |
+| Walter de Gruyter                                                                                                          | FsF-F3-01M   |       4 |
+| Walter de Gruyter                                                                                                          | FsF-A1-03D   |       4 |
+| Walter de Gruyter                                                                                                          | FsF-R1.1-01M |       4 |
+| Walter de Gruyter                                                                                                          | FsF-R1.3-02D |       4 |
+| EMBO Molecular Medicine                                                                                                    | FsF-F3-01M   |       3 |
+| EMBO Molecular Medicine                                                                                                    | FsF-A1-03D   |       3 |
+| EMBO Molecular Medicine                                                                                                    | FsF-R1.1-01M |       3 |
+| EMBO Molecular Medicine                                                                                                    | FsF-R1.3-02D |       3 |
+| http://www.eurekaselect.com                                                                                                | FsF-F3-01M   |       9 |
+| http://www.eurekaselect.com                                                                                                | FsF-A1-01M   |       9 |
+| http://www.eurekaselect.com                                                                                                | FsF-A1-03D   |       9 |
+| http://www.eurekaselect.com                                                                                                | FsF-I3-01M   |       4 |
+| http://www.eurekaselect.com                                                                                                | FsF-R1.1-01M |       9 |
+| http://www.eurekaselect.com                                                                                                | FsF-R1.3-02D |       9 |
+| D. Steinkopff-Verlag                                                                                                       | FsF-F3-01M   |       4 |
+| D. Steinkopff-Verlag                                                                                                       | FsF-A1-03D   |       4 |
+| D. Steinkopff-Verlag                                                                                                       | FsF-R1.3-02D |       4 |
+| D. Steinkopff-Verlag                                                                                                       | FsF-R1.1-01M |       2 |
+| Springer New York                                                                                                          | FsF-F3-01M   |      10 |
+| Springer New York                                                                                                          | FsF-A1-03D   |      10 |
+| Springer New York                                                                                                          | FsF-R1.1-01M |      10 |
+| Springer New York                                                                                                          | FsF-R1.3-02D |      10 |
+| Springer New York                                                                                                          | FsF-A1-01M   |       7 |
+| Steinkopff Verlag                                                                                                          | FsF-F3-01M   |      10 |
+| Steinkopff Verlag                                                                                                          | FsF-A1-03D   |      10 |
+| Steinkopff Verlag                                                                                                          | FsF-R1.1-01M |      10 |
+| Steinkopff Verlag                                                                                                          | FsF-R1.3-02D |      10 |
+| American Academy of Otolaryngology–Head and Neck Surgery                                                                   | FsF-F3-01M   |       1 |
+| American Academy of Otolaryngology–Head and Neck Surgery                                                                   | FsF-A1-01M   |       1 |
+| American Academy of Otolaryngology–Head and Neck Surgery                                                                   | FsF-A1-03D   |       1 |
+| American Academy of Otolaryngology–Head and Neck Surgery                                                                   | FsF-I3-01M   |       1 |
+| American Academy of Otolaryngology–Head and Neck Surgery                                                                   | FsF-R1.1-01M |       1 |
+| American Academy of Otolaryngology–Head and Neck Surgery                                                                   | FsF-R1.3-02D |       1 |
+| Physical Review A                                                                                                          | FsF-F3-01M   |       8 |
+| Physical Review A                                                                                                          | FsF-A1-01M   |       8 |
+| Physical Review A                                                                                                          | FsF-A1-03D   |       8 |
+| Physical Review A                                                                                                          | FsF-I3-01M   |       4 |
+| Physical Review A                                                                                                          | FsF-R1.1-01M |       8 |
+| Physical Review A                                                                                                          | FsF-R1.3-02D |       8 |
+| AGU Journals                                                                                                               | FsF-F3-01M   |      12 |
+| AGU Journals                                                                                                               | FsF-A1-01M   |      12 |
+| AGU Journals                                                                                                               | FsF-A1-03D   |      12 |
+| AGU Journals                                                                                                               | FsF-R1.1-01M |      12 |
+| AGU Journals                                                                                                               | FsF-R1.3-02D |      12 |
+| AGU Journals                                                                                                               | FsF-I3-01M   |       5 |
+| American Geophysical Union (AGU)                                                                                           | FsF-F3-01M   |      17 |
+| American Geophysical Union (AGU)                                                                                           | FsF-A1-01M   |      17 |
+| American Geophysical Union (AGU)                                                                                           | FsF-A1-03D   |      17 |
+| American Geophysical Union (AGU)                                                                                           | FsF-R1.1-01M |      17 |
+| American Geophysical Union (AGU)                                                                                           | FsF-R1.3-02D |      17 |
+| American Geophysical Union (AGU)                                                                                           | FsF-F4-01M   |       3 |
+| American Geophysical Union (AGU)                                                                                           | FsF-R1-01MD  |       3 |
+| American Diabetes Association                                                                                              | FsF-F3-01M   |      26 |
+| American Diabetes Association                                                                                              | FsF-A1-01M   |      26 |
+| American Diabetes Association                                                                                              | FsF-A1-03D   |      26 |
+| American Diabetes Association                                                                                              | FsF-R1.1-01M |      26 |
+| American Diabetes Association                                                                                              | FsF-R1.3-02D |      26 |
+| Molecular Diversity Preservation International                                                                             | FsF-F3-01M   |      21 |
+| Molecular Diversity Preservation International                                                                             | FsF-A1-01M   |      21 |
+| Molecular Diversity Preservation International                                                                             | FsF-A1-03D   |      21 |
+| Molecular Diversity Preservation International                                                                             | FsF-R1.1-01M |      21 |
+| Molecular Diversity Preservation International                                                                             | FsF-R1.3-02D |      21 |
+| New Phytologist Foundation                                                                                                 | FsF-F3-01M   |      17 |
+| New Phytologist Foundation                                                                                                 | FsF-A1-01M   |      17 |
+| New Phytologist Foundation                                                                                                 | FsF-A1-03D   |      17 |
+| New Phytologist Foundation                                                                                                 | FsF-R1.1-01M |      17 |
+| New Phytologist Foundation                                                                                                 | FsF-R1.3-02D |      17 |
+| New Phytologist Foundation                                                                                                 | FsF-I3-01M   |       5 |
+| The National Academy of Sciences of the USA                                                                                | FsF-F3-01M   |       1 |
+| The National Academy of Sciences of the USA                                                                                | FsF-A1-03D   |       1 |
+| The National Academy of Sciences of the USA                                                                                | FsF-R1.1-01M |       1 |
+| The National Academy of Sciences of the USA                                                                                | FsF-R1.3-02D |       1 |
+| The Endocrine Society                                                                                                      | FsF-F3-01M   |      14 |
+| The Endocrine Society                                                                                                      | FsF-F4-01M   |      10 |
+| The Endocrine Society                                                                                                      | FsF-A1-01M   |      14 |
+| The Endocrine Society                                                                                                      | FsF-A1-03D   |      14 |
+| The Endocrine Society                                                                                                      | FsF-R1-01MD  |      10 |
+| The Endocrine Society                                                                                                      | FsF-R1.1-01M |      14 |
+| The Endocrine Society                                                                                                      | FsF-R1.3-02D |      14 |
+| Royal College of Psychiatrists                                                                                             | FsF-F3-01M   |      10 |
+| Royal College of Psychiatrists                                                                                             | FsF-A1-01M   |      10 |
+| Royal College of Psychiatrists                                                                                             | FsF-A1-03D   |      10 |
+| Royal College of Psychiatrists                                                                                             | FsF-R1.1-01M |      10 |
+| Royal College of Psychiatrists                                                                                             | FsF-R1.3-02D |      10 |
+| The Journal of Clinical Psychiatry                                                                                         | FsF-F3-01M   |       4 |
+| The Journal of Clinical Psychiatry                                                                                         | FsF-A1-01M   |       4 |
+| The Journal of Clinical Psychiatry                                                                                         | FsF-A1-03D   |       4 |
+| The Journal of Clinical Psychiatry                                                                                         | FsF-I3-01M   |       3 |
+| The Journal of Clinical Psychiatry                                                                                         | FsF-R1.1-01M |       4 |
+| The Journal of Clinical Psychiatry                                                                                         | FsF-R1.3-02D |       4 |
+| Psychiatrist.com                                                                                                           | FsF-F3-01M   |       4 |
+| Psychiatrist.com                                                                                                           | FsF-A1-01M   |       4 |
+| Psychiatrist.com                                                                                                           | FsF-A1-03D   |       4 |
+| Psychiatrist.com                                                                                                           | FsF-I3-01M   |       3 |
+| Psychiatrist.com                                                                                                           | FsF-R1.1-01M |       4 |
+| Psychiatrist.com                                                                                                           | FsF-R1.3-02D |       4 |
+| Thorax                                                                                                                     | FsF-F3-01M   |       2 |
+| Thorax                                                                                                                     | FsF-A1-03D   |       2 |
+| Thorax                                                                                                                     | FsF-R1.1-01M |       2 |
+| Thorax                                                                                                                     | FsF-R1.3-02D |       2 |
+| Journal of Clinical Oncology                                                                                               | FsF-F3-01M   |      12 |
+| Journal of Clinical Oncology                                                                                               | FsF-A1-03D   |      12 |
+| Journal of Clinical Oncology                                                                                               | FsF-R1.1-01M |      11 |
+| Journal of Clinical Oncology                                                                                               | FsF-R1.3-02D |      12 |
+| Kluwer Academic Publishers-Plenum Publishers                                                                               | FsF-F3-01M   |      22 |
+| Kluwer Academic Publishers-Plenum Publishers                                                                               | FsF-A1-03D   |      22 |
+| Kluwer Academic Publishers-Plenum Publishers                                                                               | FsF-R1.3-02D |      22 |
+| Kluwer Academic Publishers-Plenum Publishers                                                                               | FsF-R1.1-01M |      20 |
+| Science Advances                                                                                                           | FsF-F3-01M   |       5 |
+| Science Advances                                                                                                           | FsF-A1-03D   |       5 |
+| Science Advances                                                                                                           | FsF-R1.1-01M |       5 |
+| Science Advances                                                                                                           | FsF-R1.3-02D |       5 |
+| Physical Review E                                                                                                          | FsF-F3-01M   |       5 |
+| Physical Review E                                                                                                          | FsF-A1-01M   |       5 |
+| Physical Review E                                                                                                          | FsF-A1-03D   |       5 |
+| Physical Review E                                                                                                          | FsF-I3-01M   |       4 |
+| Physical Review E                                                                                                          | FsF-R1.1-01M |       5 |
+| Physical Review E                                                                                                          | FsF-R1.3-02D |       5 |
+| SP Birkhäuser Verlag Basel                                                                                                 | FsF-F3-01M   |       4 |
+| SP Birkhäuser Verlag Basel                                                                                                 | FsF-A1-03D   |       4 |
+| SP Birkhäuser Verlag Basel                                                                                                 | FsF-R1.1-01M |       4 |
+| SP Birkhäuser Verlag Basel                                                                                                 | FsF-R1.3-02D |       4 |
+| Lippincott Williams & WilkinsHagerstown, MD                                                                                | FsF-F3-01M   |      12 |
+| Lippincott Williams & WilkinsHagerstown, MD                                                                                | FsF-A1-03D   |      12 |
+| Lippincott Williams & WilkinsHagerstown, MD                                                                                | FsF-R1.3-02D |      12 |
+| Lippincott Williams & WilkinsHagerstown, MD                                                                                | FsF-R1.1-01M |      11 |
+| The Journal of Neuropsychiatry and Clinical Neurosciences                                                                  | FsF-F3-01M   |       1 |
+| The Journal of Neuropsychiatry and Clinical Neurosciences                                                                  | FsF-A1-01M   |       1 |
+| The Journal of Neuropsychiatry and Clinical Neurosciences                                                                  | FsF-A1-03D   |       1 |
+| The Journal of Neuropsychiatry and Clinical Neurosciences                                                                  | FsF-R1.1-01M |       1 |
+| The Journal of Neuropsychiatry and Clinical Neurosciences                                                                  | FsF-R1.3-02D |       1 |
+| Analytical Science Journals                                                                                                | FsF-F3-01M   |       7 |
+| Analytical Science Journals                                                                                                | FsF-A1-01M   |       7 |
+| Analytical Science Journals                                                                                                | FsF-A1-03D   |       7 |
+| Analytical Science Journals                                                                                                | FsF-I3-01M   |       4 |
+| Analytical Science Journals                                                                                                | FsF-R1.1-01M |       7 |
+| Analytical Science Journals                                                                                                | FsF-R1.3-02D |       7 |
+| American Society for Cell Biology (ASCB)                                                                                   | FsF-F3-01M   |       9 |
+| American Society for Cell Biology (ASCB)                                                                                   | FsF-A1-03D   |       9 |
+| American Society for Cell Biology (ASCB)                                                                                   | FsF-R1.1-01M |       9 |
+| American Society for Cell Biology (ASCB)                                                                                   | FsF-R1.3-02D |       9 |
+| American Society for Cell Biology (ASCB)                                                                                   | FsF-F4-01M   |       1 |
+| American Society for Cell Biology (ASCB)                                                                                   | FsF-A1-01M   |       1 |
+| American Society for Cell Biology (ASCB)                                                                                   | FsF-R1-01MD  |       1 |
+| Journal of Neurophysiology                                                                                                 | FsF-F3-01M   |       3 |
+| Journal of Neurophysiology                                                                                                 | FsF-A1-03D   |       3 |
+| Journal of Neurophysiology                                                                                                 | FsF-R1.1-01M |       3 |
+| Journal of Neurophysiology                                                                                                 | FsF-R1.3-02D |       3 |
+| Association for the Advancement of Artificial Intelligence (AAAI)                                                          | FsF-F3-01M   |       8 |
+| Association for the Advancement of Artificial Intelligence (AAAI)                                                          | FsF-A1-03D   |       8 |
+| Association for the Advancement of Artificial Intelligence (AAAI)                                                          | FsF-R1.1-01M |       8 |
+| Association for the Advancement of Artificial Intelligence (AAAI)                                                          | FsF-R1.3-02D |       8 |
+| Robotics: Science and Systems Foundation                                                                                   | FsF-F3-01M   |       6 |
+| Robotics: Science and Systems Foundation                                                                                   | FsF-F4-01M   |       6 |
+| Robotics: Science and Systems Foundation                                                                                   | FsF-A1-01M   |       6 |
+| Robotics: Science and Systems Foundation                                                                                   | FsF-A1-03D   |       6 |
+| Robotics: Science and Systems Foundation                                                                                   | FsF-I3-01M   |       6 |
+| Robotics: Science and Systems Foundation                                                                                   | FsF-R1-01MD  |       6 |
+| Robotics: Science and Systems Foundation                                                                                   | FsF-R1.1-01M |       6 |
+| Robotics: Science and Systems Foundation                                                                                   | FsF-R1.3-02D |       6 |
+| Vieweg+Teubner Verlag                                                                                                      | FsF-F3-01M   |       9 |
+| Vieweg+Teubner Verlag                                                                                                      | FsF-A1-01M   |       9 |
+| Vieweg+Teubner Verlag                                                                                                      | FsF-A1-03D   |       9 |
+| Vieweg+Teubner Verlag                                                                                                      | FsF-R1.1-01M |       9 |
+| Vieweg+Teubner Verlag                                                                                                      | FsF-R1.3-02D |       9 |
+| BMJ Specialist Journals                                                                                                    | FsF-F3-01M   |       6 |
+| BMJ Specialist Journals                                                                                                    | FsF-A1-03D   |       6 |
+| BMJ Specialist Journals                                                                                                    | FsF-R1.1-01M |       6 |
+| BMJ Specialist Journals                                                                                                    | FsF-R1.3-02D |       6 |
+| RMD Open                                                                                                                   | FsF-F3-01M   |       2 |
+| RMD Open                                                                                                                   | FsF-A1-03D   |       2 |
+| RMD Open                                                                                                                   | FsF-R1.1-01M |       2 |
+| RMD Open                                                                                                                   | FsF-R1.3-02D |       2 |
+| Heart                                                                                                                      | FsF-F3-01M   |       1 |
+| Heart                                                                                                                      | FsF-A1-03D   |       1 |
+| Heart                                                                                                                      | FsF-R1.1-01M |       1 |
+| Heart                                                                                                                      | FsF-R1.3-02D |       1 |
+| American Public Health Association                                                                                         | FsF-F3-01M   |       1 |
+| American Public Health Association                                                                                         | FsF-A1-03D   |       1 |
+| American Public Health Association                                                                                         | FsF-R1.1-01M |       1 |
+| American Public Health Association                                                                                         | FsF-R1.3-02D |       1 |
+| American Journal of Roentgenology                                                                                          | FsF-F3-01M   |       1 |
+| American Journal of Roentgenology                                                                                          | FsF-A1-03D   |       1 |
+| American Journal of Roentgenology                                                                                          | FsF-R1.1-01M |       1 |
+| American Journal of Roentgenology                                                                                          | FsF-R1.3-02D |       1 |
+| Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)                               | FsF-F3-01M   |       2 |
+| Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)                               | FsF-A1-01M   |       2 |
+| Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)                               | FsF-A1-03D   |       2 |
+| Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)                               | FsF-I1-01M   |       2 |
+| Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)                               | FsF-I3-01M   |       2 |
+| Institut national de recherche pour l’agriculture, l’alimentation et l’environnement (INRAE)                               | FsF-R1.3-02D |       2 |
+| http://institut.inra.fr/Organisation/Dispositifs-et-infrastructures/Tous-les-dossiers/Ressources-genetiques-et-biologiques | FsF-F3-01M   |       1 |
+| http://institut.inra.fr/Organisation/Dispositifs-et-infrastructures/Tous-les-dossiers/Ressources-genetiques-et-biologiques | FsF-A1-01M   |       1 |
+| http://institut.inra.fr/Organisation/Dispositifs-et-infrastructures/Tous-les-dossiers/Ressources-genetiques-et-biologiques | FsF-A1-03D   |       1 |
+| http://institut.inra.fr/Organisation/Dispositifs-et-infrastructures/Tous-les-dossiers/Ressources-genetiques-et-biologiques | FsF-I1-01M   |       1 |
+| http://institut.inra.fr/Organisation/Dispositifs-et-infrastructures/Tous-les-dossiers/Ressources-genetiques-et-biologiques | FsF-I3-01M   |       1 |
+| http://institut.inra.fr/Organisation/Dispositifs-et-infrastructures/Tous-les-dossiers/Ressources-genetiques-et-biologiques | FsF-R1.3-02D |       1 |
+| Ferrata Storti Foundation (Haematologica)                                                                                  | FsF-F3-01M   |      10 |
+| Ferrata Storti Foundation (Haematologica)                                                                                  | FsF-A1-03D   |      10 |
+| Ferrata Storti Foundation (Haematologica)                                                                                  | FsF-R1.1-01M |      10 |
+| Ferrata Storti Foundation (Haematologica)                                                                                  | FsF-R1.3-02D |      10 |
+| British Psychological Society                                                                                              | FsF-F3-01M   |       1 |
+| British Psychological Society                                                                                              | FsF-A1-01M   |       1 |
+| British Psychological Society                                                                                              | FsF-A1-03D   |       1 |
+| British Psychological Society                                                                                              | FsF-R1.1-01M |       1 |
+| British Psychological Society                                                                                              | FsF-R1.3-02D |       1 |
+| Taylor & Francis                                                                                                           | FsF-F3-01M   |       4 |
+| Taylor & Francis                                                                                                           | FsF-A1-03D   |       4 |
+| Taylor & Francis                                                                                                           | FsF-R1.1-01M |       4 |
+| Taylor & Francis                                                                                                           | FsF-R1.3-02D |       4 |
+| Taylor & Francis                                                                                                           | FsF-A1-01M   |       2 |
+| Hypertension                                                                                                               | FsF-F3-01M   |       2 |
+| Hypertension                                                                                                               | FsF-A1-03D   |       2 |
+| Hypertension                                                                                                               | FsF-R1.1-01M |       2 |
+| Hypertension                                                                                                               | FsF-R1.3-02D |       2 |
+| Mary Ann Liebert, Inc.  2 Madison Avenue Larchmont, NY 10538 USA                                                           | FsF-F3-01M   |       3 |
+| Mary Ann Liebert, Inc.  2 Madison Avenue Larchmont, NY 10538 USA                                                           | FsF-A1-01M   |       3 |
+| Mary Ann Liebert, Inc.  2 Madison Avenue Larchmont, NY 10538 USA                                                           | FsF-A1-03D   |       3 |
+| Mary Ann Liebert, Inc.  2 Madison Avenue Larchmont, NY 10538 USA                                                           | FsF-R1.1-01M |       3 |
+| Mary Ann Liebert, Inc.  2 Madison Avenue Larchmont, NY 10538 USA                                                           | FsF-R1.3-02D |       3 |
+| Tissue Engineering                                                                                                         | FsF-F3-01M   |       3 |
+| Tissue Engineering                                                                                                         | FsF-A1-01M   |       3 |
+| Tissue Engineering                                                                                                         | FsF-A1-03D   |       3 |
+| Tissue Engineering                                                                                                         | FsF-R1.1-01M |       3 |
+| Tissue Engineering                                                                                                         | FsF-R1.3-02D |       3 |
+| Society for Conservation Biology                                                                                           | FsF-F3-01M   |       1 |
+| Society for Conservation Biology                                                                                           | FsF-A1-01M   |       1 |
+| Society for Conservation Biology                                                                                           | FsF-A1-03D   |       1 |
+| Society for Conservation Biology                                                                                           | FsF-I3-01M   |       1 |
+| Society for Conservation Biology                                                                                           | FsF-R1.1-01M |       1 |
+| Society for Conservation Biology                                                                                           | FsF-R1.3-02D |       1 |
+| Reviews of Modern Physics                                                                                                  | FsF-F3-01M   |       2 |
+| Reviews of Modern Physics                                                                                                  | FsF-A1-01M   |       2 |
+| Reviews of Modern Physics                                                                                                  | FsF-A1-03D   |       2 |
+| Reviews of Modern Physics                                                                                                  | FsF-I3-01M   |       2 |
+| Reviews of Modern Physics                                                                                                  | FsF-R1.1-01M |       2 |
+| Reviews of Modern Physics                                                                                                  | FsF-R1.3-02D |       2 |
+| European Mathematical Society - EMS - Publishing House GmbH                                                                | FsF-F3-01M   |       6 |
+| European Mathematical Society - EMS - Publishing House GmbH                                                                | FsF-A1-03D   |       6 |
+| European Mathematical Society - EMS - Publishing House GmbH                                                                | FsF-R1.1-01M |       6 |
+| European Mathematical Society - EMS - Publishing House GmbH                                                                | FsF-R1.3-02D |       6 |
+| European Mathematical Society - EMS - Publishing House GmbH                                                                | FsF-A1-01M   |       4 |
+| CSIRO PUBLISHING                                                                                                           | FsF-F3-01M   |       2 |
+| CSIRO PUBLISHING                                                                                                           | FsF-A1-01M   |       2 |
+| CSIRO PUBLISHING                                                                                                           | FsF-A1-03D   |       2 |
+| CSIRO PUBLISHING                                                                                                           | FsF-R1.1-01M |       2 |
+| CSIRO PUBLISHING                                                                                                           | FsF-R1.3-02D |       2 |
+| Birkhäuser, Boston, MA                                                                                                     | FsF-F3-01M   |       1 |
+| Birkhäuser, Boston, MA                                                                                                     | FsF-A1-01M   |       1 |
+| Birkhäuser, Boston, MA                                                                                                     | FsF-A1-03D   |       1 |
+| Birkhäuser, Boston, MA                                                                                                     | FsF-R1.1-01M |       1 |
+| Birkhäuser, Boston, MA                                                                                                     | FsF-R1.3-02D |       1 |
+| ACM Press                                                                                                                  | FsF-F3-01M   |       4 |
+| ACM Press                                                                                                                  | FsF-A1-01M   |       4 |
+| ACM Press                                                                                                                  | FsF-A1-03D   |       4 |
+| ACM Press                                                                                                                  | FsF-R1.1-01M |       4 |
+| ACM Press                                                                                                                  | FsF-R1.3-02D |       4 |
+| The Royal SocietyLondon                                                                                                    | FsF-F3-01M   |       4 |
+| The Royal SocietyLondon                                                                                                    | FsF-A1-03D   |       4 |
+| The Royal SocietyLondon                                                                                                    | FsF-I3-01M   |       1 |
+| The Royal SocietyLondon                                                                                                    | FsF-R1.1-01M |       4 |
+| The Royal SocietyLondon                                                                                                    | FsF-R1.3-02D |       4 |
+| Proceedings of the Royal Society B: Biological Sciences                                                                    | FsF-F3-01M   |       9 |
+| Proceedings of the Royal Society B: Biological Sciences                                                                    | FsF-A1-03D   |       9 |
+| Proceedings of the Royal Society B: Biological Sciences                                                                    | FsF-I3-01M   |       2 |
+| Proceedings of the Royal Society B: Biological Sciences                                                                    | FsF-R1.1-01M |       9 |
+| Proceedings of the Royal Society B: Biological Sciences                                                                    | FsF-R1.3-02D |       9 |
+| Humana Press, Totowa, NJ                                                                                                   | FsF-F3-01M   |       1 |
+| Humana Press, Totowa, NJ                                                                                                   | FsF-A1-01M   |       1 |
+| Humana Press, Totowa, NJ                                                                                                   | FsF-A1-03D   |       1 |
+| Humana Press, Totowa, NJ                                                                                                   | FsF-R1.1-01M |       1 |
+| Humana Press, Totowa, NJ                                                                                                   | FsF-R1.3-02D |       1 |
+| Physical Review B                                                                                                          | FsF-F3-01M   |       5 |
+| Physical Review B                                                                                                          | FsF-A1-01M   |       5 |
+| Physical Review B                                                                                                          | FsF-A1-03D   |       5 |
+| Physical Review B                                                                                                          | FsF-I3-01M   |       1 |
+| Physical Review B                                                                                                          | FsF-R1.1-01M |       5 |
+| Physical Review B                                                                                                          | FsF-R1.3-02D |       5 |
+| Guilford Publications Inc.                                                                                                 | FsF-F3-01M   |       1 |
+| Guilford Publications Inc.                                                                                                 | FsF-A1-01M   |       1 |
+| Guilford Publications Inc.                                                                                                 | FsF-A1-03D   |       1 |
+| Guilford Publications Inc.                                                                                                 | FsF-R1.1-01M |       1 |
+| Guilford Publications Inc.                                                                                                 | FsF-R1.3-02D |       1 |
+| Journal of Personality Disorders                                                                                           | FsF-F3-01M   |       1 |
+| Journal of Personality Disorders                                                                                           | FsF-A1-01M   |       1 |
+| Journal of Personality Disorders                                                                                           | FsF-A1-03D   |       1 |
+| Journal of Personality Disorders                                                                                           | FsF-R1.1-01M |       1 |
+| Journal of Personality Disorders                                                                                           | FsF-R1.3-02D |       1 |
+| Science Translational Medicine                                                                                             | FsF-F3-01M   |       3 |
+| Science Translational Medicine                                                                                             | FsF-A1-03D   |       3 |
+| Science Translational Medicine                                                                                             | FsF-R1.1-01M |       3 |
+| Science Translational Medicine                                                                                             | FsF-R1.3-02D |       3 |
+| Springer, Dordrecht                                                                                                        | FsF-F3-01M   |      11 |
+| Springer, Dordrecht                                                                                                        | FsF-A1-01M   |      11 |
+| Springer, Dordrecht                                                                                                        | FsF-A1-03D   |      11 |
+| Springer, Dordrecht                                                                                                        | FsF-R1.1-01M |      11 |
+| Springer, Dordrecht                                                                                                        | FsF-R1.3-02D |      11 |
+| EMBO reports                                                                                                               | FsF-F3-01M   |       8 |
+| EMBO reports                                                                                                               | FsF-A1-03D   |       8 |
+| EMBO reports                                                                                                               | FsF-R1.1-01M |       8 |
+| EMBO reports                                                                                                               | FsF-R1.3-02D |       8 |
+| The Keio Journal of Medicine                                                                                               | FsF-F3-01M   |       1 |
+| The Keio Journal of Medicine                                                                                               | FsF-A1-01M   |       1 |
+| The Keio Journal of Medicine                                                                                               | FsF-A1-03D   |       1 |
+| The Keio Journal of Medicine                                                                                               | FsF-R1.1-01M |       1 |
+| The Keio Journal of Medicine                                                                                               | FsF-R1.3-02D |       1 |
+| Keio Journal of Medicine                                                                                                   | FsF-F3-01M   |       2 |
+| Keio Journal of Medicine                                                                                                   | FsF-A1-01M   |       2 |
+| Keio Journal of Medicine                                                                                                   | FsF-A1-03D   |       2 |
+| Keio Journal of Medicine                                                                                                   | FsF-R1.1-01M |       2 |
+| Keio Journal of Medicine                                                                                                   | FsF-R1.3-02D |       2 |
+| Mary Ann Liebert, Inc.  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                                          | FsF-F3-01M   |       2 |
+| Mary Ann Liebert, Inc.  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                                          | FsF-A1-01M   |       2 |
+| Mary Ann Liebert, Inc.  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                                          | FsF-A1-03D   |       2 |
+| Mary Ann Liebert, Inc.  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                                          | FsF-R1.1-01M |       2 |
+| Mary Ann Liebert, Inc.  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                                          | FsF-R1.3-02D |       2 |
+| Journal of Computational Biology                                                                                           | FsF-F3-01M   |       1 |
+| Journal of Computational Biology                                                                                           | FsF-A1-01M   |       1 |
+| Journal of Computational Biology                                                                                           | FsF-A1-03D   |       1 |
+| Journal of Computational Biology                                                                                           | FsF-R1.1-01M |       1 |
+| Journal of Computational Biology                                                                                           | FsF-R1.3-02D |       1 |
+| Journal of Interferon & Cytokine Research                                                                                  | FsF-F3-01M   |       4 |
+| Journal of Interferon & Cytokine Research                                                                                  | FsF-A1-01M   |       4 |
+| Journal of Interferon & Cytokine Research                                                                                  | FsF-A1-03D   |       4 |
+| Journal of Interferon & Cytokine Research                                                                                  | FsF-R1.1-01M |       4 |
+| Journal of Interferon & Cytokine Research                                                                                  | FsF-R1.3-02D |       4 |
+| European Respiratory Society                                                                                               | FsF-F3-01M   |      10 |
+| European Respiratory Society                                                                                               | FsF-A1-01M   |      10 |
+| European Respiratory Society                                                                                               | FsF-A1-03D   |      10 |
+| European Respiratory Society                                                                                               | FsF-R1.1-01M |      10 |
+| European Respiratory Society                                                                                               | FsF-R1.3-02D |      10 |
+| European Respiratory Journal                                                                                               | FsF-F3-01M   |       5 |
+| European Respiratory Journal                                                                                               | FsF-A1-01M   |       5 |
+| European Respiratory Journal                                                                                               | FsF-A1-03D   |       5 |
+| European Respiratory Journal                                                                                               | FsF-R1.1-01M |       5 |
+| European Respiratory Journal                                                                                               | FsF-R1.3-02D |       5 |
+| European Respiratory Society (ERS)                                                                                         | FsF-F3-01M   |      12 |
+| European Respiratory Society (ERS)                                                                                         | FsF-A1-01M   |      12 |
+| European Respiratory Society (ERS)                                                                                         | FsF-A1-03D   |      12 |
+| European Respiratory Society (ERS)                                                                                         | FsF-R1.1-01M |      12 |
+| European Respiratory Society (ERS)                                                                                         | FsF-R1.3-02D |      12 |
+| European Respiratory Society (ERS)                                                                                         | FsF-F4-01M   |       6 |
+| European Respiratory Society (ERS)                                                                                         | FsF-R1-01MD  |       6 |
+| American Society for Cell Biology                                                                                          | FsF-F3-01M   |       1 |
+| American Society for Cell Biology                                                                                          | FsF-A1-03D   |       1 |
+| American Society for Cell Biology                                                                                          | FsF-R1.1-01M |       1 |
+| American Society for Cell Biology                                                                                          | FsF-R1.3-02D |       1 |
+| American Mathematical Society                                                                                              | FsF-F3-01M   |       7 |
+| American Mathematical Society                                                                                              | FsF-A1-01M   |       7 |
+| American Mathematical Society                                                                                              | FsF-A1-03D   |       7 |
+| American Mathematical Society                                                                                              | FsF-R1.1-01M |       7 |
+| American Mathematical Society                                                                                              | FsF-R1.3-02D |       7 |
+| Springer-VerlagNew York                                                                                                    | FsF-F3-01M   |       1 |
+| Springer-VerlagNew York                                                                                                    | FsF-A1-03D   |       1 |
+| Springer-VerlagNew York                                                                                                    | FsF-I3-01M   |       1 |
+| Springer-VerlagNew York                                                                                                    | FsF-R1.1-01M |       1 |
+| Springer-VerlagNew York                                                                                                    | FsF-R1.3-02D |       1 |
+| IOS Press                                                                                                                  | FsF-F3-01M   |       4 |
+| IOS Press                                                                                                                  | FsF-A1-01M   |       4 |
+| IOS Press                                                                                                                  | FsF-A1-03D   |       4 |
+| IOS Press                                                                                                                  | FsF-I3-01M   |       1 |
+| IOS Press                                                                                                                  | FsF-R1.1-01M |       4 |
+| IOS Press                                                                                                                  | FsF-R1.3-02D |       4 |
+| IEEE Comput. Soc                                                                                                           | FsF-F3-01M   |      10 |
+| IEEE Comput. Soc                                                                                                           | FsF-F4-01M   |      10 |
+| IEEE Comput. Soc                                                                                                           | FsF-A1-01M   |      10 |
+| IEEE Comput. Soc                                                                                                           | FsF-A1-03D   |      10 |
+| IEEE Comput. Soc                                                                                                           | FsF-I3-01M   |      10 |
+| IEEE Comput. Soc                                                                                                           | FsF-R1-01MD  |      10 |
+| IEEE Comput. Soc                                                                                                           | FsF-R1.1-01M |      10 |
+| IEEE Comput. Soc                                                                                                           | FsF-R1.3-02D |      10 |
+| American Physiological SocietyBethesda, MD                                                                                 | FsF-F3-01M   |       4 |
+| American Physiological SocietyBethesda, MD                                                                                 | FsF-A1-03D   |       4 |
+| American Physiological SocietyBethesda, MD                                                                                 | FsF-R1.1-01M |       4 |
+| American Physiological SocietyBethesda, MD                                                                                 | FsF-R1.3-02D |       4 |
+| American Journal of Physiology-Renal Physiology                                                                            | FsF-F3-01M   |       1 |
+| American Journal of Physiology-Renal Physiology                                                                            | FsF-A1-03D   |       1 |
+| American Journal of Physiology-Renal Physiology                                                                            | FsF-R1.1-01M |       1 |
+| American Journal of Physiology-Renal Physiology                                                                            | FsF-R1.3-02D |       1 |
+| University of Chicago PressChicago, IL                                                                                     | FsF-F3-01M   |       1 |
+| University of Chicago PressChicago, IL                                                                                     | FsF-A1-03D   |       1 |
+| University of Chicago PressChicago, IL                                                                                     | FsF-R1.1-01M |       1 |
+| University of Chicago PressChicago, IL                                                                                     | FsF-R1.3-02D |       1 |
+| Journal of Labor Economics                                                                                                 | FsF-F3-01M   |       1 |
+| Journal of Labor Economics                                                                                                 | FsF-A1-03D   |       1 |
+| Journal of Labor Economics                                                                                                 | FsF-R1.1-01M |       1 |
+| Journal of Labor Economics                                                                                                 | FsF-R1.3-02D |       1 |
+| Diabetes, Obesity and Metabolism                                                                                           | FsF-F3-01M   |       1 |
+| Diabetes, Obesity and Metabolism                                                                                           | FsF-A1-01M   |       1 |
+| Diabetes, Obesity and Metabolism                                                                                           | FsF-A1-03D   |       1 |
+| Diabetes, Obesity and Metabolism                                                                                           | FsF-R1.1-01M |       1 |
+| Diabetes, Obesity and Metabolism                                                                                           | FsF-R1.3-02D |       1 |
+| National Bureau of Economic Research                                                                                       | FsF-F3-01M   |       2 |
+| National Bureau of Economic Research                                                                                       | FsF-F4-01M   |       2 |
+| National Bureau of Economic Research                                                                                       | FsF-A1-01M   |       2 |
+| National Bureau of Economic Research                                                                                       | FsF-A1-03D   |       2 |
+| National Bureau of Economic Research                                                                                       | FsF-I3-01M   |       2 |
+| National Bureau of Economic Research                                                                                       | FsF-R1-01MD  |       2 |
+| National Bureau of Economic Research                                                                                       | FsF-R1.1-01M |       2 |
+| National Bureau of Economic Research                                                                                       | FsF-R1.3-02D |       2 |
+| SAGE PublicationsSage UK: London, England                                                                                  | FsF-F3-01M   |      21 |
+| SAGE PublicationsSage UK: London, England                                                                                  | FsF-A1-03D   |      21 |
+| SAGE PublicationsSage UK: London, England                                                                                  | FsF-R1.1-01M |      17 |
+| SAGE PublicationsSage UK: London, England                                                                                  | FsF-R1.3-02D |      21 |
+| SAGE PublicationsSage UK: London, England                                                                                  | FsF-A1-01M   |       1 |
+| International Parkinson and Movement Disorder Society                                                                      | FsF-F3-01M   |       4 |
+| International Parkinson and Movement Disorder Society                                                                      | FsF-A1-01M   |       4 |
+| International Parkinson and Movement Disorder Society                                                                      | FsF-A1-03D   |       4 |
+| International Parkinson and Movement Disorder Society                                                                      | FsF-I3-01M   |       2 |
+| International Parkinson and Movement Disorder Society                                                                      | FsF-R1.1-01M |       4 |
+| International Parkinson and Movement Disorder Society                                                                      | FsF-R1.3-02D |       4 |
+| Journal of Applied Physiology                                                                                              | FsF-F3-01M   |       4 |
+| Journal of Applied Physiology                                                                                              | FsF-A1-03D   |       4 |
+| Journal of Applied Physiology                                                                                              | FsF-R1.1-01M |       4 |
+| Journal of Applied Physiology                                                                                              | FsF-R1.3-02D |       4 |
+| National Institute of Standards and Technology (NIST)                                                                      | FsF-F3-01M   |       2 |
+| National Institute of Standards and Technology (NIST)                                                                      | FsF-F4-01M   |       2 |
+| National Institute of Standards and Technology (NIST)                                                                      | FsF-A1-01M   |       2 |
+| National Institute of Standards and Technology (NIST)                                                                      | FsF-A1-03D   |       2 |
+| National Institute of Standards and Technology (NIST)                                                                      | FsF-R1-01MD  |       2 |
+| National Institute of Standards and Technology (NIST)                                                                      | FsF-R1.1-01M |       2 |
+| National Institute of Standards and Technology (NIST)                                                                      | FsF-R1.3-02D |       2 |
+| Europa Digital & Publishing                                                                                                | FsF-F3-01M   |       2 |
+| Europa Digital & Publishing                                                                                                | FsF-A1-01M   |       2 |
+| Europa Digital & Publishing                                                                                                | FsF-A1-03D   |       2 |
+| Europa Digital & Publishing                                                                                                | FsF-R1-01MD  |       2 |
+| Europa Digital & Publishing                                                                                                | FsF-R1.1-01M |       2 |
+| Europa Digital & Publishing                                                                                                | FsF-R1.3-02D |       2 |
+| Quintessence Publishing Company, Inc.                                                                                      | FsF-F3-01M   |       2 |
+| Quintessence Publishing Company, Inc.                                                                                      | FsF-A1-01M   |       2 |
+| Quintessence Publishing Company, Inc.                                                                                      | FsF-A1-03D   |       2 |
+| Quintessence Publishing Company, Inc.                                                                                      | FsF-I3-01M   |       2 |
+| Quintessence Publishing Company, Inc.                                                                                      | FsF-R1.1-01M |       2 |
+| Quintessence Publishing Company, Inc.                                                                                      | FsF-R1.3-02D |       2 |
+| The Association for Research in Vision and Ophthalmology                                                                   | FsF-F3-01M   |       3 |
+| The Association for Research in Vision and Ophthalmology                                                                   | FsF-F4-01M   |       3 |
+| The Association for Research in Vision and Ophthalmology                                                                   | FsF-A1-01M   |       3 |
+| The Association for Research in Vision and Ophthalmology                                                                   | FsF-A1-03D   |       3 |
+| The Association for Research in Vision and Ophthalmology                                                                   | FsF-R1.1-01M |       3 |
+| The Association for Research in Vision and Ophthalmology                                                                   | FsF-R1.3-02D |       3 |
+| Baishideng Publishing Group Inc.                                                                                           | FsF-F3-01M   |       6 |
+| Baishideng Publishing Group Inc.                                                                                           | FsF-A1-01M   |       6 |
+| Baishideng Publishing Group Inc.                                                                                           | FsF-A1-03D   |       6 |
+| Baishideng Publishing Group Inc.                                                                                           | FsF-R1.1-01M |       6 |
+| Baishideng Publishing Group Inc.                                                                                           | FsF-R1.3-02D |       6 |
+| Annales Fennici Mathematici                                                                                                | FsF-F3-01M   |       1 |
+| Annales Fennici Mathematici                                                                                                | FsF-A1-03D   |       1 |
+| Annales Fennici Mathematici                                                                                                | FsF-R1.1-01M |       1 |
+| Annales Fennici Mathematici                                                                                                | FsF-R1.3-02D |       1 |
+| Pathological Society                                                                                                       | FsF-F3-01M   |       3 |
+| Pathological Society                                                                                                       | FsF-A1-01M   |       3 |
+| Pathological Society                                                                                                       | FsF-A1-03D   |       3 |
+| Pathological Society                                                                                                       | FsF-I3-01M   |       3 |
+| Pathological Society                                                                                                       | FsF-R1.1-01M |       3 |
+| Pathological Society                                                                                                       | FsF-R1.3-02D |       3 |
+| Pathological Society                                                                                                       | FsF-I1-01M   |       1 |
+| Pathological Society                                                                                                       | FsF-I2-01M   |       1 |
+| Oncotarget                                                                                                                 | FsF-F3-01M   |       3 |
+| Oncotarget                                                                                                                 | FsF-A1-01M   |       3 |
+| Oncotarget                                                                                                                 | FsF-A1-03D   |       3 |
+| Oncotarget                                                                                                                 | FsF-R1.3-02D |       3 |
+| Impact Journals                                                                                                            | FsF-F3-01M   |       3 |
+| Impact Journals                                                                                                            | FsF-A1-01M   |       3 |
+| Impact Journals                                                                                                            | FsF-A1-03D   |       3 |
+| Impact Journals                                                                                                            | FsF-R1.3-02D |       3 |
+| Journal of the ACM                                                                                                         | FsF-F3-01M   |       4 |
+| Journal of the ACM                                                                                                         | FsF-A1-01M   |       4 |
+| Journal of the ACM                                                                                                         | FsF-A1-03D   |       4 |
+| Journal of the ACM                                                                                                         | FsF-R1.1-01M |       4 |
+| Journal of the ACM                                                                                                         | FsF-R1.3-02D |       4 |
+| Inter-Research Science Center                                                                                              | FsF-F3-01M   |       2 |
+| Inter-Research Science Center                                                                                              | FsF-A1-01M   |       2 |
+| Inter-Research Science Center                                                                                              | FsF-A1-03D   |       2 |
+| Inter-Research Science Center                                                                                              | FsF-R1-01MD  |       2 |
+| Inter-Research Science Center                                                                                              | FsF-R1.1-01M |       2 |
+| Inter-Research Science Center                                                                                              | FsF-R1.3-02D |       2 |
+| Bentham Science Publishers Ltd.                                                                                            | FsF-F3-01M   |      11 |
+| Bentham Science Publishers Ltd.                                                                                            | FsF-F4-01M   |       1 |
+| Bentham Science Publishers Ltd.                                                                                            | FsF-A1-01M   |      11 |
+| Bentham Science Publishers Ltd.                                                                                            | FsF-A1-03D   |      11 |
+| Bentham Science Publishers Ltd.                                                                                            | FsF-R1-01MD  |       1 |
+| Bentham Science Publishers Ltd.                                                                                            | FsF-R1.1-01M |      11 |
+| Bentham Science Publishers Ltd.                                                                                            | FsF-R1.3-02D |      11 |
+| Martinus Nijhoff/Dr. W. Junk Publishers                                                                                    | FsF-F3-01M   |       2 |
+| Martinus Nijhoff/Dr. W. Junk Publishers                                                                                    | FsF-A1-03D   |       2 |
+| Martinus Nijhoff/Dr. W. Junk Publishers                                                                                    | FsF-R1.1-01M |       2 |
+| Martinus Nijhoff/Dr. W. Junk Publishers                                                                                    | FsF-R1.3-02D |       2 |
+| De Gruyter Oldenbourg                                                                                                      | FsF-F3-01M   |       4 |
+| De Gruyter Oldenbourg                                                                                                      | FsF-A1-03D   |       4 |
+| De Gruyter Oldenbourg                                                                                                      | FsF-I3-01M   |       4 |
+| De Gruyter Oldenbourg                                                                                                      | FsF-R1.1-01M |       4 |
+| De Gruyter Oldenbourg                                                                                                      | FsF-R1.3-02D |       4 |
+| American Economic Association                                                                                              | FsF-F3-01M   |       4 |
+| American Economic Association                                                                                              | FsF-F4-01M   |       2 |
+| American Economic Association                                                                                              | FsF-A1-01M   |       4 |
+| American Economic Association                                                                                              | FsF-A1-03D   |       4 |
+| American Economic Association                                                                                              | FsF-R1-01MD  |       4 |
+| American Economic Association                                                                                              | FsF-R1.1-01M |       4 |
+| American Economic Association                                                                                              | FsF-R1.3-02D |       4 |
+| Physiological Reviews                                                                                                      | FsF-F3-01M   |       3 |
+| Physiological Reviews                                                                                                      | FsF-A1-03D   |       3 |
+| Physiological Reviews                                                                                                      | FsF-R1.1-01M |       3 |
+| Physiological Reviews                                                                                                      | FsF-R1.3-02D |       3 |
+| British Society of Soil Science                                                                                            | FsF-F3-01M   |       1 |
+| British Society of Soil Science                                                                                            | FsF-A1-01M   |       1 |
+| British Society of Soil Science                                                                                            | FsF-A1-03D   |       1 |
+| British Society of Soil Science                                                                                            | FsF-R1.1-01M |       1 |
+| British Society of Soil Science                                                                                            | FsF-R1.3-02D |       1 |
+| JMIR mHealth and uHealth                                                                                                   | FsF-F3-01M   |       2 |
+| JMIR mHealth and uHealth                                                                                                   | FsF-A1-03D   |       2 |
+| JMIR mHealth and uHealth                                                                                                   | FsF-R1.1-01M |       2 |
+| JMIR mHealth and uHealth                                                                                                   | FsF-R1.3-02D |       2 |
+| JMIR Publications // 130 Queens Quay East, Unit 1100 // Toronto, ON, M5A 0P6                                               | FsF-F3-01M   |       3 |
+| JMIR Publications // 130 Queens Quay East, Unit 1100 // Toronto, ON, M5A 0P6                                               | FsF-A1-03D   |       3 |
+| JMIR Publications // 130 Queens Quay East, Unit 1100 // Toronto, ON, M5A 0P6                                               | FsF-R1.1-01M |       3 |
+| JMIR Publications // 130 Queens Quay East, Unit 1100 // Toronto, ON, M5A 0P6                                               | FsF-R1.3-02D |       3 |
+| JMIR Publications // 130 Queens Quay East, Unit 1100 // Toronto, ON, M5A 0P6                                               | FsF-A1-01M   |       1 |
+| JMIR Publications Inc., Toronto, Canada                                                                                    | FsF-F3-01M   |       3 |
+| JMIR Publications Inc., Toronto, Canada                                                                                    | FsF-A1-03D   |       3 |
+| JMIR Publications Inc., Toronto, Canada                                                                                    | FsF-R1.1-01M |       3 |
+| JMIR Publications Inc., Toronto, Canada                                                                                    | FsF-R1.3-02D |       3 |
+| JMIR Publications Inc., Toronto, Canada                                                                                    | FsF-A1-01M   |       1 |
+| The Resilience Alliance                                                                                                    | FsF-F3-01M   |       7 |
+| The Resilience Alliance                                                                                                    | FsF-A1-03D   |       7 |
+| The Resilience Alliance                                                                                                    | FsF-R1-01MD  |       7 |
+| The Resilience Alliance                                                                                                    | FsF-R1.1-01M |       7 |
+| The Resilience Alliance                                                                                                    | FsF-R1.3-02D |       7 |
+| Resilience Alliance, Inc.                                                                                                  | FsF-F3-01M   |      12 |
+| Resilience Alliance, Inc.                                                                                                  | FsF-A1-03D   |      12 |
+| Resilience Alliance, Inc.                                                                                                  | FsF-R1-01MD  |      12 |
+| Resilience Alliance, Inc.                                                                                                  | FsF-R1.1-01M |      12 |
+| Resilience Alliance, Inc.                                                                                                  | FsF-R1.3-02D |      12 |
+| BioScientifica                                                                                                             | FsF-F3-01M   |       2 |
+| BioScientifica                                                                                                             | FsF-A1-01M   |       2 |
+| BioScientifica                                                                                                             | FsF-A1-03D   |       2 |
+| BioScientifica                                                                                                             | FsF-R1.1-01M |       2 |
+| BioScientifica                                                                                                             | FsF-R1.3-02D |       2 |
+| joe                                                                                                                        | FsF-F3-01M   |       1 |
+| joe                                                                                                                        | FsF-A1-01M   |       1 |
+| joe                                                                                                                        | FsF-A1-03D   |       1 |
+| joe                                                                                                                        | FsF-R1.1-01M |       1 |
+| joe                                                                                                                        | FsF-R1.3-02D |       1 |
+| Bioscientifica                                                                                                             | FsF-F3-01M   |       4 |
+| Bioscientifica                                                                                                             | FsF-A1-01M   |       4 |
+| Bioscientifica                                                                                                             | FsF-A1-03D   |       4 |
+| Bioscientifica                                                                                                             | FsF-R1.1-01M |       4 |
+| Bioscientifica                                                                                                             | FsF-R1.3-02D |       4 |
+| The MIT Press                                                                                                              | FsF-F3-01M   |       2 |
+| The MIT Press                                                                                                              | FsF-A1-01M   |       2 |
+| The MIT Press                                                                                                              | FsF-A1-03D   |       2 |
+| The MIT Press                                                                                                              | FsF-R1.1-01M |       2 |
+| The MIT Press                                                                                                              | FsF-R1.3-02D |       2 |
+| Radiological Society of North America                                                                                      | FsF-F3-01M   |       6 |
+| Radiological Society of North America                                                                                      | FsF-A1-01M   |       2 |
+| Radiological Society of North America                                                                                      | FsF-A1-03D   |       6 |
+| Radiological Society of North America                                                                                      | FsF-R1.1-01M |       6 |
+| Radiological Society of North America                                                                                      | FsF-R1.3-02D |       6 |
+| Radiology                                                                                                                  | FsF-F3-01M   |      12 |
+| Radiology                                                                                                                  | FsF-A1-01M   |       7 |
+| Radiology                                                                                                                  | FsF-A1-03D   |      12 |
+| Radiology                                                                                                                  | FsF-R1.1-01M |      12 |
+| Radiology                                                                                                                  | FsF-R1.3-02D |      12 |
+| Hogrefe Verlag Göttingen                                                                                                   | FsF-F3-01M   |       1 |
+| Hogrefe Verlag Göttingen                                                                                                   | FsF-A1-01M   |       1 |
+| Hogrefe Verlag Göttingen                                                                                                   | FsF-A1-03D   |       1 |
+| Hogrefe Verlag Göttingen                                                                                                   | FsF-R1.1-01M |       1 |
+| Hogrefe Verlag Göttingen                                                                                                   | FsF-R1.3-02D |       1 |
+| Diagnostica                                                                                                                | FsF-F3-01M   |       1 |
+| Diagnostica                                                                                                                | FsF-A1-01M   |       1 |
+| Diagnostica                                                                                                                | FsF-A1-03D   |       1 |
+| Diagnostica                                                                                                                | FsF-R1.1-01M |       1 |
+| Diagnostica                                                                                                                | FsF-R1.3-02D |       1 |
+| Impact Journals, LLC                                                                                                       | FsF-F3-01M   |       4 |
+| Impact Journals, LLC                                                                                                       | FsF-A1-01M   |       4 |
+| Impact Journals, LLC                                                                                                       | FsF-A1-03D   |       4 |
+| Impact Journals, LLC                                                                                                       | FsF-R1.3-02D |       4 |
+| Humana Press Inc                                                                                                           | FsF-F3-01M   |       8 |
+| Humana Press Inc                                                                                                           | FsF-A1-03D   |       8 |
+| Humana Press Inc                                                                                                           | FsF-R1.3-02D |       8 |
+| Humana Press Inc                                                                                                           | FsF-R1.1-01M |       6 |
+| Pensoft Publishers                                                                                                         | FsF-F3-01M   |       8 |
+| Pensoft Publishers                                                                                                         | FsF-A1-01M   |       8 |
+| Pensoft Publishers                                                                                                         | FsF-A1-03D   |       8 |
+| Pensoft Publishers                                                                                                         | FsF-R1.1-01M |       8 |
+| Pensoft Publishers                                                                                                         | FsF-R1.3-02D |       8 |
+| Nature Conservation                                                                                                        | FsF-F3-01M   |       1 |
+| Nature Conservation                                                                                                        | FsF-A1-01M   |       1 |
+| Nature Conservation                                                                                                        | FsF-A1-03D   |       1 |
+| Nature Conservation                                                                                                        | FsF-R1.1-01M |       1 |
+| Nature Conservation                                                                                                        | FsF-R1.3-02D |       1 |
+| Molecular Systems Biology                                                                                                  | FsF-F3-01M   |       5 |
+| Molecular Systems Biology                                                                                                  | FsF-A1-03D   |       5 |
+| Molecular Systems Biology                                                                                                  | FsF-R1.1-01M |       5 |
+| Molecular Systems Biology                                                                                                  | FsF-R1.3-02D |       5 |
+| Federation of American Societies for Experimental Biology                                                                  | FsF-F3-01M   |       5 |
+| Federation of American Societies for Experimental Biology                                                                  | FsF-A1-01M   |       5 |
+| Federation of American Societies for Experimental Biology                                                                  | FsF-A1-03D   |       5 |
+| Federation of American Societies for Experimental Biology                                                                  | FsF-I3-01M   |       3 |
+| Federation of American Societies for Experimental Biology                                                                  | FsF-R1.1-01M |       5 |
+| Federation of American Societies for Experimental Biology                                                                  | FsF-R1.3-02D |       5 |
+| University Library Heidelberg                                                                                              | FsF-F3-01M   |       1 |
+| University Library Heidelberg                                                                                              | FsF-A1-03D   |       1 |
+| University Library Heidelberg                                                                                              | FsF-I1-01M   |       1 |
+| University Library Heidelberg                                                                                              | FsF-R1.1-01M |       1 |
+| University Library Heidelberg                                                                                              | FsF-R1.3-02D |       1 |
+| IET                                                                                                                        | FsF-F3-01M   |       2 |
+| IET                                                                                                                        | FsF-A1-03D   |       2 |
+| IET                                                                                                                        | FsF-R1.1-01M |       2 |
+| IET                                                                                                                        | FsF-R1.3-02D |       2 |
+| IET Systems Biology                                                                                                        | FsF-F3-01M   |       2 |
+| IET Systems Biology                                                                                                        | FsF-A1-03D   |       2 |
+| IET Systems Biology                                                                                                        | FsF-R1.1-01M |       2 |
+| IET Systems Biology                                                                                                        | FsF-R1.3-02D |       2 |
+| Institution of Engineering and Technology (IET)                                                                            | FsF-F3-01M   |       5 |
+| Institution of Engineering and Technology (IET)                                                                            | FsF-A1-03D   |       5 |
+| Institution of Engineering and Technology (IET)                                                                            | FsF-R1.1-01M |       5 |
+| Institution of Engineering and Technology (IET)                                                                            | FsF-R1.3-02D |       5 |
+| Institution of Engineering and Technology (IET)                                                                            | FsF-F4-01M   |       1 |
+| Institution of Engineering and Technology (IET)                                                                            | FsF-A1-01M   |       1 |
+| Institution of Engineering and Technology (IET)                                                                            | FsF-R1-01MD  |       1 |
+| American Psychiatric AssociationArlington, VA                                                                              | FsF-F3-01M   |       1 |
+| American Psychiatric AssociationArlington, VA                                                                              | FsF-A1-03D   |       1 |
+| American Psychiatric AssociationArlington, VA                                                                              | FsF-R1.1-01M |       1 |
+| American Psychiatric AssociationArlington, VA                                                                              | FsF-R1.3-02D |       1 |
+| Hogrefe Publishing                                                                                                         | FsF-F3-01M   |       1 |
+| Hogrefe Publishing                                                                                                         | FsF-A1-03D   |       1 |
+| Hogrefe Publishing                                                                                                         | FsF-R1.1-01M |       1 |
+| Hogrefe Publishing                                                                                                         | FsF-R1.3-02D |       1 |
+| Zeitschrift für Psychologie                                                                                                | FsF-F3-01M   |       1 |
+| Zeitschrift für Psychologie                                                                                                | FsF-A1-03D   |       1 |
+| Zeitschrift für Psychologie                                                                                                | FsF-R1.1-01M |       1 |
+| Zeitschrift für Psychologie                                                                                                | FsF-R1.3-02D |       1 |
+| JAPAN ANTIBIOTICS RESEARCH ASSOCIATION                                                                                     | FsF-F3-01M   |       1 |
+| JAPAN ANTIBIOTICS RESEARCH ASSOCIATION                                                                                     | FsF-A1-01M   |       1 |
+| JAPAN ANTIBIOTICS RESEARCH ASSOCIATION                                                                                     | FsF-A1-03D   |       1 |
+| JAPAN ANTIBIOTICS RESEARCH ASSOCIATION                                                                                     | FsF-R1.1-01M |       1 |
+| JAPAN ANTIBIOTICS RESEARCH ASSOCIATION                                                                                     | FsF-R1.3-02D |       1 |
+| Japan Antibiotics Research Association                                                                                     | FsF-F3-01M   |       2 |
+| Japan Antibiotics Research Association                                                                                     | FsF-A1-01M   |       2 |
+| Japan Antibiotics Research Association                                                                                     | FsF-A1-03D   |       2 |
+| Japan Antibiotics Research Association                                                                                     | FsF-R1.1-01M |       2 |
+| Japan Antibiotics Research Association                                                                                     | FsF-R1.3-02D |       2 |
+| Springer Paris                                                                                                             | FsF-F3-01M   |       2 |
+| Springer Paris                                                                                                             | FsF-A1-03D   |       2 |
+| Springer Paris                                                                                                             | FsF-R1.1-01M |       2 |
+| Springer Paris                                                                                                             | FsF-R1.3-02D |       2 |
+| Gabler Verlag                                                                                                              | FsF-F3-01M   |       3 |
+| Gabler Verlag                                                                                                              | FsF-A1-01M   |       3 |
+| Gabler Verlag                                                                                                              | FsF-A1-03D   |       3 |
+| Gabler Verlag                                                                                                              | FsF-R1.1-01M |       3 |
+| Gabler Verlag                                                                                                              | FsF-R1.3-02D |       3 |
+| Gabler Verlag                                                                                                              | FsF-F4-01M   |       1 |
+| Gabler Verlag                                                                                                              | FsF-R1-01MD  |       1 |
+| International Union of Crystallography (IUCr)                                                                              | FsF-F3-01M   |       4 |
+| International Union of Crystallography (IUCr)                                                                              | FsF-A1-01M   |       4 |
+| International Union of Crystallography (IUCr)                                                                              | FsF-A1-03D   |       4 |
+| International Union of Crystallography (IUCr)                                                                              | FsF-R1-01MD  |       4 |
+| International Union of Crystallography (IUCr)                                                                              | FsF-R1.1-01M |       4 |
+| International Union of Crystallography (IUCr)                                                                              | FsF-R1.3-02D |       4 |
+| American Academy of Pediatrics                                                                                             | FsF-F3-01M   |      10 |
+| American Academy of Pediatrics                                                                                             | FsF-A1-01M   |      10 |
+| American Academy of Pediatrics                                                                                             | FsF-A1-03D   |      10 |
+| American Academy of Pediatrics                                                                                             | FsF-R1.1-01M |      10 |
+| American Academy of Pediatrics                                                                                             | FsF-R1.3-02D |      10 |
+| American Academy of Pediatrics (AAP)                                                                                       | FsF-F3-01M   |       2 |
+| American Academy of Pediatrics (AAP)                                                                                       | FsF-A1-01M   |       2 |
+| American Academy of Pediatrics (AAP)                                                                                       | FsF-A1-03D   |       2 |
+| American Academy of Pediatrics (AAP)                                                                                       | FsF-R1.1-01M |       2 |
+| American Academy of Pediatrics (AAP)                                                                                       | FsF-R1.3-02D |       2 |
+| Palgrave Macmillan US                                                                                                      | FsF-F3-01M   |       3 |
+| Palgrave Macmillan US                                                                                                      | FsF-A1-01M   |       3 |
+| Palgrave Macmillan US                                                                                                      | FsF-A1-03D   |       3 |
+| Palgrave Macmillan US                                                                                                      | FsF-R1.1-01M |       3 |
+| Palgrave Macmillan US                                                                                                      | FsF-R1.3-02D |       3 |
+| BMJ Publishing Group                                                                                                       | FsF-F3-01M   |      10 |
+| BMJ Publishing Group                                                                                                       | FsF-A1-03D   |      10 |
+| BMJ Publishing Group                                                                                                       | FsF-R1.1-01M |      10 |
+| BMJ Publishing Group                                                                                                       | FsF-R1.3-02D |      10 |
+| Gut                                                                                                                        | FsF-F3-01M   |       5 |
+| Gut                                                                                                                        | FsF-A1-03D   |       5 |
+| Gut                                                                                                                        | FsF-R1.1-01M |       5 |
+| Gut                                                                                                                        | FsF-R1.3-02D |       5 |
+| American Roentgen Ray Society                                                                                              | FsF-F3-01M   |       1 |
+| American Roentgen Ray Society                                                                                              | FsF-F4-01M   |       1 |
+| American Roentgen Ray Society                                                                                              | FsF-A1-01M   |       1 |
+| American Roentgen Ray Society                                                                                              | FsF-A1-03D   |       1 |
+| American Roentgen Ray Society                                                                                              | FsF-R1-01MD  |       1 |
+| American Roentgen Ray Society                                                                                              | FsF-R1.1-01M |       1 |
+| American Roentgen Ray Society                                                                                              | FsF-R1.3-02D |       1 |
+| Mineralogical Society                                                                                                      | FsF-F3-01M   |       2 |
+| Mineralogical Society                                                                                                      | FsF-A1-01M   |       2 |
+| Mineralogical Society                                                                                                      | FsF-A1-03D   |       2 |
+| Mineralogical Society                                                                                                      | FsF-R1.1-01M |       2 |
+| Mineralogical Society                                                                                                      | FsF-R1.3-02D |       2 |
+| Science Immunology                                                                                                         | FsF-F3-01M   |       3 |
+| Science Immunology                                                                                                         | FsF-A1-03D   |       3 |
+| Science Immunology                                                                                                         | FsF-R1.1-01M |       3 |
+| Science Immunology                                                                                                         | FsF-R1.3-02D |       3 |
+| Human Kinetics, Inc.                                                                                                       | FsF-F3-01M   |       2 |
+| Human Kinetics, Inc.                                                                                                       | FsF-A1-01M   |       2 |
+| Human Kinetics, Inc.                                                                                                       | FsF-A1-03D   |       2 |
+| Human Kinetics, Inc.                                                                                                       | FsF-R1.1-01M |       2 |
+| Human Kinetics, Inc.                                                                                                       | FsF-R1.3-02D |       2 |
+| Human Kinetics                                                                                                             | FsF-F3-01M   |       6 |
+| Human Kinetics                                                                                                             | FsF-A1-01M   |       6 |
+| Human Kinetics                                                                                                             | FsF-A1-03D   |       6 |
+| Human Kinetics                                                                                                             | FsF-R1.1-01M |       6 |
+| Human Kinetics                                                                                                             | FsF-R1.3-02D |       6 |
+| Beijing Forestry University                                                                                                | FsF-F3-01M   |       1 |
+| Beijing Forestry University                                                                                                | FsF-A1-03D   |       1 |
+| Beijing Forestry University                                                                                                | FsF-R1.3-02D |       1 |
+| International Association of Applied Psychology                                                                            | FsF-F3-01M   |       1 |
+| International Association of Applied Psychology                                                                            | FsF-A1-01M   |       1 |
+| International Association of Applied Psychology                                                                            | FsF-A1-03D   |       1 |
+| International Association of Applied Psychology                                                                            | FsF-R1.1-01M |       1 |
+| International Association of Applied Psychology                                                                            | FsF-R1.3-02D |       1 |
+| Association of Anaesthetists                                                                                               | FsF-F3-01M   |       1 |
+| Association of Anaesthetists                                                                                               | FsF-A1-01M   |       1 |
+| Association of Anaesthetists                                                                                               | FsF-A1-03D   |       1 |
+| Association of Anaesthetists                                                                                               | FsF-I3-01M   |       1 |
+| Association of Anaesthetists                                                                                               | FsF-R1.1-01M |       1 |
+| Association of Anaesthetists                                                                                               | FsF-R1.3-02D |       1 |
+| Schattauer GmbH                                                                                                            | FsF-F3-01M   |       2 |
+| Schattauer GmbH                                                                                                            | FsF-A1-01M   |       2 |
+| Schattauer GmbH                                                                                                            | FsF-A1-03D   |       2 |
+| Schattauer GmbH                                                                                                            | FsF-R1.1-01M |       2 |
+| Schattauer GmbH                                                                                                            | FsF-R1.3-02D |       2 |
+| Radiological Society of North America (RSNA)                                                                               | FsF-F3-01M   |      14 |
+| Radiological Society of North America (RSNA)                                                                               | FsF-A1-01M   |       8 |
+| Radiological Society of North America (RSNA)                                                                               | FsF-A1-03D   |      14 |
+| Radiological Society of North America (RSNA)                                                                               | FsF-R1.1-01M |      14 |
+| Radiological Society of North America (RSNA)                                                                               | FsF-R1.3-02D |      14 |
+| BMJ Open                                                                                                                   | FsF-F3-01M   |       2 |
+| BMJ Open                                                                                                                   | FsF-A1-03D   |       2 |
+| BMJ Open                                                                                                                   | FsF-R1.1-01M |       2 |
+| BMJ Open                                                                                                                   | FsF-R1.3-02D |       2 |
+| American College of Physicians                                                                                             | FsF-F3-01M   |       2 |
+| American College of Physicians                                                                                             | FsF-A1-01M   |       2 |
+| American College of Physicians                                                                                             | FsF-A1-03D   |       2 |
+| American College of Physicians                                                                                             | FsF-R1.1-01M |       2 |
+| American College of Physicians                                                                                             | FsF-R1.3-02D |       2 |
+| American College of Physicians                                                                                             | FsF-F4-01M   |       1 |
+| American College of Physicians                                                                                             | FsF-R1-01MD  |       1 |
+| Annals of Internal Medicine                                                                                                | FsF-F3-01M   |       1 |
+| Annals of Internal Medicine                                                                                                | FsF-A1-01M   |       1 |
+| Annals of Internal Medicine                                                                                                | FsF-A1-03D   |       1 |
+| Annals of Internal Medicine                                                                                                | FsF-R1.1-01M |       1 |
+| Annals of Internal Medicine                                                                                                | FsF-R1.3-02D |       1 |
+| Botanical Society of America                                                                                               | FsF-F3-01M   |       1 |
+| Botanical Society of America                                                                                               | FsF-A1-01M   |       1 |
+| Botanical Society of America                                                                                               | FsF-A1-03D   |       1 |
+| Botanical Society of America                                                                                               | FsF-I3-01M   |       1 |
+| Botanical Society of America                                                                                               | FsF-R1.1-01M |       1 |
+| Botanical Society of America                                                                                               | FsF-R1.3-02D |       1 |
+| JMIR Mental Health                                                                                                         | FsF-F3-01M   |       2 |
+| JMIR Mental Health                                                                                                         | FsF-A1-03D   |       2 |
+| JMIR Mental Health                                                                                                         | FsF-R1.1-01M |       2 |
+| JMIR Mental Health                                                                                                         | FsF-R1.3-02D |       2 |
+| JMIR Publications Inc.                                                                                                     | FsF-F3-01M   |       2 |
+| JMIR Publications Inc.                                                                                                     | FsF-A1-03D   |       2 |
+| JMIR Publications Inc.                                                                                                     | FsF-R1.1-01M |       2 |
+| JMIR Publications Inc.                                                                                                     | FsF-R1.3-02D |       2 |
+| The Royal Society Publishing                                                                                               | FsF-F3-01M   |       1 |
+| The Royal Society Publishing                                                                                               | FsF-A1-03D   |       1 |
+| The Royal Society Publishing                                                                                               | FsF-I3-01M   |       1 |
+| The Royal Society Publishing                                                                                               | FsF-R1.1-01M |       1 |
+| The Royal Society Publishing                                                                                               | FsF-R1.3-02D |       1 |
+| Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences                         | FsF-F3-01M   |       1 |
+| Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences                         | FsF-A1-03D   |       1 |
+| Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences                         | FsF-I3-01M   |       1 |
+| Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences                         | FsF-R1.1-01M |       1 |
+| Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences                         | FsF-R1.3-02D |       1 |
+| © Georg Thieme Verlag KG                                                                                                   | FsF-F3-01M   |       2 |
+| © Georg Thieme Verlag KG                                                                                                   | FsF-A1-01M   |       2 |
+| © Georg Thieme Verlag KG                                                                                                   | FsF-A1-03D   |       2 |
+| © Georg Thieme Verlag KG                                                                                                   | FsF-R1.1-01M |       2 |
+| © Georg Thieme Verlag KG                                                                                                   | FsF-R1.3-02D |       2 |
+| Journal of Chinese Integrative Medicine Press                                                                              | FsF-F3-01M   |       1 |
+| Journal of Chinese Integrative Medicine Press                                                                              | FsF-F4-01M   |       1 |
+| Journal of Chinese Integrative Medicine Press                                                                              | FsF-A1-01M   |       1 |
+| Journal of Chinese Integrative Medicine Press                                                                              | FsF-A1-03D   |       1 |
+| Journal of Chinese Integrative Medicine Press                                                                              | FsF-R1-01MD  |       1 |
+| Journal of Chinese Integrative Medicine Press                                                                              | FsF-R1.1-01M |       1 |
+| Journal of Chinese Integrative Medicine Press                                                                              | FsF-R1.3-02D |       1 |
+| Maximum Academic Press                                                                                                     | FsF-F3-01M   |       2 |
+| Maximum Academic Press                                                                                                     | FsF-A1-01M   |       2 |
+| Maximum Academic Press                                                                                                     | FsF-A1-03D   |       2 |
+| Maximum Academic Press                                                                                                     | FsF-R1.1-01M |       2 |
+| Maximum Academic Press                                                                                                     | FsF-R1.3-02D |       2 |
+| American Thoracic SocietyNew York, NY                                                                                      | FsF-F3-01M   |       2 |
+| American Thoracic SocietyNew York, NY                                                                                      | FsF-A1-03D   |       2 |
+| American Thoracic SocietyNew York, NY                                                                                      | FsF-R1-01MD  |       2 |
+| American Thoracic SocietyNew York, NY                                                                                      | FsF-R1.1-01M |       2 |
+| American Thoracic SocietyNew York, NY                                                                                      | FsF-R1.3-02D |       2 |
+| Oxford University PressOxford                                                                                              | FsF-F3-01M   |       2 |
+| Oxford University PressOxford                                                                                              | FsF-F4-01M   |       2 |
+| Oxford University PressOxford                                                                                              | FsF-A1-01M   |       2 |
+| Oxford University PressOxford                                                                                              | FsF-A1-03D   |       2 |
+| Oxford University PressOxford                                                                                              | FsF-R1-01MD  |       2 |
+| Oxford University PressOxford                                                                                              | FsF-R1.1-01M |       2 |
+| Oxford University PressOxford                                                                                              | FsF-R1.3-02D |       2 |
+| DUNCKER UND HUMBLOT                                                                                                        | FsF-F3-01M   |       1 |
+| DUNCKER UND HUMBLOT                                                                                                        | FsF-A1-01M   |       1 |
+| DUNCKER UND HUMBLOT                                                                                                        | FsF-A1-03D   |       1 |
+| DUNCKER UND HUMBLOT                                                                                                        | FsF-I3-01M   |       1 |
+| DUNCKER UND HUMBLOT                                                                                                        | FsF-R1-01MD  |       1 |
+| DUNCKER UND HUMBLOT                                                                                                        | FsF-R1.1-01M |       1 |
+| DUNCKER UND HUMBLOT                                                                                                        | FsF-R1.3-02D |       1 |
+| Steinkopff                                                                                                                 | FsF-F3-01M   |       3 |
+| Steinkopff                                                                                                                 | FsF-A1-01M   |       3 |
+| Steinkopff                                                                                                                 | FsF-A1-03D   |       3 |
+| Steinkopff                                                                                                                 | FsF-R1.1-01M |       3 |
+| Steinkopff                                                                                                                 | FsF-R1.3-02D |       3 |
+| Mineralogical Association of Canada                                                                                        | FsF-F3-01M   |       2 |
+| Mineralogical Association of Canada                                                                                        | FsF-A1-01M   |       2 |
+| Mineralogical Association of Canada                                                                                        | FsF-A1-03D   |       2 |
+| Mineralogical Association of Canada                                                                                        | FsF-R1.1-01M |       2 |
+| Mineralogical Association of Canada                                                                                        | FsF-R1.3-02D |       2 |
+| American Society for Clinical Pharmacology and Therapeutics (ASCPT)                                                        | FsF-F3-01M   |       1 |
+| American Society for Clinical Pharmacology and Therapeutics (ASCPT)                                                        | FsF-A1-01M   |       1 |
+| American Society for Clinical Pharmacology and Therapeutics (ASCPT)                                                        | FsF-A1-03D   |       1 |
+| American Society for Clinical Pharmacology and Therapeutics (ASCPT)                                                        | FsF-R1.1-01M |       1 |
+| American Society for Clinical Pharmacology and Therapeutics (ASCPT)                                                        | FsF-R1.3-02D |       1 |
+| Urban & Vogel Medien und Medizin Verlagsgesellschaft                                                                       | FsF-F3-01M   |       2 |
+| Urban & Vogel Medien und Medizin Verlagsgesellschaft                                                                       | FsF-A1-03D   |       2 |
+| Urban & Vogel Medien und Medizin Verlagsgesellschaft                                                                       | FsF-R1.1-01M |       2 |
+| Urban & Vogel Medien und Medizin Verlagsgesellschaft                                                                       | FsF-R1.3-02D |       2 |
+| The University of Chicago Press                                                                                            | FsF-F3-01M   |       1 |
+| The University of Chicago Press                                                                                            | FsF-A1-03D   |       1 |
+| The University of Chicago Press                                                                                            | FsF-R1.1-01M |       1 |
+| The University of Chicago Press                                                                                            | FsF-R1.3-02D |       1 |
+| The American Naturalist                                                                                                    | FsF-F3-01M   |       1 |
+| The American Naturalist                                                                                                    | FsF-A1-03D   |       1 |
+| The American Naturalist                                                                                                    | FsF-R1.1-01M |       1 |
+| The American Naturalist                                                                                                    | FsF-R1.3-02D |       1 |
+| Società Italiana di Fisica                                                                                                 | FsF-F3-01M   |       2 |
+| Società Italiana di Fisica                                                                                                 | FsF-A1-03D   |       2 |
+| Società Italiana di Fisica                                                                                                 | FsF-R1.1-01M |       2 |
+| Società Italiana di Fisica                                                                                                 | FsF-R1.3-02D |       2 |
+| ACM SIGKDD Explorations Newsletter                                                                                         | FsF-F3-01M   |       1 |
+| ACM SIGKDD Explorations Newsletter                                                                                         | FsF-A1-01M   |       1 |
+| ACM SIGKDD Explorations Newsletter                                                                                         | FsF-A1-03D   |       1 |
+| ACM SIGKDD Explorations Newsletter                                                                                         | FsF-R1.1-01M |       1 |
+| ACM SIGKDD Explorations Newsletter                                                                                         | FsF-R1.3-02D |       1 |
+| Sciendo                                                                                                                    | FsF-F3-01M   |       1 |
+| Sciendo                                                                                                                    | FsF-A1-01M   |       1 |
+| Sciendo                                                                                                                    | FsF-A1-03D   |       1 |
+| Sciendo                                                                                                                    | FsF-R1.1-01M |       1 |
+| Sciendo                                                                                                                    | FsF-R1.3-02D |       1 |
+| Association for Research in Vision and Ophthalmology (ARVO)                                                                | FsF-F3-01M   |       2 |
+| Association for Research in Vision and Ophthalmology (ARVO)                                                                | FsF-F4-01M   |       2 |
+| Association for Research in Vision and Ophthalmology (ARVO)                                                                | FsF-A1-01M   |       2 |
+| Association for Research in Vision and Ophthalmology (ARVO)                                                                | FsF-A1-03D   |       2 |
+| Association for Research in Vision and Ophthalmology (ARVO)                                                                | FsF-R1.1-01M |       2 |
+| Association for Research in Vision and Ophthalmology (ARVO)                                                                | FsF-R1.3-02D |       2 |
+| AIS Electronic Library (AISeL)                                                                                             | FsF-F3-01M   |       1 |
+| AIS Electronic Library (AISeL)                                                                                             | FsF-A1-01M   |       1 |
+| AIS Electronic Library (AISeL)                                                                                             | FsF-A1-03D   |       1 |
+| AIS Electronic Library (AISeL)                                                                                             | FsF-R1.1-01M |       1 |
+| AIS Electronic Library (AISeL)                                                                                             | FsF-R1.3-02D |       1 |
+| Association for Information Systems                                                                                        | FsF-F3-01M   |       2 |
+| Association for Information Systems                                                                                        | FsF-A1-01M   |       2 |
+| Association for Information Systems                                                                                        | FsF-A1-03D   |       2 |
+| Association for Information Systems                                                                                        | FsF-R1.1-01M |       2 |
+| Association for Information Systems                                                                                        | FsF-R1.3-02D |       2 |
+| NeoBiota                                                                                                                   | FsF-F3-01M   |       1 |
+| NeoBiota                                                                                                                   | FsF-A1-01M   |       1 |
+| NeoBiota                                                                                                                   | FsF-A1-03D   |       1 |
+| NeoBiota                                                                                                                   | FsF-R1.1-01M |       1 |
+| NeoBiota                                                                                                                   | FsF-R1.3-02D |       1 |
+| Journal for ImmunoTherapy of Cancer                                                                                        | FsF-F3-01M   |       1 |
+| Journal for ImmunoTherapy of Cancer                                                                                        | FsF-A1-03D   |       1 |
+| Journal for ImmunoTherapy of Cancer                                                                                        | FsF-R1.1-01M |       1 |
+| Journal for ImmunoTherapy of Cancer                                                                                        | FsF-R1.3-02D |       1 |
+| O.I.E (World Organisation for Animal Health)                                                                               | FsF-F3-01M   |       2 |
+| O.I.E (World Organisation for Animal Health)                                                                               | FsF-A1-01M   |       2 |
+| O.I.E (World Organisation for Animal Health)                                                                               | FsF-A1-03D   |       2 |
+| O.I.E (World Organisation for Animal Health)                                                                               | FsF-R1.1-01M |       2 |
+| O.I.E (World Organisation for Animal Health)                                                                               | FsF-R1.3-02D |       2 |
+| IWA Publishing                                                                                                             | FsF-F3-01M   |       4 |
+| IWA Publishing                                                                                                             | FsF-A1-01M   |       4 |
+| IWA Publishing                                                                                                             | FsF-A1-03D   |       4 |
+| IWA Publishing                                                                                                             | FsF-R1.1-01M |       4 |
+| IWA Publishing                                                                                                             | FsF-R1.3-02D |       4 |
+| Frontline Medical Communications, Inc.                                                                                     | FsF-F3-01M   |       1 |
+| Frontline Medical Communications, Inc.                                                                                     | FsF-F4-01M   |       1 |
+| Frontline Medical Communications, Inc.                                                                                     | FsF-A1-01M   |       1 |
+| Frontline Medical Communications, Inc.                                                                                     | FsF-A1-03D   |       1 |
+| Frontline Medical Communications, Inc.                                                                                     | FsF-R1-01MD  |       1 |
+| Frontline Medical Communications, Inc.                                                                                     | FsF-R1.1-01M |       1 |
+| Frontline Medical Communications, Inc.                                                                                     | FsF-R1.3-02D |       1 |
+| Journal of Clinical Microbiology                                                                                           | FsF-F3-01M   |       4 |
+| Journal of Clinical Microbiology                                                                                           | FsF-A1-03D   |       4 |
+| Journal of Clinical Microbiology                                                                                           | FsF-R1.1-01M |       4 |
+| Journal of Clinical Microbiology                                                                                           | FsF-R1.3-02D |       4 |
+| Nordic Board for Wildlife Research                                                                                         | FsF-F3-01M   |       2 |
+| Nordic Board for Wildlife Research                                                                                         | FsF-A1-01M   |       2 |
+| Nordic Board for Wildlife Research                                                                                         | FsF-A1-03D   |       2 |
+| Nordic Board for Wildlife Research                                                                                         | FsF-R1.1-01M |       2 |
+| Nordic Board for Wildlife Research                                                                                         | FsF-R1.3-02D |       2 |
+| BioOne Complete                                                                                                            | FsF-F3-01M   |       1 |
+| BioOne Complete                                                                                                            | FsF-A1-01M   |       1 |
+| BioOne Complete                                                                                                            | FsF-A1-03D   |       1 |
+| BioOne Complete                                                                                                            | FsF-R1.1-01M |       1 |
+| BioOne Complete                                                                                                            | FsF-R1.3-02D |       1 |
+| Physical Review C                                                                                                          | FsF-F3-01M   |       1 |
+| Physical Review C                                                                                                          | FsF-A1-01M   |       1 |
+| Physical Review C                                                                                                          | FsF-A1-03D   |       1 |
+| Physical Review C                                                                                                          | FsF-R1.1-01M |       1 |
+| Physical Review C                                                                                                          | FsF-R1.3-02D |       1 |
+| Birkhäuser Basel                                                                                                           | FsF-F3-01M   |       9 |
+| Birkhäuser Basel                                                                                                           | FsF-A1-01M   |       9 |
+| Birkhäuser Basel                                                                                                           | FsF-A1-03D   |       9 |
+| Birkhäuser Basel                                                                                                           | FsF-R1.1-01M |       9 |
+| Birkhäuser Basel                                                                                                           | FsF-R1.3-02D |       9 |
+| Birkhäuser, Basel                                                                                                          | FsF-F3-01M   |       3 |
+| Birkhäuser, Basel                                                                                                          | FsF-A1-01M   |       3 |
+| Birkhäuser, Basel                                                                                                          | FsF-A1-03D   |       3 |
+| Birkhäuser, Basel                                                                                                          | FsF-R1.1-01M |       3 |
+| Birkhäuser, Basel                                                                                                          | FsF-R1.3-02D |       3 |
+| Journal of Medical Internet Research                                                                                       | FsF-F3-01M   |       2 |
+| Journal of Medical Internet Research                                                                                       | FsF-A1-01M   |       2 |
+| Journal of Medical Internet Research                                                                                       | FsF-A1-03D   |       2 |
+| Journal of Medical Internet Research                                                                                       | FsF-R1.1-01M |       2 |
+| Journal of Medical Internet Research                                                                                       | FsF-R1.3-02D |       2 |
+| Emerging Infectious Diseases journal                                                                                       | FsF-F3-01M   |       1 |
+| Emerging Infectious Diseases journal                                                                                       | FsF-A1-01M   |       1 |
+| Emerging Infectious Diseases journal                                                                                       | FsF-A1-03D   |       1 |
+| Emerging Infectious Diseases journal                                                                                       | FsF-I3-01M   |       1 |
+| Emerging Infectious Diseases journal                                                                                       | FsF-R1.1-01M |       1 |
+| Emerging Infectious Diseases journal                                                                                       | FsF-R1.3-02D |       1 |
+| Tsinghua Press                                                                                                             | FsF-F3-01M   |       2 |
+| Tsinghua Press                                                                                                             | FsF-A1-03D   |       2 |
+| Tsinghua Press                                                                                                             | FsF-R1.1-01M |       2 |
+| Tsinghua Press                                                                                                             | FsF-R1.3-02D |       2 |
+| Springer Japan                                                                                                             | FsF-F3-01M   |       4 |
+| Springer Japan                                                                                                             | FsF-A1-03D   |       4 |
+| Springer Japan                                                                                                             | FsF-R1.1-01M |       2 |
+| Springer Japan                                                                                                             | FsF-R1.3-02D |       4 |
+| Neurology                                                                                                                  | FsF-F3-01M   |       4 |
+| Neurology                                                                                                                  | FsF-A1-01M   |       4 |
+| Neurology                                                                                                                  | FsF-A1-03D   |       4 |
+| Neurology                                                                                                                  | FsF-R1.1-01M |       4 |
+| Neurology                                                                                                                  | FsF-R1.3-02D |       4 |
+| World Scientific Pub Co Pte Ltd                                                                                            | FsF-F3-01M   |       2 |
+| World Scientific Pub Co Pte Ltd                                                                                            | FsF-A1-01M   |       2 |
+| World Scientific Pub Co Pte Ltd                                                                                            | FsF-A1-03D   |       2 |
+| World Scientific Pub Co Pte Ltd                                                                                            | FsF-R1.1-01M |       2 |
+| World Scientific Pub Co Pte Ltd                                                                                            | FsF-R1.3-02D |       2 |
+| Schweizerbart                                                                                                              | FsF-F3-01M   |       3 |
+| Schweizerbart                                                                                                              | FsF-F4-01M   |       1 |
+| Schweizerbart                                                                                                              | FsF-A1-01M   |       3 |
+| Schweizerbart                                                                                                              | FsF-A1-03D   |       3 |
+| Schweizerbart                                                                                                              | FsF-R1-01MD  |       1 |
+| Schweizerbart                                                                                                              | FsF-R1.1-01M |       3 |
+| Schweizerbart                                                                                                              | FsF-R1.3-02D |       3 |
+| Sage PublicationsSage UK: London, England                                                                                  | FsF-F3-01M   |       1 |
+| Sage PublicationsSage UK: London, England                                                                                  | FsF-A1-01M   |       1 |
+| Sage PublicationsSage UK: London, England                                                                                  | FsF-A1-03D   |       1 |
+| Sage PublicationsSage UK: London, England                                                                                  | FsF-R1.1-01M |       1 |
+| Sage PublicationsSage UK: London, England                                                                                  | FsF-R1.3-02D |       1 |
+| © Hippokrates Verlag GmbH Stuttgart                                                                                        | FsF-F3-01M   |       1 |
+| © Hippokrates Verlag GmbH Stuttgart                                                                                        | FsF-A1-01M   |       1 |
+| © Hippokrates Verlag GmbH Stuttgart                                                                                        | FsF-A1-03D   |       1 |
+| © Hippokrates Verlag GmbH Stuttgart                                                                                        | FsF-I3-01M   |       1 |
+| © Hippokrates Verlag GmbH Stuttgart                                                                                        | FsF-R1.1-01M |       1 |
+| © Hippokrates Verlag GmbH Stuttgart                                                                                        | FsF-R1.3-02D |       1 |
+| Commonwealth Forestry Association                                                                                          | FsF-F3-01M   |       3 |
+| Commonwealth Forestry Association                                                                                          | FsF-A1-01M   |       3 |
+| Commonwealth Forestry Association                                                                                          | FsF-A1-03D   |       3 |
+| Commonwealth Forestry Association                                                                                          | FsF-R1.1-01M |       3 |
+| Commonwealth Forestry Association                                                                                          | FsF-R1.3-02D |       3 |
+| American Astronomical Society                                                                                              | FsF-F3-01M   |       2 |
+| American Astronomical Society                                                                                              | FsF-F4-01M   |       2 |
+| American Astronomical Society                                                                                              | FsF-A1-01M   |       2 |
+| American Astronomical Society                                                                                              | FsF-A1-03D   |       2 |
+| American Astronomical Society                                                                                              | FsF-R1-01MD  |       2 |
+| American Astronomical Society                                                                                              | FsF-R1.1-01M |       2 |
+| American Astronomical Society                                                                                              | FsF-R1.3-02D |       2 |
+| ACM Transactions on Graphics                                                                                               | FsF-F3-01M   |       1 |
+| ACM Transactions on Graphics                                                                                               | FsF-A1-01M   |       1 |
+| ACM Transactions on Graphics                                                                                               | FsF-A1-03D   |       1 |
+| ACM Transactions on Graphics                                                                                               | FsF-R1.1-01M |       1 |
+| ACM Transactions on Graphics                                                                                               | FsF-R1.3-02D |       1 |
+| ACM Transactions on Computational Logic                                                                                    | FsF-F3-01M   |       1 |
+| ACM Transactions on Computational Logic                                                                                    | FsF-A1-01M   |       1 |
+| ACM Transactions on Computational Logic                                                                                    | FsF-A1-03D   |       1 |
+| ACM Transactions on Computational Logic                                                                                    | FsF-R1.1-01M |       1 |
+| ACM Transactions on Computational Logic                                                                                    | FsF-R1.3-02D |       1 |
+| Radiation Research Society                                                                                                 | FsF-F3-01M   |       1 |
+| Radiation Research Society                                                                                                 | FsF-F4-01M   |       1 |
+| Radiation Research Society                                                                                                 | FsF-A1-01M   |       1 |
+| Radiation Research Society                                                                                                 | FsF-A1-03D   |       1 |
+| Radiation Research Society                                                                                                 | FsF-R1-01MD  |       1 |
+| Radiation Research Society                                                                                                 | FsF-R1.1-01M |       1 |
+| Radiation Research Society                                                                                                 | FsF-R1.3-02D |       1 |
+| AIDS Research and Human Retroviruses                                                                                       | FsF-F3-01M   |       1 |
+| AIDS Research and Human Retroviruses                                                                                       | FsF-A1-01M   |       1 |
+| AIDS Research and Human Retroviruses                                                                                       | FsF-A1-03D   |       1 |
+| AIDS Research and Human Retroviruses                                                                                       | FsF-R1.1-01M |       1 |
+| AIDS Research and Human Retroviruses                                                                                       | FsF-R1.3-02D |       1 |
+| American Psychiatric Association                                                                                           | FsF-F3-01M   |       1 |
+| American Psychiatric Association                                                                                           | FsF-A1-01M   |       1 |
+| American Psychiatric Association                                                                                           | FsF-A1-03D   |       1 |
+| American Psychiatric Association                                                                                           | FsF-R1.1-01M |       1 |
+| American Psychiatric Association                                                                                           | FsF-R1.3-02D |       1 |
+| Princeton University and the Institute for Advanced Study                                                                  | FsF-F3-01M   |       1 |
+| Princeton University and the Institute for Advanced Study                                                                  | FsF-F4-01M   |       1 |
+| Princeton University and the Institute for Advanced Study                                                                  | FsF-A1-01M   |       1 |
+| Princeton University and the Institute for Advanced Study                                                                  | FsF-A1-03D   |       1 |
+| Princeton University and the Institute for Advanced Study                                                                  | FsF-I3-01M   |       1 |
+| Princeton University and the Institute for Advanced Study                                                                  | FsF-R1.1-01M |       1 |
+| Princeton University and the Institute for Advanced Study                                                                  | FsF-R1.3-02D |       1 |
+| Association for Child and Adolescent Mental Health                                                                         | FsF-F3-01M   |       1 |
+| Association for Child and Adolescent Mental Health                                                                         | FsF-A1-01M   |       1 |
+| Association for Child and Adolescent Mental Health                                                                         | FsF-A1-03D   |       1 |
+| Association for Child and Adolescent Mental Health                                                                         | FsF-R1.1-01M |       1 |
+| Association for Child and Adolescent Mental Health                                                                         | FsF-R1.3-02D |       1 |
+| Sigma Theta Tau International                                                                                              | FsF-F3-01M   |       1 |
+| Sigma Theta Tau International                                                                                              | FsF-A1-01M   |       1 |
+| Sigma Theta Tau International                                                                                              | FsF-A1-03D   |       1 |
+| Sigma Theta Tau International                                                                                              | FsF-R1.1-01M |       1 |
+| Sigma Theta Tau International                                                                                              | FsF-R1.3-02D |       1 |
+| American Academy of Implant Dentistry                                                                                      | FsF-F3-01M   |       2 |
+| American Academy of Implant Dentistry                                                                                      | FsF-A1-01M   |       2 |
+| American Academy of Implant Dentistry                                                                                      | FsF-A1-03D   |       2 |
+| American Academy of Implant Dentistry                                                                                      | FsF-R1.1-01M |       2 |
+| American Academy of Implant Dentistry                                                                                      | FsF-R1.3-02D |       2 |
+| erc                                                                                                                        | FsF-F3-01M   |       2 |
+| erc                                                                                                                        | FsF-A1-01M   |       2 |
+| erc                                                                                                                        | FsF-A1-03D   |       2 |
+| erc                                                                                                                        | FsF-R1.1-01M |       2 |
+| erc                                                                                                                        | FsF-R1.3-02D |       2 |
+| erc                                                                                                                        | FsF-I3-01M   |       1 |
+| American Meteorological Society                                                                                            | FsF-F3-01M   |       2 |
+| American Meteorological Society                                                                                            | FsF-A1-01M   |       2 |
+| American Meteorological Society                                                                                            | FsF-A1-03D   |       2 |
+| American Meteorological Society                                                                                            | FsF-R1.1-01M |       2 |
+| American Meteorological Society                                                                                            | FsF-R1.3-02D |       2 |
+| American Meteorological Society                                                                                            | FsF-F4-01M   |       1 |
+| American Meteorological Society                                                                                            | FsF-R1-01MD  |       1 |
+| AMETSOC                                                                                                                    | FsF-F3-01M   |       1 |
+| AMETSOC                                                                                                                    | FsF-A1-01M   |       1 |
+| AMETSOC                                                                                                                    | FsF-A1-03D   |       1 |
+| AMETSOC                                                                                                                    | FsF-R1.1-01M |       1 |
+| AMETSOC                                                                                                                    | FsF-R1.3-02D |       1 |
+| ACM Other conferences                                                                                                      | FsF-F3-01M   |       2 |
+| ACM Other conferences                                                                                                      | FsF-A1-01M   |       2 |
+| ACM Other conferences                                                                                                      | FsF-A1-03D   |       2 |
+| ACM Other conferences                                                                                                      | FsF-R1.1-01M |       2 |
+| ACM Other conferences                                                                                                      | FsF-R1.3-02D |       2 |
+| Communications of the ACM                                                                                                  | FsF-F3-01M   |       1 |
+| Communications of the ACM                                                                                                  | FsF-A1-01M   |       1 |
+| Communications of the ACM                                                                                                  | FsF-A1-03D   |       1 |
+| Communications of the ACM                                                                                                  | FsF-R1.1-01M |       1 |
+| Communications of the ACM                                                                                                  | FsF-R1.3-02D |       1 |
+| Now Publishers, Inc.                                                                                                       | FsF-F3-01M   |       1 |
+| Now Publishers, Inc.                                                                                                       | FsF-A1-01M   |       1 |
+| Now Publishers, Inc.                                                                                                       | FsF-A1-03D   |       1 |
+| Now Publishers, Inc.                                                                                                       | FsF-I3-01M   |       1 |
+| Now Publishers, Inc.                                                                                                       | FsF-R1.1-01M |       1 |
+| Now Publishers, Inc.                                                                                                       | FsF-R1.3-02D |       1 |
+| The New York Academy of Sciences                                                                                           | FsF-F3-01M   |       1 |
+| The New York Academy of Sciences                                                                                           | FsF-A1-01M   |       1 |
+| The New York Academy of Sciences                                                                                           | FsF-A1-03D   |       1 |
+| The New York Academy of Sciences                                                                                           | FsF-R1.1-01M |       1 |
+| The New York Academy of Sciences                                                                                           | FsF-R1.3-02D |       1 |
+| Physiology                                                                                                                 | FsF-F3-01M   |       1 |
+| Physiology                                                                                                                 | FsF-A1-03D   |       1 |
+| Physiology                                                                                                                 | FsF-R1.1-01M |       1 |
+| Physiology                                                                                                                 | FsF-R1.3-02D |       1 |
+| Physica-Verlag                                                                                                             | FsF-F3-01M   |       2 |
+| Physica-Verlag                                                                                                             | FsF-A1-03D   |       2 |
+| Physica-Verlag                                                                                                             | FsF-R1.1-01M |       2 |
+| Physica-Verlag                                                                                                             | FsF-R1.3-02D |       2 |
+| Wolters KluwerPhiladelphia, PA                                                                                             | FsF-F3-01M   |       2 |
+| Wolters KluwerPhiladelphia, PA                                                                                             | FsF-A1-03D   |       2 |
+| Wolters KluwerPhiladelphia, PA                                                                                             | FsF-R1.1-01M |       2 |
+| Wolters KluwerPhiladelphia, PA                                                                                             | FsF-R1.3-02D |       2 |
+| Wolters KluwerPhiladelphia, PA                                                                                             | FsF-I3-01M   |       1 |
+| Journal of Urology                                                                                                         | FsF-F3-01M   |       2 |
+| Journal of Urology                                                                                                         | FsF-A1-03D   |       2 |
+| Journal of Urology                                                                                                         | FsF-R1.1-01M |       2 |
+| Journal of Urology                                                                                                         | FsF-R1.3-02D |       2 |
+| Journal of Urology                                                                                                         | FsF-I3-01M   |       1 |
+| International Society of Endovascular Specialists                                                                          | FsF-F3-01M   |       2 |
+| International Society of Endovascular Specialists                                                                          | FsF-A1-03D   |       2 |
+| International Society of Endovascular Specialists                                                                          | FsF-R1.1-01M |       2 |
+| International Society of Endovascular Specialists                                                                          | FsF-R1.3-02D |       2 |
+| Bioscientifica Ltd                                                                                                         | FsF-F3-01M   |       1 |
+| Bioscientifica Ltd                                                                                                         | FsF-A1-01M   |       1 |
+| Bioscientifica Ltd                                                                                                         | FsF-A1-03D   |       1 |
+| Bioscientifica Ltd                                                                                                         | FsF-I3-01M   |       1 |
+| Bioscientifica Ltd                                                                                                         | FsF-R1.1-01M |       1 |
+| Bioscientifica Ltd                                                                                                         | FsF-R1.3-02D |       1 |
+| American College of Clinical Pharmacology                                                                                  | FsF-F3-01M   |       1 |
+| American College of Clinical Pharmacology                                                                                  | FsF-A1-01M   |       1 |
+| American College of Clinical Pharmacology                                                                                  | FsF-A1-03D   |       1 |
+| American College of Clinical Pharmacology                                                                                  | FsF-R1.1-01M |       1 |
+| American College of Clinical Pharmacology                                                                                  | FsF-R1.3-02D |       1 |
+| Physicians Postgraduate Press, Inc                                                                                         | FsF-F3-01M   |       2 |
+| Physicians Postgraduate Press, Inc                                                                                         | FsF-A1-01M   |       2 |
+| Physicians Postgraduate Press, Inc                                                                                         | FsF-A1-03D   |       2 |
+| Physicians Postgraduate Press, Inc                                                                                         | FsF-R1.1-01M |       2 |
+| Physicians Postgraduate Press, Inc                                                                                         | FsF-R1.3-02D |       2 |
+| © Georg Thieme Verlag                                                                                                      | FsF-F3-01M   |       1 |
+| © Georg Thieme Verlag                                                                                                      | FsF-A1-01M   |       1 |
+| © Georg Thieme Verlag                                                                                                      | FsF-A1-03D   |       1 |
+| © Georg Thieme Verlag                                                                                                      | FsF-I3-01M   |       1 |
+| © Georg Thieme Verlag                                                                                                      | FsF-R1.1-01M |       1 |
+| © Georg Thieme Verlag                                                                                                      | FsF-R1.3-02D |       1 |
+| Psychiatric Services                                                                                                       | FsF-F3-01M   |       1 |
+| Psychiatric Services                                                                                                       | FsF-A1-01M   |       1 |
+| Psychiatric Services                                                                                                       | FsF-A1-03D   |       1 |
+| Psychiatric Services                                                                                                       | FsF-R1.1-01M |       1 |
+| Psychiatric Services                                                                                                       | FsF-R1.3-02D |       1 |
+| Servicio Nacional de Geología y Minería                                                                                    | FsF-F3-01M   |       1 |
+| Servicio Nacional de Geología y Minería                                                                                    | FsF-F4-01M   |       1 |
+| Servicio Nacional de Geología y Minería                                                                                    | FsF-A1-01M   |       1 |
+| Servicio Nacional de Geología y Minería                                                                                    | FsF-A1-03D   |       1 |
+| Servicio Nacional de Geología y Minería                                                                                    | FsF-R1-01MD  |       1 |
+| Servicio Nacional de Geología y Minería                                                                                    | FsF-R1.1-01M |       1 |
+| Servicio Nacional de Geología y Minería                                                                                    | FsF-R1.3-02D |       1 |
+| SciELO Agencia Nacional de Investigacion y Desarrollo (ANID)                                                               | FsF-F3-01M   |       2 |
+| SciELO Agencia Nacional de Investigacion y Desarrollo (ANID)                                                               | FsF-F4-01M   |       2 |
+| SciELO Agencia Nacional de Investigacion y Desarrollo (ANID)                                                               | FsF-A1-01M   |       2 |
+| SciELO Agencia Nacional de Investigacion y Desarrollo (ANID)                                                               | FsF-A1-03D   |       2 |
+| SciELO Agencia Nacional de Investigacion y Desarrollo (ANID)                                                               | FsF-R1-01MD  |       2 |
+| SciELO Agencia Nacional de Investigacion y Desarrollo (ANID)                                                               | FsF-R1.1-01M |       2 |
+| SciELO Agencia Nacional de Investigacion y Desarrollo (ANID)                                                               | FsF-R1.3-02D |       2 |
+| Springer, Vienna                                                                                                           | FsF-F3-01M   |       1 |
+| Springer, Vienna                                                                                                           | FsF-A1-01M   |       1 |
+| Springer, Vienna                                                                                                           | FsF-A1-03D   |       1 |
+| Springer, Vienna                                                                                                           | FsF-R1.1-01M |       1 |
+| Springer, Vienna                                                                                                           | FsF-R1.3-02D |       1 |
+| The Radiological Society of North America                                                                                  | FsF-F3-01M   |       1 |
+| The Radiological Society of North America                                                                                  | FsF-A1-03D   |       1 |
+| The Radiological Society of North America                                                                                  | FsF-R1.1-01M |       1 |
+| The Radiological Society of North America                                                                                  | FsF-R1.3-02D |       1 |
+| Springer International Publishing AG                                                                                       | FsF-F3-01M   |       2 |
+| Springer International Publishing AG                                                                                       | FsF-A1-03D   |       2 |
+| Springer International Publishing AG                                                                                       | FsF-R1.1-01M |       2 |
+| Springer International Publishing AG                                                                                       | FsF-R1.3-02D |       2 |
+| BMJ Publishing Group Ltd and British Association of Sport and Exercise Medicine                                            | FsF-F3-01M   |       2 |
+| BMJ Publishing Group Ltd and British Association of Sport and Exercise Medicine                                            | FsF-A1-03D   |       2 |
+| BMJ Publishing Group Ltd and British Association of Sport and Exercise Medicine                                            | FsF-R1.1-01M |       2 |
+| BMJ Publishing Group Ltd and British Association of Sport and Exercise Medicine                                            | FsF-R1.3-02D |       2 |
+| British Journal of Sports Medicine                                                                                         | FsF-F3-01M   |       1 |
+| British Journal of Sports Medicine                                                                                         | FsF-A1-03D   |       1 |
+| British Journal of Sports Medicine                                                                                         | FsF-R1.1-01M |       1 |
+| British Journal of Sports Medicine                                                                                         | FsF-R1.3-02D |       1 |
+| American Mathematical Society (AMS)                                                                                        | FsF-F3-01M   |       4 |
+| American Mathematical Society (AMS)                                                                                        | FsF-A1-01M   |       4 |
+| American Mathematical Society (AMS)                                                                                        | FsF-A1-03D   |       4 |
+| American Mathematical Society (AMS)                                                                                        | FsF-R1.1-01M |       4 |
+| American Mathematical Society (AMS)                                                                                        | FsF-R1.3-02D |       4 |
+| American Academy of Sleep Medicine (AASM)                                                                                  | FsF-F3-01M   |       3 |
+| American Academy of Sleep Medicine (AASM)                                                                                  | FsF-F4-01M   |       1 |
+| American Academy of Sleep Medicine (AASM)                                                                                  | FsF-A1-01M   |       1 |
+| American Academy of Sleep Medicine (AASM)                                                                                  | FsF-A1-03D   |       3 |
+| American Academy of Sleep Medicine (AASM)                                                                                  | FsF-R1-01MD  |       1 |
+| American Academy of Sleep Medicine (AASM)                                                                                  | FsF-R1.1-01M |       3 |
+| American Academy of Sleep Medicine (AASM)                                                                                  | FsF-R1.3-02D |       3 |
+| Korean Society of Epidemiology                                                                                             | FsF-F3-01M   |       1 |
+| Korean Society of Epidemiology                                                                                             | FsF-A1-01M   |       1 |
+| Korean Society of Epidemiology                                                                                             | FsF-A1-03D   |       1 |
+| Korean Society of Epidemiology                                                                                             | FsF-R1.1-01M |       1 |
+| Korean Society of Epidemiology                                                                                             | FsF-R1.3-02D |       1 |
+| Regional Anesthesia & Pain Medicine                                                                                        | FsF-F3-01M   |       1 |
+| Regional Anesthesia & Pain Medicine                                                                                        | FsF-A1-03D   |       1 |
+| Regional Anesthesia & Pain Medicine                                                                                        | FsF-R1.1-01M |       1 |
+| Regional Anesthesia & Pain Medicine                                                                                        | FsF-R1.3-02D |       1 |
+| 一般社団法人 日本プライマリ・ケア連合学会                                                                                  | FsF-F3-01M   |       1 |
+| 一般社団法人 日本プライマリ・ケア連合学会                                                                                  | FsF-A1-01M   |       1 |
+| 一般社団法人 日本プライマリ・ケア連合学会                                                                                  | FsF-A1-03D   |       1 |
+| 一般社団法人 日本プライマリ・ケア連合学会                                                                                  | FsF-R1-01MD  |       1 |
+| 一般社団法人 日本プライマリ・ケア連合学会                                                                                  | FsF-R1.1-01M |       1 |
+| 一般社団法人 日本プライマリ・ケア連合学会                                                                                  | FsF-R1.3-02D |       1 |
+| The Japan Primary Care Association                                                                                         | FsF-F3-01M   |       2 |
+| The Japan Primary Care Association                                                                                         | FsF-A1-01M   |       2 |
+| The Japan Primary Care Association                                                                                         | FsF-A1-03D   |       2 |
+| The Japan Primary Care Association                                                                                         | FsF-R1-01MD  |       2 |
+| The Japan Primary Care Association                                                                                         | FsF-R1.1-01M |       2 |
+| The Japan Primary Care Association                                                                                         | FsF-R1.3-02D |       2 |
+| Taiwan Association for Aerosol Research                                                                                    | FsF-F3-01M   |       1 |
+| Taiwan Association for Aerosol Research                                                                                    | FsF-A1-01M   |       1 |
+| Taiwan Association for Aerosol Research                                                                                    | FsF-A1-03D   |       1 |
+| Taiwan Association for Aerosol Research                                                                                    | FsF-I3-01M   |       1 |
+| Taiwan Association for Aerosol Research                                                                                    | FsF-R1.1-01M |       1 |
+| Taiwan Association for Aerosol Research                                                                                    | FsF-R1.3-02D |       1 |
+| American Chemical Society and American Society of Pharmacognosy                                                            | FsF-F3-01M   |       1 |
+| American Chemical Society and American Society of Pharmacognosy                                                            | FsF-A1-03D   |       1 |
+| American Chemical Society and American Society of Pharmacognosy                                                            | FsF-R1.1-01M |       1 |
+| American Chemical Society and American Society of Pharmacognosy                                                            | FsF-R1.3-02D |       1 |
+| ZSL Publications                                                                                                           | FsF-F3-01M   |       1 |
+| ZSL Publications                                                                                                           | FsF-A1-01M   |       1 |
+| ZSL Publications                                                                                                           | FsF-A1-03D   |       1 |
+| ZSL Publications                                                                                                           | FsF-I3-01M   |       1 |
+| ZSL Publications                                                                                                           | FsF-R1.1-01M |       1 |
+| ZSL Publications                                                                                                           | FsF-R1.3-02D |       1 |
+| Schweizerbart'sche Verlagsbuchhandlung                                                                                     | FsF-F3-01M   |       2 |
+| Schweizerbart'sche Verlagsbuchhandlung                                                                                     | FsF-A1-01M   |       2 |
+| Schweizerbart'sche Verlagsbuchhandlung                                                                                     | FsF-A1-03D   |       2 |
+| Schweizerbart'sche Verlagsbuchhandlung                                                                                     | FsF-R1.1-01M |       2 |
+| Schweizerbart'sche Verlagsbuchhandlung                                                                                     | FsF-R1.3-02D |       2 |
+| American Academy of Sleep Medicine                                                                                         | FsF-F3-01M   |       1 |
+| American Academy of Sleep Medicine                                                                                         | FsF-A1-03D   |       1 |
+| American Academy of Sleep Medicine                                                                                         | FsF-R1.1-01M |       1 |
+| American Academy of Sleep Medicine                                                                                         | FsF-R1.3-02D |       1 |
+| Journal of Clinical Sleep Medicine                                                                                         | FsF-F3-01M   |       1 |
+| Journal of Clinical Sleep Medicine                                                                                         | FsF-A1-03D   |       1 |
+| Journal of Clinical Sleep Medicine                                                                                         | FsF-R1.1-01M |       1 |
+| Journal of Clinical Sleep Medicine                                                                                         | FsF-R1.3-02D |       1 |
+| Philosophical Transactions of the Royal Society B: Biological Sciences                                                     | FsF-F3-01M   |       1 |
+| Philosophical Transactions of the Royal Society B: Biological Sciences                                                     | FsF-A1-01M   |       1 |
+| Philosophical Transactions of the Royal Society B: Biological Sciences                                                     | FsF-A1-03D   |       1 |
+| Philosophical Transactions of the Royal Society B: Biological Sciences                                                     | FsF-R1.1-01M |       1 |
+| Philosophical Transactions of the Royal Society B: Biological Sciences                                                     | FsF-R1.3-02D |       1 |
+| National Institute of Occupational Safety and Health                                                                       | FsF-F3-01M   |       1 |
+| National Institute of Occupational Safety and Health                                                                       | FsF-A1-01M   |       1 |
+| National Institute of Occupational Safety and Health                                                                       | FsF-A1-03D   |       1 |
+| National Institute of Occupational Safety and Health                                                                       | FsF-R1.1-01M |       1 |
+| National Institute of Occupational Safety and Health                                                                       | FsF-R1.3-02D |       1 |
+| National Institute of Industrial Health                                                                                    | FsF-F3-01M   |       2 |
+| National Institute of Industrial Health                                                                                    | FsF-A1-01M   |       2 |
+| National Institute of Industrial Health                                                                                    | FsF-A1-03D   |       2 |
+| National Institute of Industrial Health                                                                                    | FsF-R1.1-01M |       2 |
+| National Institute of Industrial Health                                                                                    | FsF-R1.3-02D |       2 |
+| Waxmann : Münster [u.a.]                                                                                                   | FsF-F3-01M   |       1 |
+| Waxmann : Münster [u.a.]                                                                                                   | FsF-A1-03D   |       1 |
+| Waxmann : Münster [u.a.]                                                                                                   | FsF-I1-01M   |       1 |
+| Waxmann : Münster [u.a.]                                                                                                   | FsF-R1.3-02D |       1 |
+| Springer Basel                                                                                                             | FsF-F3-01M   |       6 |
+| Springer Basel                                                                                                             | FsF-A1-01M   |       6 |
+| Springer Basel                                                                                                             | FsF-A1-03D   |       6 |
+| Springer Basel                                                                                                             | FsF-R1.1-01M |       6 |
+| Springer Basel                                                                                                             | FsF-R1.3-02D |       6 |
+| PeerJ Inc.                                                                                                                 | FsF-F3-01M   |       1 |
+| PeerJ Inc.                                                                                                                 | FsF-A1-01M   |       1 |
+| PeerJ Inc.                                                                                                                 | FsF-A1-03D   |       1 |
+| PeerJ Inc.                                                                                                                 | FsF-R1.3-02D |       1 |
+| PeerJ                                                                                                                      | FsF-F3-01M   |       3 |
+| PeerJ                                                                                                                      | FsF-A1-01M   |       3 |
+| PeerJ                                                                                                                      | FsF-A1-03D   |       3 |
+| PeerJ                                                                                                                      | FsF-R1.3-02D |       3 |
+| IGiPZ PAN                                                                                                                  | FsF-F3-01M   |       3 |
+| IGiPZ PAN                                                                                                                  | FsF-A1-03D   |       3 |
+| IGiPZ PAN                                                                                                                  | FsF-R1.1-01M |       3 |
+| IGiPZ PAN                                                                                                                  | FsF-R1.3-02D |       3 |
+| Institute of Geography and Spatial Organization, Polish Academy of Sciences                                                | FsF-F3-01M   |       2 |
+| Institute of Geography and Spatial Organization, Polish Academy of Sciences                                                | FsF-A1-03D   |       2 |
+| Institute of Geography and Spatial Organization, Polish Academy of Sciences                                                | FsF-R1.1-01M |       2 |
+| Institute of Geography and Spatial Organization, Polish Academy of Sciences                                                | FsF-R1.3-02D |       2 |
+| CMAJ                                                                                                                       | FsF-F3-01M   |       3 |
+| CMAJ                                                                                                                       | FsF-A1-03D   |       3 |
+| CMAJ                                                                                                                       | FsF-R1.1-01M |       3 |
+| CMAJ                                                                                                                       | FsF-R1.3-02D |       3 |
+| CMA Impact Inc.                                                                                                            | FsF-F3-01M   |       2 |
+| CMA Impact Inc.                                                                                                            | FsF-A1-03D   |       2 |
+| CMA Impact Inc.                                                                                                            | FsF-R1.1-01M |       2 |
+| CMA Impact Inc.                                                                                                            | FsF-R1.3-02D |       2 |
+| Geological Society of London                                                                                               | FsF-F3-01M   |       2 |
+| Geological Society of London                                                                                               | FsF-A1-01M   |       2 |
+| Geological Society of London                                                                                               | FsF-A1-03D   |       2 |
+| Geological Society of London                                                                                               | FsF-R1.1-01M |       2 |
+| Geological Society of London                                                                                               | FsF-R1.3-02D |       2 |
+| J.F. Bergmann-Verlag                                                                                                       | FsF-F3-01M   |       3 |
+| J.F. Bergmann-Verlag                                                                                                       | FsF-A1-01M   |       3 |
+| J.F. Bergmann-Verlag                                                                                                       | FsF-A1-03D   |       3 |
+| J.F. Bergmann-Verlag                                                                                                       | FsF-R1.1-01M |       3 |
+| J.F. Bergmann-Verlag                                                                                                       | FsF-R1.3-02D |       3 |
+| J.F. Bergmann-Verlag, Munich                                                                                               | FsF-F3-01M   |       1 |
+| J.F. Bergmann-Verlag, Munich                                                                                               | FsF-A1-01M   |       1 |
+| J.F. Bergmann-Verlag, Munich                                                                                               | FsF-A1-03D   |       1 |
+| J.F. Bergmann-Verlag, Munich                                                                                               | FsF-R1.1-01M |       1 |
+| J.F. Bergmann-Verlag, Munich                                                                                               | FsF-R1.3-02D |       1 |
+| Dustri-Verlgag Dr. Karl Feistle                                                                                            | FsF-F3-01M   |       2 |
+| Dustri-Verlgag Dr. Karl Feistle                                                                                            | FsF-F4-01M   |       2 |
+| Dustri-Verlgag Dr. Karl Feistle                                                                                            | FsF-A1-01M   |       2 |
+| Dustri-Verlgag Dr. Karl Feistle                                                                                            | FsF-A1-03D   |       2 |
+| Dustri-Verlgag Dr. Karl Feistle                                                                                            | FsF-R1-01MD  |       2 |
+| Dustri-Verlgag Dr. Karl Feistle                                                                                            | FsF-R1.1-01M |       2 |
+| Dustri-Verlgag Dr. Karl Feistle                                                                                            | FsF-R1.3-02D |       2 |
+| UPV/EHU Press                                                                                                              | FsF-F3-01M   |       2 |
+| UPV/EHU Press                                                                                                              | FsF-A1-01M   |       2 |
+| UPV/EHU Press                                                                                                              | FsF-A1-03D   |       2 |
+| UPV/EHU Press                                                                                                              | FsF-I3-01M   |       2 |
+| UPV/EHU Press                                                                                                              | FsF-R1.1-01M |       2 |
+| UPV/EHU Press                                                                                                              | FsF-R1.3-02D |       2 |
+| The International Journal of Developmental Biology                                                                         | FsF-F3-01M   |       1 |
+| The International Journal of Developmental Biology                                                                         | FsF-A1-01M   |       1 |
+| The International Journal of Developmental Biology                                                                         | FsF-A1-03D   |       1 |
+| The International Journal of Developmental Biology                                                                         | FsF-I3-01M   |       1 |
+| The International Journal of Developmental Biology                                                                         | FsF-R1.1-01M |       1 |
+| The International Journal of Developmental Biology                                                                         | FsF-R1.3-02D |       1 |
+| British Journal of Ophthalmology                                                                                           | FsF-F3-01M   |       1 |
+| British Journal of Ophthalmology                                                                                           | FsF-A1-03D   |       1 |
+| British Journal of Ophthalmology                                                                                           | FsF-R1.1-01M |       1 |
+| British Journal of Ophthalmology                                                                                           | FsF-R1.3-02D |       1 |
+| Antioxidants & Redox Signaling                                                                                             | FsF-F3-01M   |       1 |
+| Antioxidants & Redox Signaling                                                                                             | FsF-A1-01M   |       1 |
+| Antioxidants & Redox Signaling                                                                                             | FsF-A1-03D   |       1 |
+| Antioxidants & Redox Signaling                                                                                             | FsF-R1.1-01M |       1 |
+| Antioxidants & Redox Signaling                                                                                             | FsF-R1.3-02D |       1 |
+| American Journal of Neuroradiology                                                                                         | FsF-F3-01M   |       6 |
+| American Journal of Neuroradiology                                                                                         | FsF-A1-03D   |       6 |
+| American Journal of Neuroradiology                                                                                         | FsF-R1.1-01M |       6 |
+| American Journal of Neuroradiology                                                                                         | FsF-R1.3-02D |       6 |
+| Sage PublicationsLondon                                                                                                    | FsF-F3-01M   |       1 |
+| Sage PublicationsLondon                                                                                                    | FsF-A1-01M   |       1 |
+| Sage PublicationsLondon                                                                                                    | FsF-A1-03D   |       1 |
+| Sage PublicationsLondon                                                                                                    | FsF-R1.1-01M |       1 |
+| Sage PublicationsLondon                                                                                                    | FsF-R1.3-02D |       1 |
+| The Eurographics Association                                                                                               | FsF-A1-01M   |       2 |
+| The Eurographics Association                                                                                               | FsF-I1-01M   |       2 |
+| The Eurographics Association                                                                                               | FsF-R1-01MD  |       2 |
+| The Eurographics Association                                                                                               | FsF-R1.1-01M |       2 |
+| Victoria University of Wellington Library                                                                                  | FsF-F3-01M   |       2 |
+| Victoria University of Wellington Library                                                                                  | FsF-A1-03D   |       2 |
+| Victoria University of Wellington Library                                                                                  | FsF-R1.1-01M |       2 |
+| Victoria University of Wellington Library                                                                                  | FsF-R1.3-02D |       2 |
+| IEEE Comput. Soc. Press                                                                                                    | FsF-F3-01M   |       2 |
+| IEEE Comput. Soc. Press                                                                                                    | FsF-F4-01M   |       2 |
+| IEEE Comput. Soc. Press                                                                                                    | FsF-A1-01M   |       2 |
+| IEEE Comput. Soc. Press                                                                                                    | FsF-A1-03D   |       2 |
+| IEEE Comput. Soc. Press                                                                                                    | FsF-I3-01M   |       2 |
+| IEEE Comput. Soc. Press                                                                                                    | FsF-R1-01MD  |       2 |
+| IEEE Comput. Soc. Press                                                                                                    | FsF-R1.1-01M |       2 |
+| IEEE Comput. Soc. Press                                                                                                    | FsF-R1.3-02D |       2 |
+| SensePublishers                                                                                                            | FsF-F3-01M   |       1 |
+| SensePublishers                                                                                                            | FsF-A1-01M   |       1 |
+| SensePublishers                                                                                                            | FsF-A1-03D   |       1 |
+| SensePublishers                                                                                                            | FsF-R1.1-01M |       1 |
+| SensePublishers                                                                                                            | FsF-R1.3-02D |       1 |
+| SensePublishers, Rotterdam                                                                                                 | FsF-F3-01M   |       1 |
+| SensePublishers, Rotterdam                                                                                                 | FsF-A1-01M   |       1 |
+| SensePublishers, Rotterdam                                                                                                 | FsF-A1-03D   |       1 |
+| SensePublishers, Rotterdam                                                                                                 | FsF-R1.1-01M |       1 |
+| SensePublishers, Rotterdam                                                                                                 | FsF-R1.3-02D |       1 |
+| Cellule MathDoc/Centre Mersenne                                                                                            | FsF-F3-01M   |       2 |
+| Cellule MathDoc/Centre Mersenne                                                                                            | FsF-F4-01M   |       2 |
+| Cellule MathDoc/Centre Mersenne                                                                                            | FsF-A1-01M   |       2 |
+| Cellule MathDoc/Centre Mersenne                                                                                            | FsF-A1-03D   |       2 |
+| Cellule MathDoc/Centre Mersenne                                                                                            | FsF-R1-01MD  |       2 |
+| Cellule MathDoc/Centre Mersenne                                                                                            | FsF-R1.1-01M |       2 |
+| Cellule MathDoc/Centre Mersenne                                                                                            | FsF-R1.3-02D |       2 |
+| Universität Ulm                                                                                                            | FsF-I1-01M   |       2 |
+| Universität Ulm                                                                                                            | FsF-I3-01M   |       2 |
+| Universität Ulm                                                                                                            | FsF-R1-01MD  |       2 |
+| Linguistic Society of America                                                                                              | FsF-F3-01M   |       1 |
+| Linguistic Society of America                                                                                              | FsF-F4-01M   |       1 |
+| Linguistic Society of America                                                                                              | FsF-A1-01M   |       1 |
+| Linguistic Society of America                                                                                              | FsF-A1-03D   |       1 |
+| Linguistic Society of America                                                                                              | FsF-R1.1-01M |       1 |
+| Linguistic Society of America                                                                                              | FsF-R1.3-02D |       1 |
+| Project MUSE                                                                                                               | FsF-F3-01M   |       2 |
+| Project MUSE                                                                                                               | FsF-F4-01M   |       2 |
+| Project MUSE                                                                                                               | FsF-A1-01M   |       2 |
+| Project MUSE                                                                                                               | FsF-A1-03D   |       2 |
+| Project MUSE                                                                                                               | FsF-R1.1-01M |       2 |
+| Project MUSE                                                                                                               | FsF-R1.3-02D |       2 |
+| Antimicrobial Agents and Chemotherapy                                                                                      | FsF-F3-01M   |       1 |
+| Antimicrobial Agents and Chemotherapy                                                                                      | FsF-A1-03D   |       1 |
+| Antimicrobial Agents and Chemotherapy                                                                                      | FsF-R1.1-01M |       1 |
+| Antimicrobial Agents and Chemotherapy                                                                                      | FsF-R1.3-02D |       1 |
+| https://taylorfrancis.com                                                                                                  | FsF-F3-01M   |       1 |
+| https://taylorfrancis.com                                                                                                  | FsF-A1-01M   |       1 |
+| https://taylorfrancis.com                                                                                                  | FsF-A1-03D   |       1 |
+| https://taylorfrancis.com                                                                                                  | FsF-R1.1-01M |       1 |
+| https://taylorfrancis.com                                                                                                  | FsF-R1.3-02D |       1 |
+| Chapman and Hall/CRC                                                                                                       | FsF-F3-01M   |       2 |
+| Chapman and Hall/CRC                                                                                                       | FsF-A1-01M   |       2 |
+| Chapman and Hall/CRC                                                                                                       | FsF-A1-03D   |       2 |
+| Chapman and Hall/CRC                                                                                                       | FsF-R1.1-01M |       2 |
+| Chapman and Hall/CRC                                                                                                       | FsF-R1.3-02D |       2 |
+| Mary Ann Liebert, Inc., publishers  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                              | FsF-F3-01M   |       1 |
+| Mary Ann Liebert, Inc., publishers  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                              | FsF-A1-03D   |       1 |
+| Mary Ann Liebert, Inc., publishers  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                              | FsF-R1.1-01M |       1 |
+| Mary Ann Liebert, Inc., publishers  140 Huguenot Street, 3rd Floor New Rochelle, NY 10801 USA                              | FsF-R1.3-02D |       1 |
+| Human Gene Therapy                                                                                                         | FsF-F3-01M   |       1 |
+| Human Gene Therapy                                                                                                         | FsF-A1-03D   |       1 |
+| Human Gene Therapy                                                                                                         | FsF-R1.1-01M |       1 |
+| Human Gene Therapy                                                                                                         | FsF-R1.3-02D |       1 |
+| American Journal of Physiology-Gastrointestinal and Liver Physiology                                                       | FsF-F3-01M   |       1 |
+| American Journal of Physiology-Gastrointestinal and Liver Physiology                                                       | FsF-A1-03D   |       1 |
+| American Journal of Physiology-Gastrointestinal and Liver Physiology                                                       | FsF-R1.1-01M |       1 |
+| American Journal of Physiology-Gastrointestinal and Liver Physiology                                                       | FsF-R1.3-02D |       1 |
+| Occupational & Environmental Medicine                                                                                      | FsF-F3-01M   |       1 |
+| Occupational & Environmental Medicine                                                                                      | FsF-A1-03D   |       1 |
+| Occupational & Environmental Medicine                                                                                      | FsF-R1.1-01M |       1 |
+| Occupational & Environmental Medicine                                                                                      | FsF-R1.3-02D |       1 |
+| Wiley Interdisciplinary Reviews                                                                                            | FsF-F3-01M   |       1 |
+| Wiley Interdisciplinary Reviews                                                                                            | FsF-A1-01M   |       1 |
+| Wiley Interdisciplinary Reviews                                                                                            | FsF-A1-03D   |       1 |
+| Wiley Interdisciplinary Reviews                                                                                            | FsF-I3-01M   |       1 |
+| Wiley Interdisciplinary Reviews                                                                                            | FsF-R1.1-01M |       1 |
+| Wiley Interdisciplinary Reviews                                                                                            | FsF-R1.3-02D |       1 |
+| Physical Review Journals Archive                                                                                           | FsF-F3-01M   |       1 |
+| Physical Review Journals Archive                                                                                           | FsF-A1-01M   |       1 |
+| Physical Review Journals Archive                                                                                           | FsF-A1-03D   |       1 |
+| Physical Review Journals Archive                                                                                           | FsF-I3-01M   |       1 |
+| Physical Review Journals Archive                                                                                           | FsF-R1.1-01M |       1 |
+| Physical Review Journals Archive                                                                                           | FsF-R1.3-02D |       1 |
+| SIAM Journal on Computing                                                                                                  | FsF-F3-01M   |       1 |
+| SIAM Journal on Computing                                                                                                  | FsF-A1-03D   |       1 |
+| SIAM Journal on Computing                                                                                                  | FsF-R1.1-01M |       1 |
+| SIAM Journal on Computing                                                                                                  | FsF-R1.3-02D |       1 |
+| Forum Multimedia Publishing LLC                                                                                            | FsF-F3-01M   |       1 |
+| Forum Multimedia Publishing LLC                                                                                            | FsF-F4-01M   |       1 |
+| Forum Multimedia Publishing LLC                                                                                            | FsF-A1-01M   |       1 |
+| Forum Multimedia Publishing LLC                                                                                            | FsF-A1-03D   |       1 |
+| Forum Multimedia Publishing LLC                                                                                            | FsF-I3-01M   |       1 |
+| Forum Multimedia Publishing LLC                                                                                            | FsF-R1-01MD  |       1 |
+| Forum Multimedia Publishing LLC                                                                                            | FsF-R1.1-01M |       1 |
+| Forum Multimedia Publishing LLC                                                                                            | FsF-R1.3-02D |       1 |
+| SCI Journals                                                                                                               | FsF-F3-01M   |       1 |
+| SCI Journals                                                                                                               | FsF-A1-01M   |       1 |
+| SCI Journals                                                                                                               | FsF-A1-03D   |       1 |
+| SCI Journals                                                                                                               | FsF-R1.1-01M |       1 |
+| SCI Journals                                                                                                               | FsF-R1.3-02D |       1 |
+| European Forest Institute                                                                                                  | FsF-F3-01M   |       2 |
+| European Forest Institute                                                                                                  | FsF-A1-01M   |       2 |
+| European Forest Institute                                                                                                  | FsF-A1-03D   |       2 |
+| European Forest Institute                                                                                                  | FsF-R1-01MD  |       2 |
+| European Forest Institute                                                                                                  | FsF-R1.1-01M |       2 |
+| European Forest Institute                                                                                                  | FsF-R1.3-02D |       2 |
+| WIT Press                                                                                                                  | FsF-F3-01M   |       3 |
+| WIT Press                                                                                                                  | FsF-A1-01M   |       3 |
+| WIT Press                                                                                                                  | FsF-A1-03D   |       3 |
+| WIT Press                                                                                                                  | FsF-R1-01MD  |       3 |
+| WIT Press                                                                                                                  | FsF-R1.1-01M |       3 |
+| WIT Press                                                                                                                  | FsF-R1.3-02D |       3 |
+| British Editorial Society of Bone & Joint Surgery                                                                          | FsF-F3-01M   |       2 |
+| British Editorial Society of Bone & Joint Surgery                                                                          | FsF-A1-01M   |       2 |
+| British Editorial Society of Bone & Joint Surgery                                                                          | FsF-A1-03D   |       2 |
+| British Editorial Society of Bone & Joint Surgery                                                                          | FsF-R1.1-01M |       2 |
+| British Editorial Society of Bone & Joint Surgery                                                                          | FsF-R1.3-02D |       2 |
+| Schloss Dagstuhl – Leibniz-Zentrum für Informatik                                                                          | FsF-A1-03D   |       6 |
+| Schloss Dagstuhl – Leibniz-Zentrum für Informatik                                                                          | FsF-R1.3-02D |       6 |
+| EDP Sciences, Springer-Verlag                                                                                              | FsF-F3-01M   |       2 |
+| EDP Sciences, Springer-Verlag                                                                                              | FsF-A1-03D   |       2 |
+| EDP Sciences, Springer-Verlag                                                                                              | FsF-R1.1-01M |       2 |
+| EDP Sciences, Springer-Verlag                                                                                              | FsF-R1.3-02D |       2 |
+| Neurology Neuroimmunology & Neuroinflammation                                                                              | FsF-F3-01M   |       1 |
+| Neurology Neuroimmunology & Neuroinflammation                                                                              | FsF-A1-01M   |       1 |
+| Neurology Neuroimmunology & Neuroinflammation                                                                              | FsF-A1-03D   |       1 |
+| Neurology Neuroimmunology & Neuroinflammation                                                                              | FsF-R1.1-01M |       1 |
+| Neurology Neuroimmunology & Neuroinflammation                                                                              | FsF-R1.3-02D |       1 |
+| American Society of Mechanical Engineers Digital Collection                                                                | FsF-F3-01M   |       1 |
+| American Society of Mechanical Engineers Digital Collection                                                                | FsF-A1-01M   |       1 |
+| American Society of Mechanical Engineers Digital Collection                                                                | FsF-A1-03D   |       1 |
+| American Society of Mechanical Engineers Digital Collection                                                                | FsF-R1.1-01M |       1 |
+| American Society of Mechanical Engineers Digital Collection                                                                | FsF-R1.3-02D |       1 |
+| ASME Digital Collection                                                                                                    | FsF-F3-01M   |       1 |
+| ASME Digital Collection                                                                                                    | FsF-A1-01M   |       1 |
+| ASME Digital Collection                                                                                                    | FsF-A1-03D   |       1 |
+| ASME Digital Collection                                                                                                    | FsF-R1.1-01M |       1 |
+| ASME Digital Collection                                                                                                    | FsF-R1.3-02D |       1 |
+| ASME International                                                                                                         | FsF-F3-01M   |       2 |
+| ASME International                                                                                                         | FsF-A1-01M   |       2 |
+| ASME International                                                                                                         | FsF-A1-03D   |       2 |
+| ASME International                                                                                                         | FsF-R1.1-01M |       2 |
+| ASME International                                                                                                         | FsF-R1.3-02D |       2 |
+
+[Back to top](#table-of-contents)
+
+### test_results.csv
+
+| test_id      |   pass |   fail |
+|:-------------|-------:|-------:|
+| FsF-F1-01D   |   9885 |      0 |
+| FsF-F1-02D   |   9885 |      0 |
+| FsF-F2-01M   |   9885 |      0 |
+| FsF-F3-01M   |      3 |   9882 |
+| FsF-F4-01M   |   4795 |   5090 |
+| FsF-A1-01M   |   2529 |   7356 |
+| FsF-A1-02M   |   9885 |      0 |
+| FsF-A1-03D   |      2 |   9883 |
+| FsF-I1-01M   |   9775 |    110 |
+| FsF-I2-01M   |   9783 |    102 |
+| FsF-I3-01M   |   6610 |   3275 |
+| FsF-R1-01MD  |   4920 |   4965 |
+| FsF-R1.1-01M |    437 |   9448 |
+| FsF-R1.2-01M |   7497 |   2388 |
+| FsF-R1.3-01M |   9846 |     39 |
+| FsF-R1.3-02D |      2 |   9883 |
+
+[Back to top](#table-of-contents)
+
