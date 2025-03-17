@@ -30,7 +30,7 @@ def generate_readme(input_folder, output_folder):
                 for image_name in ["mean_values_over_time_high_res.png", "median_values_over_time_high_res.png"]:
                     image_path = os.path.join(folder_path, image_name)
                     if os.path.exists(image_path):
-                        readme_file.write(f"![{image_name}]({image_path})\n\n")
+                        readme_file.write(f"![{image_name}]({'../.' + image_path})\n\n")
                         readme_file.write("[Back to top](#table-of-contents)\n\n")
 
                 # Display CSV files as tables

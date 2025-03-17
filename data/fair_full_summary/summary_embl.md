@@ -2,11 +2,11 @@
 
 ## summary_embl
 
-![mean_values_over_time_high_res.png](./data/fair_summary_embl/mean_values_over_time_high_res.png)
+![mean_values_over_time_high_res.png](../../data/fair_summary_embl/mean_values_over_time_high_res.png)
 
 [Back to top](#table-of-contents)
 
-![median_values_over_time_high_res.png](./data/fair_summary_embl/median_values_over_time_high_res.png)
+![median_values_over_time_high_res.png](../../data/fair_summary_embl/median_values_over_time_high_res.png)
 
 [Back to top](#table-of-contents)
 
